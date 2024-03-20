@@ -1,0 +1,2317 @@
+<?xml version="1.0"?>
+<Associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/ColorAssociation.xsd">
+  <GraphicName>(RA-UI) Prompt Objects.xml</GraphicName>
+  <ColorAssociations>
+    <ColorID>36</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton1</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton2</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton60</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton61</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton4</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground21</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground0</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground5</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox7</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox4</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox10</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox9</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox2</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox6</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox8</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox1</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox5</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>50</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSbackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionId</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>37</ColorID>
+    <ObjectColors>
+      <ObjectName>Text_VersionDescription</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionNumber</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionFilename</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCopyright</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>470</ColorID>
+    <ObjectColors>
+      <ObjectName>ImageConfirmIconDisabled</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageConfirmIcon</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Image_VrfyBtnFace_Value</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Image_VrfyBtnFace_Value_Disabled</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageVerified</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Image_PromptIcon_Disable1</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Image_PromptIcon_Disable</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageAttention2</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageAttention</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageAttention3</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageAttention1</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageAttention4</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>51</ColorID>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceReady1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceDisabled13</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>156</ColorID>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton1</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton2</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton60</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton61</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton4</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground21</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceDisabled13</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground0</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground5</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox7</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox4</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox10</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox9</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox2</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox6</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox8</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox1</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox5</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>115</ColorID>
+    <ObjectColors>
+      <ObjectName>ButtonManualPromptSelect</ObjectName>
+      <ColorUsage>ButtonUpForeColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonLabel</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>38</ColorID>
+    <ObjectColors>
+      <ObjectName>ManualPromptConfigStringDisplay</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>12</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>13</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>15</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>16</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>17</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>18</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>19</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>20</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>21</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>22</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>23</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>24</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>25</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>26</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>27</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>28</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>29</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>30</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>31</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator2</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>23</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>13</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>24</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>22</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>12</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>31</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>21</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>17</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>30</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>20</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>29</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>19</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>26</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>16</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>27</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>28</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>18</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>25</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>15</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>23</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>13</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>24</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>22</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>12</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>31</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>21</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>17</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>30</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>20</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>29</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>19</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>26</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>16</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>27</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>28</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>18</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>25</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>15</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>23</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>13</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>24</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>22</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>12</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>31</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>21</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>17</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>30</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>20</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>29</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>19</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>26</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>16</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>27</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>28</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>18</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>25</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_PromptIndicator3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>15</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisplayValue2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisplayValue6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisplayValue21</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisplayValue4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisplayValue1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisplayValue0</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue0</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisplayValue5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>111</ColorID>
+    <ObjectColors>
+      <ObjectName>Polygon_Err_MinMax</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>485</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>493</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSFocusHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>486</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-UI) Prompt Objects.xml</ObjectName>
+      <ColorUsage>DSInteractiveHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>517</ColorID>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>515</ColorID>
+    <ObjectColors>
+      <ObjectName>Panel_VersionDescription</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionFilename</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>714</ColorID>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonLabel</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonFace1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonFace2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonFace</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>707</ColorID>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonFace1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonFace2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveNavButtonFace</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>144</ColorID>
+    <ObjectColors>
+      <ObjectName>NavButtonFace1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>716</ColorID>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SelectButtonFace</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton1</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton2</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton60</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton61</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton4</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground21</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_EnabledBackground2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground0</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_EnabledBackground5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox7</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox4</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox10</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox9</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox2</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox6</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox8</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox1</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox5</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>715</ColorID>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>InactiveSelectButtonFace</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton1</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton2</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton60</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton61</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton4</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_RadioButton3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground21</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_DisabledBackground2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground0</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>sde_DisabledBackground5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox7</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox4</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox10</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox9</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox2</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox6</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox8</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox1</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_CheckBox5</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>781</ColorID>
+    <ObjectColors>
+      <ObjectName>NavButtonFace1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>729</ColorID>
+    <ObjectColors>
+      <ObjectName>ndd_Units</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>53</ColorID>
+    <ObjectColors>
+      <ObjectName>ndd_Label</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>784</ColorID>
+    <ObjectColors>
+      <ObjectName>nde_Alrt</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Polygon_Alrt_Resp</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>796</ColorID>
+    <ObjectColors>
+      <ObjectName>sde_Label</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>nde_Label</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_Label1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>rb_Label61</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>cb_Label7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>797</ColorID>
+    <ObjectColors>
+      <ObjectName>nde_Units</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>664</ColorID>
+    <ObjectColors>
+      <ObjectName>ndd_NumericDisplay</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>741</ColorID>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceReady1</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+</Associations>

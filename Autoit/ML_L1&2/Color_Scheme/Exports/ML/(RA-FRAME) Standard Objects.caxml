@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<Associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/ColorAssociation.xsd">
+  <GraphicName>(RA-FRAME) Standard Objects.xml</GraphicName>
+  <ColorAssociations>
+    <ColorID>517</ColorID>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText13</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>115</ColorID>
+    <ObjectColors>
+      <ObjectName>Button_AlarmExplorer</ObjectName>
+      <ColorUsage>ButtonUpForeColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Button_AlarmShelved</ObjectName>
+      <ColorUsage>ButtonUpForeColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Button_AlarmHistory</ObjectName>
+      <ColorUsage>ButtonUpForeColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Button_AlarmSummary</ObjectName>
+      <ColorUsage>ButtonUpForeColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonPrev</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonNext</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonHistory</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_Language</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>144</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonPrev</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonNext</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonHistory</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace21</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace11</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace12</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace13</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace5</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace9</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace10</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace7</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace8</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace14</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace15</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace16</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace17</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace18</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace19</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace20</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>50</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSbackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionId</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel2</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>781</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonPrev</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonNext</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonHistory</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace21</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace11</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace12</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace13</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace9</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace10</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace7</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace8</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace14</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace15</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace16</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace17</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace18</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace19</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NavButtonFace20</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>36</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>485</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>38</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>486</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSInteractiveHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonPrev</ObjectName>
+      <ColorUsage>HighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonNext</ObjectName>
+      <ColorUsage>HighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_NavigationButtonHistory</ObjectName>
+      <ColorUsage>HighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>493</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Standard Objects.xml</ObjectName>
+      <ColorUsage>DSFocusHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>37</ColorID>
+    <ObjectColors>
+      <ObjectName>Text_VersionDescription</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionNumber</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionFilename</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCopyright</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>StringDisplay_CurrentUser1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>StringDisplay_CurrentUser</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>515</ColorID>
+    <ObjectColors>
+      <ObjectName>Panel_VersionDescription</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionFilename</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>53</ColorID>
+    <ObjectColors>
+      <ObjectName>LabelText_CurrentUser1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>LabelText_CurrentUser</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+</Associations>

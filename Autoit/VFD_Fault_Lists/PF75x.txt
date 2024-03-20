@@ -1,0 +1,213 @@
+~~~~~~~~~~~PF75x~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[0,[38,'Check drive manual for this fault code']]
+[13032,[31,'I/O Network Communication Fault'
+[13035,[37,'I/O Network Idle (Controller in PROG)']]
+[13030,[24,'I/O Network Link Removed'
+[13031,[29,'I/O Network Duplicate Address']]
+[13033,[30,'I/O Network Sent Reset Command'
+[13034,[29,'I/O Network Connection Closed']]
+[13037,[21,'I/O Network Timed Out'
+[13044,[33,'Control Network Message Timed Out']]
+[13046,[26,'Peer-to-Peer I/O Timed Out'
+[13056,[27,'Drive Could Not Send e-mail']]
+[13057,[25,'I/O Network Adapter Fault']]
+[13058,[35,'I/O Network Adapter Set to Defaults'
+[2,[25,'Auxiliary Input Interlock']]
+[3,[13,'Power Failure'
+[4,[16,'Bus Undervoltage'
+[5,[15,'Bus Overvoltage'
+[7,[14,'Motor Overload'
+[8,[24,'Heatsink Overtemperature']]
+[9,[26,'Transistor Overtemperature'
+[10,[38,'Dynamic Brake Resistor Overtemperature']]
+[12,[20,'Hardware Overcurrent'
+[13,[12,'Ground Fault'
+[14,[14,'Ground Warning'
+[15,[9,'Load Loss'
+[17,[16,'Input Phase Loss'
+[18,[28,'Motor Pos. Temp. Coeff. Trip']]
+[20,[28,'Torque Prv. Speed Band Fault'
+[21,[17,'Output Phase Loss'
+[24,[22,'Deceleration Inhibited'
+[25,[16,'Over Speed Limit'
+[29,[24,'Analog Input Signal Loss']]
+[33,[28,'Auto Restart Tries Exhausted']]
+[36,[26,'Output Current Over Rating'
+[38,[20,'Phase U Ground Fault'
+[39,[20,'Phase V Ground Fault'
+[40,[20,'Phase W Ground Fault'
+[41,[20,'Phase U to V Shorted'
+[42,[20,'Phase V to W Shorted'
+[43,[20,'Phase W to U Shorted'
+[44,[26,'Phase U (Neg) Ground Fault']]
+[45,[26,'Phase V (Neg) Ground Fault'
+[46,[26,'Phase W (Neg) Ground Fault']]
+[48,[34,'Drive Set to Default Configuration'
+[55,[35,'Drive Control Board Overtemperature']]
+[58,[34,'Drive Module Set to Default Values'
+[61,[13,'Shear Pin (1)'
+[62,[13,'Shear Pin (2)'
+[64,[14,'Drive OverLoad'
+[71,[20,'Port 1 Adapter Fault'
+[72,[20,'Port 2 Adapter Fault'
+[73,[20,'Port 3 Adapter Fault'
+[74,[20,'Port 4 Adapter Fault'
+[75,[20,'Port 5 Adapter Fault'
+[76,[20,'Port 6 Adapter Fault'
+[77,[14,'IR Volts Range'
+[78,[26,'Flux Amps Reference Rating']]
+[79,[14,'Excessive Load'
+[80,[22,'Drive Autotune Aborted'
+[81,[29,'Port 1 DPI Communication Loss']]
+[82,[29,'Port 2 DPI Communication Loss'
+[83,[29,'Port 3 DPI Communication Loss']]
+[84,[29,'Port 4 DPI Communication Loss'
+[85,[29,'Port 5 DPI Communication Loss']]
+[86,[29,'Port 6 DPI Communication Loss'
+[87,[17,'IXo Voltage Range'
+[91,[30,'Primary Velocity Feedback Lost']]
+[93,[30,'Hardware Enable Jumper Problem'
+[94,[32,'Alternate Velocity Feedback Lost']]
+[95,[32,'Auxiliary Velocity Feedback Lost'
+[96,[22,'Position Feedback Lost'
+[97,[24,'Auto Tach Switch Failure']]
+[137,[24,'External Precharge Error']]
+[138,[14,'Precharge Open'
+[152,[34,'No Source Defined for Stop Command']]
+[168,[32,'Heatsink Undertemp (sensor fail)'
+[175,[25,'Travel Limits Conflicting']]
+[181,[29,'Reached Forward End of Travel']]
+[182,[29,'Reached Reverse End of Travel'
+[203,[32,'Port 13 Adapter (Ethernet) Fault']]
+[204,[34,'Port 14 Adapter (DriveLogix) Fault'
+[210,[34,'Safety Option Enable Jumper is Out']]
+[211,[25,'Safety Option Board Fault'
+[212,[25,'Safety Jumper Not Present']]
+[213,[27,'Safety Jumper Needs Removed']]
+[224,[25,'Port 4 Communication Lost'
+[225,[25,'Port 5 Communication Lost']]
+[226,[25,'Port 6 Communication Lost']]
+[227,[25,'Port 7 Communication Lost'
+[228,[25,'Port 8 Communication Lost']]
+[229,[25,'Port 9 Communication Lost']]
+[230,[26,'Port 10 Communication Lost'
+[231,[26,'Port 11 Communication Lost']]
+[232,[26,'Port 12 Communication Lost'
+[233,[26,'Port 13 Communication Lost']]
+[234,[26,'Port 14 Communication Lost'
+[315,[21,'Excess Position Error'
+[331,[38,'Inverter Board I1 Communication Failed']]
+[332,[38,'Inverter Board I2 Communication Failed'
+[341,[39,'Converter Board C1 Communication Failed']]
+[342,[39,'Converter Board C2 Communication Failed'
+[371,[39,'Precharge Board P1 Communication Failed']]
+[372,[39,'Precharge Board P2 Communication Failed'
+[918,[21,'Control Task Overload'
+[919,[20,'System Task Overload'
+[920,[27,'5 millisecond Task Overload']]
+[10101,[32,'Inverter I1 Communication Failed'
+[10104,[32,'Inverter I1 U+ Phase Overcurrent']]
+[10105,[32,'Inverter I1 U- Phase Overcurrent'
+[10106,[32,'Inverter I1 V+ Phase Overcurrent']]
+[10107,[32,'Inverter I1 V- Phase Overcurrent'
+[10108,[32,'Inverter I1 W+ Phase Overcurrent']]
+[10109,[32,'Inverter I1 W- Phase Overcurrent'
+[10110,[27,'Inverter I1 Bus Overvoltage']]
+[10111,[24,'Inverter I1 Ground Fault']]
+[10112,[32,'Inverter I1 IGBT Overtemperature']]
+[10113,[36,'Inverter I1 Heatsink Overtemperature'
+[10114,[26,'Inverter I1 Main Power Low']]
+[10115,[31,'Inverter I1 Interface Power Low']]
+[10117,[36,'Inverter I1 System Power Overcurrent'
+[10120,[37,'Inverter I1 PLI Board Overtemperature']]
+[10121,[36,'Inverter I1 PS Board Overtemperature'
+[10129,[28,'Inverter I1 DC Bus Imbalance']]
+[10134,[36,'Inverter I1 Phase U Gate Board Fault'
+[10135,[36,'Inverter I1 Phase V Gate Board Fault']]
+[10136,[36,'Inverter I1 Phase W Gate Board Fault'
+[10201,[32,'Inverter I2 Communication Failed']]
+[10204,[32,'Inverter I2 U+ Phase Overcurrent'
+[10205,[32,'Inverter I2 U- Phase Overcurrent']]
+[10206,[32,'Inverter I2 V+ Phase Overcurrent'
+[10207,[32,'Inverter I2 V- Phase Overcurrent']]
+[10208,[32,'Inverter I2 W+ Phase Overcurrent'
+[10209,[32,'Inverter I2 W- Phase Overcurrent']]
+[10210,[27,'Inverter I2 Bus Overvoltage'
+[10211,[24,'Inverter I2 Ground Fault'
+[10212,[32,'Inverter I2 IGBT Overtemperature']]
+[10213,[36,'Inverter I2 Heatsink Overtemperature'
+[10214,[26,'Inverter I2 Main Power Low']]
+[10215,[31,'Inverter I2 Interface Power Low']]
+[10217,[36,'Inverter I2 System Power Overcurrent'
+[10220,[37,'Inverter I2 PLI Board Overtemperature']]
+[10221,[36,'Inverter I2 PS Board Overtemperature'
+[10229,[28,'Inverter I2 DC Bus Imbalance']]
+[10234,[36,'Inverter I2 Phase U Gate Board Fault'
+[10235,[36,'Inverter I2 Phase V Gate Board Fault']]
+[10236,[36,'Inverter I2 Phase W Gate Board Fault'
+[10301,[32,'Inverter I3 Communication Failed']]
+[10304,[32,'Inverter I3 U+ Phase Overcurrent'
+[10305,[32,'Inverter I3 U- Phase Overcurrent']]
+[10306,[32,'Inverter I3 V+ Phase Overcurrent'
+[10307,[32,'Inverter I3 V- Phase Overcurrent']]
+[10308,[32,'Inverter I3 W+ Phase Overcurrent'
+[10309,[32,'Inverter I3 W- Phase Overcurrent']]
+[10310,[27,'Inverter I3 Bus Overvoltage'
+[10311,[24,'Inverter I3 Ground Fault'
+[10312,[32,'Inverter I3 IGBT Overtemperature']]
+[10313,[36,'Inverter I3 Heatsink Overtemperature'
+[10314,[26,'Inverter I3 Main Power Low']]
+[10315,[31,'Inverter I3 Interface Power Low']]
+[10317,[36,'Inverter I3 System Power Overcurrent'
+[10320,[37,'Inverter I3 PLI Board Overtemperature']]
+[10321,[36,'Inverter I3 PS Board Overtemperature'
+[10329,[28,'Inverter I3 DC Bus Imbalance']]
+[10334,[36,'Inverter I3 Phase U Gate Board Fault'
+[10335,[36,'Inverter I3 Phase V Gate Board Fault']]
+[10336,[36,'Inverter I3 Phase W Gate Board Fault'
+[11101,[30,'Converter C1 Precharge Problem']]
+[11111,[32,'Converter C1 SCR Overtemperature'
+[11112,[31,'Converter C1 Heat Sink Overtemp']]
+[11115,[33,'Converter C1 Line/Bus Voltage Dip'
+[11117,[33,'Converter C1 Line Frequency Fault']]
+[11118,[31,'Converter C1 Single Phase Fault'
+[11134,[24,'Converter C1 Overcurrent'
+[11135,[25,'Converter C1 Ground Fault']]
+[11138,[34,'Converter C1 Board Overtemperature']]
+[11141,[34,'Converter C1 DC Power Supply Fault'
+[11142,[31,'Converter C1 Communication Lost']]
+[11160,[31,'Converter C1 Bus Asymmetry Stop'
+[11161,[32,'Converter C1 AC Line Overvoltage']]
+[11162,[25,'Converter C1 AC Line Lost'
+[11163,[29,'Converter C1 Fault Queue Full']]
+[11201,[30,'Converter C2 Precharge Problem'
+[11211,[32,'Converter C2 SCR Overtemperature']]
+[11212,[31,'Converter C2 Heat Sink Overtemp'
+[11215,[33,'Converter C2 Line/Bus Voltage Dip']]
+[11217,[33,'Converter C2 Line Frequency Fault'
+[11218,[31,'Converter C2 Single Phase Fault']]
+[11234,[24,'Converter C2 Overcurrent'
+[11235,[25,'Converter C2 Ground Fault']]
+[11238,[34,'Converter C2 Board Overtemperature']]
+[11241,[34,'Converter C2 DC Power Supply Fault'
+[11242,[31,'Converter C2 Communication Lost']]
+[11260,[31,'Converter C2 Bus Asymmetry Stop'
+[11261,[32,'Converter C2 AC Line Overvoltage']]
+[11262,[25,'Converter C2 AC Line Lost'
+[11263,[29,'Converter C2 Fault Queue Full']]
+[11201,[30,'Converter C2 Precharge Problem'
+[11211,[32,'Converter C2 SCR Overtemperature']]
+[11212,[31,'Converter C2 Heat Sink Overtemp'
+[11215,[33,'Converter C2 Line/Bus Voltage Dip']]
+[11217,[33,'Converter C2 Line Frequency Fault'
+[11218,[31,'Converter C2 Single Phase Fault']]
+[11234,[24,'Converter C2 Overcurrent'
+[11235,[25,'Converter C2 Ground Fault']]
+[11238,[34,'Converter C2 Board Overtemperature']]
+[11241,[34,'Converter C2 DC Power Supply Fault'
+[11242,[31,'Converter C2 Communication Lost']]
+[11260,[31,'Converter C2 Bus Asymmetry Stop'
+[11261,[32,'Converter C2 AC Line Overvoltage']]
+[11262,[25,'Converter C2 AC Line Lost'
+[11263,[29,'Converter C2 Fault Queue Full']]

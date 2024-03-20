@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--PowerFlex 755 Drive Input Assembly-->
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="31.02" TargetName="P_PF755_Inp" TargetType="DataType" ContainsContext="true" Owner="Triplex" ExportDate="Tue Sep 13 15:36:58 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="CA_PROC_5A">
+<DataTypes Use="Context">
+<DataType Use="Target" Name="P_PF755_Inp" Family="NoFamily" Class="User">
+<Description>
+<![CDATA[PowerFlex 755 Drive Input Assembly]]>
+</Description>
+<Members>
+<Member Name="ZZZZZZZZZP_PF755_Inp_00" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Ready" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Active" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_CommandDir" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_ActualDir" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Accelerating" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Decelerating" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Alarm" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Faulted" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_AtSpeed" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Manual" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_SpdRefBit0" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_spdRefBit1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="11" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_SpdRefBit2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="12" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_SpdRefBit3" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="13" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_SpdRefBit4" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="14" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Running" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="16" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Jogging" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="17" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Stopping" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="18" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_DCBraking" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="19" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_DBActive" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="20" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_SpeedMode" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="21" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_PositionMode" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="22" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_TorqueMode" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="23" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_AtZeroSpeed" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="24" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_AtHome" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="25" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_AtLimit" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="26" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_CurrLimit" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="27" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_BusFrqReg" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="28" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_EnableOn" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="29" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_MotorOL" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="30" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus_Regen" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus" BitNumber="31" ExternalAccess="Read/Write"/>
+<Member Name="Feedback" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="TorqueCurFdbk" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="OutputCurrent" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="OutputPower" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="ElapsedMWH" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="ElapsedRunTime" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="SpeedUnits" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_HeatskinkFan" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_InternalFan" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_MtrBearing" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_MtrLube" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_MchBearing" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_MchLube" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved3" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved4" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved5" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="11" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved6" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="12" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved7" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="13" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Reserved8" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="14" ExternalAccess="Read/Write"/>
+<Member Name="PredMaintSts_Master" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="PredMaintSts" BitNumber="16" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Faulted" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Alarm" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Enable" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Precharge" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Stop" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Database" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Startup" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Safety" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Sleep" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_Profiler" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="StartInhibits_CommutNotCfg" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="StartInhibits" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_AutoRstrAct" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_AuRstrCntDwn" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_HSFanOn" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_Reserved" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_FluxBraking" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_FdbkLossSwO" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_Reserved1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_Reserved2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_PrchrgClosed" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_Autotuning" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_PIDFBLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_AccelRate" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="11" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_DecelRate" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="12" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_Reserved3" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="13" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_AutoClrAct" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="14" ExternalAccess="Read/Write"/>
+<Member Name="DriveStatus2_AutClrCntDwn" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DriveStatus2" BitNumber="15" ExternalAccess="Read/Write"/>
+<Member Name="DriveOLCount" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="DriveTempC" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="LastFaultCode" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_PowerLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_UnderVoltage" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_MotorOL" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_LoalLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_InPhaseLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_OutPhaseLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_DecelInhib" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_ShearPin1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_ShearPin2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_PriFdbkLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_AltFdbkLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_AuxFdbkLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="11" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_PosFdbkLoss" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="12" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusA_ExtPrchrgErr" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusA" BitNumber="13" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_AuxInputFlt" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_OverVoltage" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_DriveOL" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_HeatsinkOT" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_TransistorOT" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_SinkUnderTemp" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_ExcessLoad" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_OverspdLmt" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_PrchrgOpen" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_SafetyBrdFlt" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_IRVoltsRange" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_FluxAmpsRang" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="11" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_IXOVlotRange" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="12" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_AuRstExhaust" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="13" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_SWOverCur" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="14" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_HWOverCur" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="15" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_TrqPrvSpdBnd" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="16" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_TPEnclsCfg" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="17" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_GroundFault" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="18" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_OWAlarmTO" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="19" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_OverTravel" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="20" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_TrvlLimCflct" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="21" ExternalAccess="Read/Write"/>
+<Member Name="FaultStatusB_EndLmtSw" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="FaultStatusB" BitNumber="22" ExternalAccess="Read/Write"/>
+<Member Name="DigitalInSts" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="DigitalInSts_DigitalIn0" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="DigitalInSts" BitNumber="0" ExternalAccess="Read/Write"/>
+</Members>
+</DataType>
+</DataTypes>
+</Controller>
+</RSLogix5000Content>

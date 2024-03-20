@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="30.02" TargetName="Temp" TargetType="Routine" TargetSubType="RLL" CurrentLanguage="en-US" ContainsContext="true" Owner="Triplex" ExportDate="Fri Sep 16 09:53:12 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="P2_DIST_CLX">
+<DataTypes Use="Context">
+</DataTypes>
+<Modules Use="Context">
+<Module Use="Reference" Name="WIT60493">
+</Module>
+</Modules>
+<AddOnInstructionDefinitions Use="Context">
+<AddOnInstructionDefinition Name="PH_Hardy_4050_P2_Rev6" Revision="6.0" ExecutePrescan="false" ExecutePostscan="false" ExecuteEnableInFalse="false" CreatedDate="2011-12-01T18:41:04.328Z" CreatedBy="1319PSI\KurtisL" EditedDate="2022-01-26T17:29:58.381Z" EditedBy="TXAVM001\Triplex" SoftwareRevision="v31.02">
+<RevisionNote>
+<![CDATA[Updated 3/12/15
+- Removed Timer for drop test incrementing and put in a periodic 250ms task.
+- Removed extra calculation on drop test by moving a 1 into Actual_NumberOfSamples on a reset instead of 0.]]>
+<LocalizedRevisionNote Lang="en-US">
+<![CDATA[Updated 3/12/15
+- Removed Timer for drop test incrementing and put in a periodic 250ms task.
+- Removed extra calculation on drop test by moving a 1 into Actual_NumberOfSamples on a reset instead of 0.]]>
+</LocalizedRevisionNote>
+</RevisionNote>
+<Parameters>
+<Parameter Name="EnableIn" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[Enable Input - System Defined Parameter]]>
+<LocalizedDescription Lang="en-US">
+<![CDATA[Enable Input - System Defined Parameter]]>
+</LocalizedDescription>
+</Description>
+</Parameter>
+<Parameter Name="EnableOut" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[Enable Output - System Defined Parameter]]>
+<LocalizedDescription Lang="en-US">
+<![CDATA[Enable Output - System Defined Parameter]]>
+</LocalizedDescription>
+</Description>
+</Parameter>
+<Parameter Name="Input" TagType="Base" DataType="INT" Dimensions="20" Usage="InOut" Radix="Decimal" Required="true" Visible="true" Constant="false"/>
+<Parameter Name="Output" TagType="Base" DataType="INT" Dimensions="20" Usage="InOut" Radix="Decimal" Required="true" Visible="true" Constant="false"/>
+<Parameter Name="CTRL_StartDropTest" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="CTRL_StopDropTest" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="CTRL_ResetK" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="CTRL_SaveK" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="CTRL_CalculateK" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MODE_DropTest" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MODE_DropTestComplete" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Command_Tare" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Command_LwCal" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Command_HiCal" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Command_Zero" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Number_of_Cells" TagType="Base" DataType="DINT" Usage="Input" Radix="Decimal" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="NumberofSamples" TagType="Base" DataType="DINT" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="NumberofSamples_Min" TagType="Base" DataType="DINT" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[120]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="120"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="NumberofSamples_Max" TagType="Base" DataType="DINT" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[1200]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="1200"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Gross_Wt" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Net_Wt" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Set_LwCal_Wt" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Set_HiCal_Wt" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[1.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="1.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Mass_Imperial_Gross" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Mass_Imperial" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Mass_Metric" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Mass_Percent" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Mass_Metric_Gross" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Mass_Metric_Positive" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Actual_NumberOfSamples" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Weight" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Weight_Sum" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="TotalizedWeight" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="TimeBase_FlowInstant" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[3.60000000e+003]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="3600.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Instant_Flow" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="TimeBase_FlowTotalized" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[6.00000000e+001]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="60.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Totalized_Flow" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="TimeOnScale" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="K" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="TestKgs" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Test_Length" TagType="Base" DataType="DINT" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[90]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="90"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Droptest_Time_Display" TagType="Base" DataType="DINT" Usage="Output" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Scale_Length" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[4.90000010e-001]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.49"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Travel_Rate" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[8.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="8.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Lengths_Per_Minute" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Percent_Error" TagType="Base" DataType="REAL" Usage="Output" Radix="Float" Required="false" Visible="false" ExternalAccess="Read Only">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Product_Measured" TagType="Base" DataType="REAL" Usage="Output" Radix="Float" Required="false" Visible="false" ExternalAccess="Read Only">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Test_Calculated" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+</Parameters>
+<LocalTags>
+<LocalTag Name="TMR_SampleTime" DataType="TIMER" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,250,0]]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="250"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ONS_StopDropTest" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ONS_SampleTime" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="K_Temp" DataType="REAL" Radix="Float" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="K_Old" DataType="REAL" Radix="Float" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="TRG_StopDropTest" DataType="BOOL" Radix="Decimal" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="TRG_StartDropTest" DataType="BOOL" Radix="Decimal" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="TRG_ResetK" DataType="BOOL" Radix="Decimal" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="TRG_CalculateK" DataType="BOOL" Radix="Decimal" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ONS_ResetK" DataType="BOOL" Radix="Decimal" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ONS_StartDropTest" DataType="BOOL" Radix="Decimal" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ONS_CalculateK" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="K_UpperDB" DataType="REAL" Radix="Float" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="K_LowerDB" DataType="REAL" Radix="Float" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="DropTest_Started" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+</LocalTags>
+<Routines>
+<Routine Name="Logic" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Comment>
+<![CDATA[***Weigh Scale***
+
+This rung reads and writes the following:
+-Assemble the gross weight from the scale data
+-Assemble the net weight from the scale data
+-Write the Low Calibration weight to the 4050
+-Write the Hi Calibration weight to the 4050
+
+***The Gross weight is used only by the OIT***
+ 
+***The NET weight is used in Kg by the seasoner***
+]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[***Weigh Scale***
+
+This rung reads and writes the following:
+-Assemble the gross weight from the scale data
+-Assemble the net weight from the scale data
+-Write the Low Calibration weight to the 4050
+-Write the Hi Calibration weight to the 4050
+
+***The Gross weight is used only by the OIT***
+ 
+***The NET weight is used in Kg by the seasoner***
+]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[COP(Input[0],Gross_Wt,2) COP(Input[2],Net_Wt,2) COP(Set_LwCal_Wt,Output[0],2) COP(Set_HiCal_Wt,Output[2],2) ,MOV(Gross_Wt,Mass_Metric_Gross) MUL(Gross_Wt,2.20462,Mass_Imperial_Gross) MUL(Net_Wt,K,Mass_Metric) MUL(Mass_Metric,2.20462,Mass_Imperial) ,MOV(0,Set_LwCal_Wt) ];]]>
+</Text>
+</Rung>
+<Rung Number="1" Type="N">
+<Comment>
+<![CDATA[***Tare Command***
+
+***Hard Cal Low Command***
+
+***Hard Cal High Command***
+
+***Zero Gross Weight Command***]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[***Tare Command***
+
+***Hard Cal Low Command***
+
+***Hard Cal High Command***
+
+***Zero Gross Weight Command***]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[XIC(Command_Tare) OTE(Output[4].0) ,XIC(Command_LwCal) OTE(Output[4].2) ,XIC(Command_HiCal) OTE(Output[4].3) ,XIC(Command_Zero) OTE(Output[4].1) ];]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
+<Comment>
+<![CDATA[*****************************************************************************************************************************************************************************************************************
+
+
+THE FOLLOWING RUNGS ARE TO PERFORM A WEIGHT DROP TEST ON THE HARDY 4050.
+
+
+
+
+Drop Test OIT Start/Stop
+
+]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[*****************************************************************************************************************************************************************************************************************
+
+
+THE FOLLOWING RUNGS ARE TO PERFORM A WEIGHT DROP TEST ON THE HARDY 4050.
+
+
+
+
+Drop Test OIT Start/Stop
+
+]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[XIC(CTRL_StartDropTest) ONS(ONS_StartDropTest) OTE(TRG_StartDropTest) ,[EQU(Actual_NumberOfSamples,NumberofSamples) ,XIC(CTRL_StopDropTest) ] ONS(ONS_StopDropTest) OTE(TRG_StopDropTest) ,XIC(CTRL_ResetK) ONS(ONS_ResetK) OTE(TRG_ResetK) ,XIC(CTRL_CalculateK) ONS(ONS_CalculateK) OTE(TRG_CalculateK) ];]]>
+</Text>
+</Rung>
+<Rung Number="3" Type="N">
+<Comment>
+<![CDATA[This rung places the system in drop test mode.]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[This rung places the system in drop test mode.]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[XIC(TRG_StartDropTest) ,XIC(MODE_DropTest) ]XIO(TRG_StopDropTest)XIO(CTRL_StopDropTest)OTE(MODE_DropTest);]]>
+</Text>
+</Rung>
+<Rung Number="4" Type="N">
+<Comment>
+<![CDATA[This rung places the system in drop test mode.]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[This rung places the system in drop test mode.]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[EQU(Actual_NumberOfSamples,NumberofSamples) ,XIC(MODE_DropTestComplete) ]XIO(TRG_CalculateK)XIO(TRG_StartDropTest)OTE(MODE_DropTestComplete);]]>
+</Text>
+</Rung>
+<Rung Number="5" Type="N">
+<Comment>
+<![CDATA[Reset Weight Sum on a drop test start]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[Reset Weight Sum on a drop test start]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[XIC(MODE_DropTest)ONS(DropTest_Started)MOV(0,Weight_Sum);]]>
+</Text>
+</Rung>
+<Rung Number="6" Type="N">
+<Comment>
+<![CDATA[When Reset is pressed from the OIT, K and the K temporary register are both set to 1.]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[When Reset is pressed from the OIT, K and the K temporary register are both set to 1.]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[XIO(MODE_DropTest)XIC(TRG_ResetK)MOV(1,K_Temp)MOV(1,K);]]>
+</Text>
+</Rung>
+<Rung Number="7" Type="N">
+<Comment>
+<![CDATA[K Factor Calculation
+
+Following the Drop Test, you may push the "Calculate K Factor" OIT PB.
+The known Reference weight is divided by the Totalized weight captured during the test.
+This produces a K Factor to correct the measured weight vs reference weight error.
+If the new K factor is within the deadband of the old K factor, no change will be made.
+
+Once the Calculate K Factor PB is released, the The new K Factor value is sent to a temp register also (K_Old).
+The next Tests will product less error each time. Appx. 3-6 tests may be req'd to produce the required K Factor and minimize the error.]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[K Factor Calculation
+
+Following the Drop Test, you may push the "Calculate K Factor" OIT PB.
+The known Reference weight is divided by the Totalized weight captured during the test.
+This produces a K Factor to correct the measured weight vs reference weight error.
+If the new K factor is within the deadband of the old K factor, no change will be made.
+
+Once the Calculate K Factor PB is released, the The new K Factor value is sent to a temp register also (K_Old).
+The next Tests will product less error each time. Appx. 3-6 tests may be req'd to produce the required K Factor and minimize the error.]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[XIO(MODE_DropTest)XIC(TRG_CalculateK)[DIV(TestKgs,TotalizedWeight,K_Temp) ADD(K_Temp,0.03,K_UpperDB) SUB(K_Temp,0.03,K_LowerDB) ,LIM(K_LowerDB,K_Temp,K_UpperDB) MUL(K_Temp,K_Old,K) ];]]>
+</Text>
+</Rung>
+<Rung Number="8" Type="N">
+<Comment>
+<![CDATA[Test_Calculated bit will prevent a calculate K being done twice on one drop test]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[Test_Calculated bit will prevent a calculate K being done twice on one drop test]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[XIC(TRG_CalculateK) ,XIC(Test_Calculated) ]XIO(TRG_StartDropTest)OTE(Test_Calculated);]]>
+</Text>
+</Rung>
+<Rung Number="9" Type="N">
+<Text>
+<![CDATA[XIO(TRG_CalculateK)MOV(K,K_Old);]]>
+</Text>
+</Rung>
+<Rung Number="10" Type="N">
+<Comment>
+<![CDATA[ Weight check (THIS IS TO NOT DETECT  NEGATIVE WEIGHT)
+
+IF THE TIME ON THE SCALE IS LESS THAN 0 ASSIGN TO 1 TO IGNORE DIVISION BY 0
+
+]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[ Weight check (THIS IS TO NOT DETECT  NEGATIVE WEIGHT)
+
+IF THE TIME ON THE SCALE IS LESS THAN 0 ASSIGN TO 1 TO IGNORE DIVISION BY 0
+
+]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[MOV(Mass_Metric,Mass_Metric_Positive) ,LES(Mass_Metric,0) MOV(0,Mass_Metric_Positive) ,DIV(Scale_Length,Travel_Rate,Lengths_Per_Minute) MUL(Lengths_Per_Minute,60,TimeOnScale) ,LES(TimeOnScale,1) MOV(1,TimeOnScale) ,DIV(Actual_NumberOfSamples,4,Droptest_Time_Display) ,CPT(Weight,(Mass_Metric_Positive/TimeOnScale)/4) CPT(Product_Measured,Mass_Metric*Travel_Rate*60/Scale_Length) ,CPT(Percent_Error,(TestKgs/TotalizedWeight-1)*100) ];]]>
+</Text>
+</Rung>
+<Rung Number="11" Type="N">
+<Comment>
+<![CDATA[NUMBER OF TIMES THAT IT DOES THE SUM IN A 60 SECOND PERIOD OF TIME
+
+THE TIMER WILL ESTABLISH OUR SAMPLE TIME FOR THE FOLLOWING RUNG.
+
+----------------------------------------------------
+EDIT:
+
+Test_Length is a value from OIT, measured in seconds.
+Multplied by 1000 and divided by SampleTime.PRE in order to find the number of samples used for the Drop Test]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[NUMBER OF TIMES THAT IT DOES THE SUM IN A 60 SECOND PERIOD OF TIME
+
+THE TIMER WILL ESTABLISH OUR SAMPLE TIME FOR THE FOLLOWING RUNG.
+
+----------------------------------------------------
+EDIT:
+
+Test_Length is a value from OIT, measured in seconds.
+Multplied by 1000 and divided by SampleTime.PRE in order to find the number of samples used for the Drop Test]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[CPT(NumberofSamples,(Test_Length*1000)/(TMR_SampleTime.PRE)) ,MOV(120,NumberofSamples_Min) MOV(1200,NumberofSamples_Max) ,LES(NumberofSamples,NumberofSamples_Min) MOV(NumberofSamples_Min,NumberofSamples) ,GRT(NumberofSamples,NumberofSamples_Max) MOV(NumberofSamples_Max,NumberofSamples) ];]]>
+</Text>
+</Rung>
+<Rung Number="12" Type="N">
+<Comment>
+<![CDATA[ONCE THE SUM IS EQUAL TO THE NUMBER OF SAMPLES, WE OBTAIN THE FOLLOWING:
+
+
+1.- Weight_Average = Weight_Sum / NumberOfSamples
+
+2.- MOVE THE WEIGHT_SUM = WEIGHT SUM_OLD
+
+
+
+AT THE END IF THE NUMBER OF INTERACTIONS IS LESS THAN THE SUM , RESTORE SUM=0]]>
+<LocalizedComment Lang="en-US">
+<![CDATA[ONCE THE SUM IS EQUAL TO THE NUMBER OF SAMPLES, WE OBTAIN THE FOLLOWING:
+
+
+1.- Weight_Average = Weight_Sum / NumberOfSamples
+
+2.- MOVE THE WEIGHT_SUM = WEIGHT SUM_OLD
+
+
+
+AT THE END IF THE NUMBER OF INTERACTIONS IS LESS THAN THE SUM , RESTORE SUM=0]]>
+</LocalizedComment>
+</Comment>
+<Text>
+<![CDATA[[XIO(MODE_DropTest) XIC(TRG_StopDropTest) MOV(Weight_Sum,TotalizedWeight) MOV(1,Actual_NumberOfSamples) ,GRT(Actual_NumberOfSamples,NumberofSamples_Max) MOV(NumberofSamples_Max,Actual_NumberOfSamples) ];]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+</AddOnInstructionDefinition>
+<AddOnInstructionDefinition Name="Scale_Filter_Rev5" Revision="5.0" ExecutePrescan="false" ExecutePostscan="false" ExecuteEnableInFalse="false" CreatedDate="2010-02-04T00:08:29.031Z" CreatedBy="1288PSI\MarkH" EditedDate="2014-09-25T20:21:55.993Z" EditedBy="W7RW-HANSH\Engineer" SoftwareRevision="v20.01">
+<Parameters>
+<Parameter Name="EnableIn" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only"/>
+<Parameter Name="EnableOut" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only"/>
+<Parameter Name="Filter_Enable" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="TMR_Fltr_Pre" TagType="Base" DataType="DINT" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[100]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="100"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Raw" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MaxEgu" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MinEgu" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MaxRaw" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MinRaw" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Value_Percent" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MaxEgu_Percent" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MinEgu_Percent" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Value_Imperial" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MaxEgu_Imperial" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MinEgu_Imperial" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Value_Metric" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MaxEgu_Metric" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="MinEgu_Metric" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Fltr_Wgt" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[8.99999976e-001]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.9"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Scale" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Scale_Imperial" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Scale_Metric" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Scale_Percent" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Value" TagType="Base" DataType="REAL" Usage="Output" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Value_Unfiltered" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+</Parameters>
+<LocalTags>
+<LocalTag Name="TMR_Fltr" DataType="TIMER" ExternalAccess="Read/Write">
+<DefaultData Format="L5K">
+<![CDATA[[0,100,96]]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="100"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="96"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</DefaultData>
+</LocalTag>
+</LocalTags>
+<Routines>
+<Routine Name="Logic" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Text>
+<![CDATA[MOV(TMR_Fltr_Pre,TMR_Fltr.PRE);]]>
+</Text>
+</Rung>
+<Rung Number="1" Type="N">
+<Text>
+<![CDATA[[LES(Raw,MinRaw) MOV(MinRaw,Raw) ,GRT(Raw,MaxRaw) MOV(MaxRaw,Raw) ,CPT(Scale,(MaxEgu-MinEgu)/(MaxRaw-MinRaw)) CPT(Scale_Percent,(MaxEgu_Percent-MinEgu_Percent)/(MaxEgu-MinEgu)) CPT(Scale_Imperial,(MaxEgu_Imperial-MinEgu_Imperial)/(MaxEgu-MinEgu)) CPT(Scale_Metric,(MaxEgu_Metric-MinEgu_Metric)/(MaxEgu-MinEgu)) ,XIO(Filter_Enable) CPT(Value,Scale*Raw+MinEgu-(MinRaw*Scale)) CPT(Value_Percent,Scale_Percent*Value+MinEgu_Percent-(MinEgu*Scale_Percent)) CPT(Value_Imperial,Scale_Imperial*Value+MinEgu_Imperial-(MinEgu*Scale_Imperial)) CPT(Value_Metric,Scale_Metric*Value+MinEgu_Metric-(MinEgu*Scale_Metric)) ];]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
+<Text>
+<![CDATA[XIC(Filter_Enable)[GRT(Fltr_Wgt,1.0) MOV(1,Fltr_Wgt) ,LES(Fltr_Wgt,0) MOV(0,Fltr_Wgt) ,XIO(TMR_Fltr.DN) TON(TMR_Fltr,?,?) ,XIC(TMR_Fltr.DN) CPT(Value_Unfiltered,Scale*Raw+MinEgu-(MinRaw*Scale)) CPT(Value,Value*(1.0-Fltr_Wgt)+(Fltr_Wgt*Value_Unfiltered)) CPT(Value_Percent,Scale_Percent*Value+MinEgu_Percent-(MinEgu*Scale_Percent)) CPT(Value_Imperial,Scale_Imperial*Value+MinEgu_Imperial-(MinEgu*Scale_Imperial)) CPT(Value_Metric,Scale_Metric*Value+MinEgu_Metric-(MinEgu*Scale_Metric)) ];]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+</AddOnInstructionDefinition>
+</AddOnInstructionDefinitions>
+<Tags Use="Context">
+<Tag Name="WIT60493_Hardy_AOI" TagType="Base" DataType="PH_Hardy_4050_P2_Rev6" Constant="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[HardyController AOI]]>
+<LocalizedDescription Lang="en-US">
+<![CDATA[HardyController AOI]]>
+</LocalizedDescription>
+</Description>
+<Data Format="L5K">
+<![CDATA[[3,3,360,120,1200,3.79999995e+000,3.79999995e+000,0.00000000e+000,1.00000000e+000,8.37755585e+000
+					,8.37755585e+000,3.79999995e+000,0.00000000e+000,3.79999995e+000,3.79999995e+000,1.00000000e+000
+					,5.93675748e-002,-1.21159181e-001,-1.21159181e-001,3.60000000e+003,0.00000000e+000,6.00000000e+001
+					,0.00000000e+000,1.60020008e+001,1.00000000e+000,3.00000000e+000,90,0,2.13360000e+000,8.00000000e+000
+					,2.66700000e-001,-2.57608154e+003,8.54893127e+002,[0,250,0],1.00000000e+000,1.00000000e+000
+					,-2.72068939e+001,-2.72668953e+001]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="PH_Hardy_4050_P2_Rev6">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
+<DataValueMember Name="CTRL_StartDropTest" DataType="BOOL" Value="0"/>
+<DataValueMember Name="CTRL_StopDropTest" DataType="BOOL" Value="0"/>
+<DataValueMember Name="CTRL_ResetK" DataType="BOOL" Value="0"/>
+<DataValueMember Name="CTRL_SaveK" DataType="BOOL" Value="0"/>
+<DataValueMember Name="CTRL_CalculateK" DataType="BOOL" Value="0"/>
+<DataValueMember Name="MODE_DropTest" DataType="BOOL" Value="0"/>
+<DataValueMember Name="MODE_DropTestComplete" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Command_Tare" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Command_LwCal" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Command_HiCal" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Command_Zero" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Number_of_Cells" DataType="DINT" Radix="Decimal" Value="3"/>
+<DataValueMember Name="NumberofSamples" DataType="DINT" Radix="Decimal" Value="360"/>
+<DataValueMember Name="NumberofSamples_Min" DataType="DINT" Radix="Decimal" Value="120"/>
+<DataValueMember Name="NumberofSamples_Max" DataType="DINT" Radix="Decimal" Value="1200"/>
+<DataValueMember Name="Gross_Wt" DataType="REAL" Radix="Float" Value="3.8"/>
+<DataValueMember Name="Net_Wt" DataType="REAL" Radix="Float" Value="3.8"/>
+<DataValueMember Name="Set_LwCal_Wt" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Set_HiCal_Wt" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="Mass_Imperial_Gross" DataType="REAL" Radix="Float" Value="8.377556"/>
+<DataValueMember Name="Mass_Imperial" DataType="REAL" Radix="Float" Value="8.377556"/>
+<DataValueMember Name="Mass_Metric" DataType="REAL" Radix="Float" Value="3.8"/>
+<DataValueMember Name="Mass_Percent" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Mass_Metric_Gross" DataType="REAL" Radix="Float" Value="3.8"/>
+<DataValueMember Name="Mass_Metric_Positive" DataType="REAL" Radix="Float" Value="3.8"/>
+<DataValueMember Name="Actual_NumberOfSamples" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="Weight" DataType="REAL" Radix="Float" Value="0.059367575"/>
+<DataValueMember Name="Weight_Sum" DataType="REAL" Radix="Float" Value="-0.12115918"/>
+<DataValueMember Name="TotalizedWeight" DataType="REAL" Radix="Float" Value="-0.12115918"/>
+<DataValueMember Name="TimeBase_FlowInstant" DataType="REAL" Radix="Float" Value="3600.0"/>
+<DataValueMember Name="Instant_Flow" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="TimeBase_FlowTotalized" DataType="REAL" Radix="Float" Value="60.0"/>
+<DataValueMember Name="Totalized_Flow" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="TimeOnScale" DataType="REAL" Radix="Float" Value="16.002"/>
+<DataValueMember Name="K" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="TestKgs" DataType="REAL" Radix="Float" Value="3.0"/>
+<DataValueMember Name="Test_Length" DataType="DINT" Radix="Decimal" Value="90"/>
+<DataValueMember Name="Droptest_Time_Display" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Scale_Length" DataType="REAL" Radix="Float" Value="2.1336"/>
+<DataValueMember Name="Travel_Rate" DataType="REAL" Radix="Float" Value="8.0"/>
+<DataValueMember Name="Lengths_Per_Minute" DataType="REAL" Radix="Float" Value="0.2667"/>
+<DataValueMember Name="Percent_Error" DataType="REAL" Radix="Float" Value="-2576.0815"/>
+<DataValueMember Name="Product_Measured" DataType="REAL" Radix="Float" Value="854.8931"/>
+<DataValueMember Name="Test_Calculated" DataType="BOOL" Value="0"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="WIT60493_HardyFilter" TagType="Base" DataType="Scale_Filter_Rev5" Constant="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Weight Filtered Value for 250ms Routine K FactorCalculation]]>
+<LocalizedDescription Lang="en-US">
+<![CDATA[Weight Filtered Value for 250ms Routine K FactorCalculation]]>
+</LocalizedDescription>
+</Description>
+<Data Format="L5K">
+<![CDATA[[7,100,4.68691400e-002,5.00000000e+000,-5.00000000e+000,5.00000000e+000,-5.00000000e+000
+					,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
+					,0.00000000e+000,0.00000000e+000,0.00000000e+000,5.00000000e-001,1.00000000e+000,0.00000000e+000
+					,0.00000000e+000,0.00000000e+000,5.34889847e-002,4.68692780e-002,[-1610233597,100,491]]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="Scale_Filter_Rev5">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Filter_Enable" DataType="BOOL" Value="1"/>
+<DataValueMember Name="TMR_Fltr_Pre" DataType="DINT" Radix="Decimal" Value="100"/>
+<DataValueMember Name="Raw" DataType="REAL" Radix="Float" Value="0.04686914"/>
+<DataValueMember Name="MaxEgu" DataType="REAL" Radix="Float" Value="5.0"/>
+<DataValueMember Name="MinEgu" DataType="REAL" Radix="Float" Value="-5.0"/>
+<DataValueMember Name="MaxRaw" DataType="REAL" Radix="Float" Value="5.0"/>
+<DataValueMember Name="MinRaw" DataType="REAL" Radix="Float" Value="-5.0"/>
+<DataValueMember Name="Value_Percent" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MaxEgu_Percent" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MinEgu_Percent" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Value_Imperial" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MaxEgu_Imperial" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MinEgu_Imperial" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Value_Metric" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MaxEgu_Metric" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MinEgu_Metric" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Fltr_Wgt" DataType="REAL" Radix="Float" Value="0.5"/>
+<DataValueMember Name="Scale" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="Scale_Imperial" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Scale_Metric" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Scale_Percent" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Value" DataType="REAL" Radix="Float" Value="0.053488985"/>
+<DataValueMember Name="Value_Unfiltered" DataType="REAL" Radix="Float" Value="0.046869278"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="WIT60493_HardyFilter2" TagType="Base" DataType="Scale_Filter_Rev5" Constant="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Product Measured For Process Calculations Use:
+WeigherModule_
+HardyFilter2.Value]]>
+<LocalizedDescription Lang="en-US">
+<![CDATA[Product Measured For Process Calculations Use:
+WeigherModule_
+HardyFilter2.Value]]>
+</LocalizedDescription>
+</Description>
+<Data Format="L5K">
+<![CDATA[[3,100,8.77390320e+002,5.00000000e+003,0.00000000e+000,5.00000000e+003,0.00000000e+000,1.75478058e+001
+					,1.00000000e+002,0.00000000e+000,8.77390320e+002,5.00000000e+003,0.00000000e+000,8.77390320e+002
+					,5.00000000e+003,0.00000000e+000,5.00000000e-001,1.00000000e+000,1.00000000e+000,1.00000000e+000
+					,1.99999996e-002,8.77390320e+002,0.00000000e+000,[0,100,0]]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="Scale_Filter_Rev5">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Filter_Enable" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TMR_Fltr_Pre" DataType="DINT" Radix="Decimal" Value="100"/>
+<DataValueMember Name="Raw" DataType="REAL" Radix="Float" Value="877.3903"/>
+<DataValueMember Name="MaxEgu" DataType="REAL" Radix="Float" Value="5000.0"/>
+<DataValueMember Name="MinEgu" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="MaxRaw" DataType="REAL" Radix="Float" Value="5000.0"/>
+<DataValueMember Name="MinRaw" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Value_Percent" DataType="REAL" Radix="Float" Value="17.547806"/>
+<DataValueMember Name="MaxEgu_Percent" DataType="REAL" Radix="Float" Value="100.0"/>
+<DataValueMember Name="MinEgu_Percent" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Value_Imperial" DataType="REAL" Radix="Float" Value="877.3903"/>
+<DataValueMember Name="MaxEgu_Imperial" DataType="REAL" Radix="Float" Value="5000.0"/>
+<DataValueMember Name="MinEgu_Imperial" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Value_Metric" DataType="REAL" Radix="Float" Value="877.3903"/>
+<DataValueMember Name="MaxEgu_Metric" DataType="REAL" Radix="Float" Value="5000.0"/>
+<DataValueMember Name="MinEgu_Metric" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Fltr_Wgt" DataType="REAL" Radix="Float" Value="0.5"/>
+<DataValueMember Name="Scale" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="Scale_Imperial" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="Scale_Metric" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="Scale_Percent" DataType="REAL" Radix="Float" Value="0.02"/>
+<DataValueMember Name="Value" DataType="REAL" Radix="Float" Value="877.3903"/>
+<DataValueMember Name="Value_Unfiltered" DataType="REAL" Radix="Float" Value="0.0"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="WIT60493_Inp" TagType="Base" DataType="INT" Dimensions="20" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[-13107,16428,-13107,16428,7,0,512,0,0,0,0,0,0,0,0,0,0,0,0,0]]]>
+</Data>
+<Data Format="Decorated">
+<Array DataType="INT" Dimensions="20" Radix="Decimal">
+<Element Index="[0]" Value="-13107"/>
+<Element Index="[1]" Value="16428"/>
+<Element Index="[2]" Value="-13107"/>
+<Element Index="[3]" Value="16428"/>
+<Element Index="[4]" Value="7"/>
+<Element Index="[5]" Value="0"/>
+<Element Index="[6]" Value="512"/>
+<Element Index="[7]" Value="0"/>
+<Element Index="[8]" Value="0"/>
+<Element Index="[9]" Value="0"/>
+<Element Index="[10]" Value="0"/>
+<Element Index="[11]" Value="0"/>
+<Element Index="[12]" Value="0"/>
+<Element Index="[13]" Value="0"/>
+<Element Index="[14]" Value="0"/>
+<Element Index="[15]" Value="0"/>
+<Element Index="[16]" Value="0"/>
+<Element Index="[17]" Value="0"/>
+<Element Index="[18]" Value="0"/>
+<Element Index="[19]" Value="0"/>
+</Array>
+</Data>
+</Tag>
+<Tag Name="WIT60493_Out" TagType="Base" DataType="INT" Dimensions="20" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[0,0,0,16256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]]>
+</Data>
+<Data Format="Decorated">
+<Array DataType="INT" Dimensions="20" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="0"/>
+<Element Index="[2]" Value="0"/>
+<Element Index="[3]" Value="16256"/>
+<Element Index="[4]" Value="0"/>
+<Element Index="[5]" Value="0"/>
+<Element Index="[6]" Value="0"/>
+<Element Index="[7]" Value="0"/>
+<Element Index="[8]" Value="0"/>
+<Element Index="[9]" Value="0"/>
+<Element Index="[10]" Value="0"/>
+<Element Index="[11]" Value="0"/>
+<Element Index="[12]" Value="0"/>
+<Element Index="[13]" Value="0"/>
+<Element Index="[14]" Value="0"/>
+<Element Index="[15]" Value="0"/>
+<Element Index="[16]" Value="0"/>
+<Element Index="[17]" Value="0"/>
+<Element Index="[18]" Value="0"/>
+<Element Index="[19]" Value="0"/>
+</Array>
+</Data>
+</Tag>
+</Tags>
+<Programs Use="Context">
+<Program Use="Context" Name="L04_DIST_Ana_Inst">
+<Tags Use="Context">
+<Tag Name="WIT60493_Inp_PV" TagType="Base" DataType="REAL" Radix="Float" Usage="Input" Constant="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[L4 TOTE DUMP MASS FLOW SHAKER - Process Variable Input]]>
+<LocalizedDescription Lang="en-US">
+<![CDATA[L4 TOTE DUMP MASS FLOW SHAKER - Process Variable Input]]>
+</LocalizedDescription>
+</Description>
+<Data Format="L5K">
+<![CDATA[9.91954956e+002]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="991.95496"/>
+</Data>
+</Tag>
+</Tags>
+<Routines Use="Context">
+<Routine Use="Target" Name="Temp" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Text>
+<![CDATA[[COP(WIT60493:I.Data_IN_0,WIT60493_Inp[0],10) PH_Hardy_4050_P2_Rev6(WIT60493_Hardy_AOI,WIT60493_Inp,WIT60493_Out) MOV(WIT60493_Out[4],WIT60493:O.Data_OUT_4) ,MOV(WIT60493_Hardy_AOI.Weight,WIT60493_HardyFilter.Raw) Scale_Filter_Rev5(WIT60493_HardyFilter) ,MOV(WIT60493_Hardy_AOI.Product_Measured,WIT60493_HardyFilter2.Raw) Scale_Filter_Rev5(WIT60493_HardyFilter2) ,MUL(WIT60493_Hardy_AOI.Product_Measured,2.20462,WIT60493_Inp_PV) ,JSR(WIT60493,0) ];]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+<Routine Use="Reference" Name="WIT60493">
+</Routine>
+</Routines>
+</Program>
+</Programs>
+</Controller>
+</RSLogix5000Content>

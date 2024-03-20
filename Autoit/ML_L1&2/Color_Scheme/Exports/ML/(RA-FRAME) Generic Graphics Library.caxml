@@ -1,0 +1,979 @@
+<?xml version="1.0"?>
+<Associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/ColorAssociation.xsd">
+  <GraphicName>(RA-FRAME) Generic Graphics Library.xml</GraphicName>
+  <ColorAssociations>
+    <ColorID>517</ColorID>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText19</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText11</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText14</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText13</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText12</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText10</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>559</ColorID>
+    <ObjectColors>
+      <ObjectName>godsLabel8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel14</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel10</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel11</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsLabel6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>561</ColorID>
+    <ObjectColors>
+      <ObjectName>godsData_Value25</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value10</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value11</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value24</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value23</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value22</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value21</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_Value20</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>563</ColorID>
+    <ObjectColors>
+      <ObjectName>godsData_EU10</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU11</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsData_EU</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>662</ColorID>
+    <ObjectColors>
+      <ObjectName>BarGraphBorder6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>BarGraphBorder13</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>BarGraphBorder12</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>BarGraphBorder5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>268</ColorID>
+    <ObjectColors>
+      <ObjectName>BargraphScale5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>BargraphScale11</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>BarGraphScale10</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>BarGraphScale4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>515</ColorID>
+    <ObjectColors>
+      <ObjectName>Panel_VersionDescription</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionFilename</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>37</ColorID>
+    <ObjectColors>
+      <ObjectName>Text_VersionDescription</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionNumber</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionFilename</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCopyright</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>50</ColorID>
+    <ObjectColors>
+      <ObjectName>GraphicSymbolIstructionsPanel</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSbackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TimeSpan3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TimeSpan2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TimeSpan4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TimeSpan1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MaxValue3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MaxValue2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MaxValue4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MaxValue1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MinValue3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MinValue2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MinValue4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_MinValue1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionId</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIN_BG</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIN_BG1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>145</ColorID>
+    <ObjectColors>
+      <ObjectName>GraphicSymbolIstructionsTPanel</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>146</ColorID>
+    <ObjectColors>
+      <ObjectName>GraphicSymbolIstructionText</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>485</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>36</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>38</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>486</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSInteractiveHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>493</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) Generic Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFocusHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>718</ColorID>
+    <ObjectColors>
+      <ObjectName>AIN_TrendBorder5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TrendBorder3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TrendBorder7</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TrendBorder1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TrendBorder2</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>AIN_TrendBorder4</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>733</ColorID>
+    <ObjectColors>
+      <ObjectName>PVIndicator6</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator11</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator11</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator12</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator12</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator5</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>PVIndicator5</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>51</ColorID>
+    <ObjectColors>
+      <ObjectName>SparklineOutlinePolygon</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>SparklineOutlinePolygon1</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>470</ColorID>
+    <ObjectColors>
+      <ObjectName>msi_TgtDisagree</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_TgtDisagree</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_TgtDisagree</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_TgtDisagree1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_TgtDisagree1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_TgtDisagree1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>DIn_MSI_Status</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>56</ColorID>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status5</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status3</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Motor_MSI_Status3</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+</Associations>

@@ -1,0 +1,952 @@
+<?xml version="1.0"?>
+<Associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/ColorAssociation.xsd">
+  <GraphicName>(RA-BAS) Process Diagnostic Objects.xml</GraphicName>
+  <ColorAssociations>
+    <ColorID>515</ColorID>
+    <ObjectColors>
+      <ObjectName>Panel_VersionDescription</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionFilename</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>37</ColorID>
+    <ObjectColors>
+      <ObjectName>Text_VersionDescription</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionNumber</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionFilename</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCopyright</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>50</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSbackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionId</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>470</ColorID>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator7</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator7</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator7</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageResetIcon</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceResetAckReady</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi1</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi0</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi0</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_msi0</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator18</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator18</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator18</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator14</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator14</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator14</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator16</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator16</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator16</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator2</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator3</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator3</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator3</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator4</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator4</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator4</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator5</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator5</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator5</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator6</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator6</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator6</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator8</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator8</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator8</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator20</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator20</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator20</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator11</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator11</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator11</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator12</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator12</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator12</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator13</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator13</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator13</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator15</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator15</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator15</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator17</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator17</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator17</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator19</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator19</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator19</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator21</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator21</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_NRdyIndicator21</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>ImageReset_Disabled</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>51</ColorID>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceResetAckReady</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceDisabled</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>485</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>36</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>38</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>486</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSInteractiveHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>493</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-BAS) Process Diagnostic Objects.xml</ObjectName>
+      <ColorUsage>DSFocusHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>382</ColorID>
+    <ObjectColors>
+      <ObjectName>HeaderText_NotReadyReasons</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>53</ColorID>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_Caption2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_Caption1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>bid_Caption0</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason18</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason14</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason16</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason20</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason11</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason12</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason13</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason15</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason17</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason19</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCaption_NRdyReason21</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>523</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_FootnoteText_ResetRequired</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>289</ColorID>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason4</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason5</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason6</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason7</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason8</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason10</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason11</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason12</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason13</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason14</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason15</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason17</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason16</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason19</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Reason18</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>284</ColorID>
+    <ObjectColors>
+      <ObjectName>NRdy_Background2</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background4</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background5</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background6</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background7</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background8</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background9</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background10</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background11</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background12</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background13</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background14</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background15</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background17</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background16</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background1</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background19</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>NRdy_Background18</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>156</ColorID>
+    <ObjectColors>
+      <ObjectName>CmdBtnFaceDisabled</ObjectName>
+      <ColorUsage>ImageColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+</Associations>

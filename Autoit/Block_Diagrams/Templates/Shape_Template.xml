@@ -1,0 +1,4 @@
+	<draw:custom-shape draw:style-name="gr1" draw:text-style-name="[ShapeStyle]" xml:id="[ShapeID]" draw:id="[ShapeID]" draw:layer="layout" svg:width="[ShapeWidth]" svg:height="[ShapeHeight]" svg:x="[ShapeLeft]" svg:y="[ShapeTop]">
+     <text:p text:style-name="[ShapeStyle]"><text:span text:style-name="T1">[ShapeText]</text:span></text:p>
+     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </draw:custom-shape>

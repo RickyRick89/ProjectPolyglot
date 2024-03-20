@@ -1,0 +1,1219 @@
+<?xml version="1.0"?>
+<Associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/ColorAssociation.xsd">
+  <GraphicName>(RA-FRAME) P_VSD Graphics Library.xml</GraphicName>
+  <ColorAssociations>
+    <ColorID>517</ColorID>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationPolygon3</ObjectName>
+      <ColorUsage>LineColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText3</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText2</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText1</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationText9</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>44</ColorID>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColorBlink</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColorBlink</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColorBlink</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColorBlink</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColorBlink</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColorBlink</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColorBlink</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColorBlink</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColorBlink</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColorBlink</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>23</ColorID>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>2</ColorID>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>4</ColorID>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>31</ColorID>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>50</ColorID>
+    <ObjectColors>
+      <ObjectName>GraphicSymbolIstructionsPanel</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSbackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionId</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GlobalObjectAnnotationTitle3</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>43</ColorID>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>godsAlarmPolygon3</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>470</ColorID>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>msi_AlarmIndicator</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>515</ColorID>
+    <ObjectColors>
+      <ObjectName>Panel_VersionDescription</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionNumber</ObjectName>
+      <ColorUsage>BorderColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Panel_VersionFilename</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>37</ColorID>
+    <ObjectColors>
+      <ObjectName>Text_VersionDescription</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionNumber</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>Text_VersionFilename</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>TextCopyright</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>145</ColorID>
+    <ObjectColors>
+      <ObjectName>GraphicSymbolIstructionsTPanel</ObjectName>
+      <ColorUsage>BackColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>146</ColorID>
+    <ObjectColors>
+      <ObjectName>GraphicSymbolIstructionText</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>56</ColorID>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSImageColor</ColorUsage>
+      <StateValue>Error</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_MSI_Status</ObjectName>
+      <ColorUsage>MSCaptionColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>65</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>18</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>34</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>59</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>1</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>10</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>6</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationForeColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>11</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>4</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>12</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>2</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>61</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>11</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>62</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>7</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>83</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>0</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>58</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>9</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>8</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>13</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>3</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>64</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>VSD_Group</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>5</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>485</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>36</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedFillColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>38</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFieldInErrorNotSelectedTextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>486</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSInteractiveHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>493</ColorID>
+    <ObjectColors>
+      <ObjectName>(RA-FRAME) P_VSD Graphics Library.xml</ObjectName>
+      <ColorUsage>DSFocusHighlightColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>563</ColorID>
+    <ObjectColors>
+      <ObjectName>godsData_EU</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>561</ColorID>
+    <ObjectColors>
+      <ObjectName>godsData_Value</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>559</ColorID>
+    <ObjectColors>
+      <ObjectName>godsLabel</ObjectName>
+      <ColorUsage>TextColor</ColorUsage>
+      <StateValue />
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+  <ColorAssociations>
+    <ColorID>803</ColorID>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Blower</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Pump</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+    <ObjectColors>
+      <ObjectName>GO_P_VSD_Motor</ObjectName>
+      <ColorUsage>AnimationBackColor</ColorUsage>
+      <StateValue>14</StateValue>
+      <UsageComment />
+    </ObjectColors>
+  </ColorAssociations>
+</Associations>

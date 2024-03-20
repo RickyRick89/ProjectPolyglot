@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE11.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="0" positionY="0" securityCode="*" backColor="#E0E0E0" titleBar="false" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="false" size="specifySizeInPixels" width="1920" height="928" allowMultipleRunningCopies="false" cacheAfterDisplaying="true" alwaysUpdating="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="scale" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="black" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="txtRoverId" height="16" width="8" left="20" top="15" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="solid" backColor="lime" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="0"/>
+    <text name="txtCmd" height="16" width="5" left="20" top="35" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="solid" backColor="lime" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="-"/>
+    <text name="txtPLC" height="16" width="5" left="20" top="60" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="solid" backColor="lime" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="-"/>
+    <text name="txtMessage" height="16" width="13" left="0" top="70" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="solid" backColor="cyan" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="---"/>
+	[Graphics_Insert]
+    <group name="Group322" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group158" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <ellipse name="Ellipse16" height="10" width="10" left="1726" top="12" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateColor expression="{[RoverSysPLC]AppIgnition_Sts}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="blink" backColor1="red" backColor2="yellow" fillColorMode="0" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </ellipse>
+            <text name="Text48" height="17" width="150" left="1741" top="8" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Ignition App"/>
+        </group>
+        <group name="Group286" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <ellipse name="Ellipse17" height="10" width="10" left="1726" top="27" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateColor expression="{[RoverSysPLC]AppMessenger_Sts}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="blink" backColor1="red" backColor2="yellow" fillColorMode="0" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </ellipse>
+            <text name="Text49" height="17" width="150" left="1741" top="24" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Messenger App"/>
+        </group>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Dim vYCord As Integer
+Dim vXCord As Integer
+Dim vZCord As Integer
+
+Private Sub ClearData()
+    txtCmd.Caption = "-"
+    txtRoverId.Caption = "0"
+    txtPLC.Caption = "-"
+End Sub
+
+Private Sub RoverSelected(vParameters As String)
+    Dim vPLC As String
+    Dim vZoneIndex As String
+    Dim vMainTag As String
+    Dim vTagToWrite As String
+    Dim vDisplayName As String
+    Dim vRoverId As String
+    Dim vLocation As String
+    Dim vStart As Integer
+    Dim vEnd As Integer
+    Dim vLen As Integer
+    Dim vParameter As String
+    Dim sCmd As String
+    Dim Answer As Integer
+  
+    vLen = Len(vParameters)
+    vStart = 1
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vRoverId = vParameter
+    End If
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vPLC = vParameter
+    End If
+    
+    Set MyTagGroup = Application.CreateTagGroup(Me.AreaName)
+    'Add tags to tag group
+    'vMainTag = "[" & vPLC & "]Zones[" & vZoneIndex & "]"
+    vDisplayName = Me.Name
+    
+    If txtCmd.Caption = "-" Then 'Open pop-Up display
+        sCmd = "Display pop_Rover /T {" & vRoverId & "},{" & vPLC & "},{" & vDisplayName & "}"
+        Me.Application.ExecuteCommand sCmd
+        txtMessage.Caption = vRoverId
+    End If
+    
+    Set MyTagGroup = Nothing
+
+End Sub
+
+Private Sub ZoneSelected(vParameters As String)
+    Dim vPLC As String
+    Dim vZoneIndex As String
+    Dim vMainTag As String
+    Dim vTagToWrite As String
+    Dim vDisplayName As String
+    Dim vRoverId As String
+    Dim vLocation As String
+    Dim vStart As Integer
+    Dim vEnd As Integer
+    Dim vLen As Integer
+    Dim vParameter As String
+    Dim sCmd As String
+    Dim Answer As Integer
+  
+    vLen = Len(vParameters)
+    vStart = 1
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vZoneIndex = vParameter
+    End If
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vPLC = vParameter
+    End If
+    
+    Set MyTagGroup = Application.CreateTagGroup(Me.AreaName)
+    'Add tags to tag group
+    vMainTag = "[" & vPLC & "]Zones[" & vZoneIndex & "]"
+    vDisplayName = Me.Name
+    
+    If txtCmd.Caption = "-" Then 'Open pop-Up displays
+        MyTagGroup.Add "{" & vMainTag & ".Sts_Occ}"
+        MyTagGroup.Add "{" & vMainTag & ".Owner}"
+        If MyTagGroup.Item("{" & vMainTag & ".Sts_Occ}").Value = 0 Then
+            sCmd = "Display pop_RoverZone /T {" & vZoneIndex & "},{" & vPLC & "},{" & vDisplayName & "}"
+            Me.Application.ExecuteCommand sCmd
+        Else
+            vRoverId = MyTagGroup.Item("{" & vMainTag & ".Owner}").Value
+            If Len(vRoverId) = 1 Then
+                vRoverId = "0" & vRoverId
+            End If
+            sCmd = "Display pop_Rover /T {" & vRoverId & "},{" & vPLC & "},{" & vDisplayName & "}"
+            Me.Application.ExecuteCommand sCmd
+        End If
+        txtMessage.Caption = vRoverId
+    End If
+    
+    Set MyTagGroup = Nothing
+End Sub
+
+Private Sub MapSelected(vDisplayName As String)
+
+    sCmd = "Display " & vDisplayName & ""
+    Me.Application.ExecuteCommand sCmd
+
+End Sub
+
+
+
+Private Sub Display_AnimationStart()
+    Dim vDisplayName As String
+    Dim vDisplayNameRef As String
+    
+    vDisplayName = Me.Name
+    vDisplayNameRef = bttMapSel1.ToolTipText
+    
+    
+    If vDisplayName = vDisplayNameRef Then
+        'bttMapSel1.BackColor = vbGreen
+        plgMapSel1.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel2.ToolTipText Then
+        plgMapSel2.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel3.ToolTipText Then
+        plgMapSel3.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel4.ToolTipText Then
+        plgMapSel4.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel5.ToolTipText Then
+        plgMapSel5.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel6.ToolTipText Then
+        plgMapSel6.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel7.ToolTipText Then
+        plgMapSel7.BackColor = RGB(192, 192, 192)
+    End If
+    
+    
+    txtCmd.Caption = "-"
+    txtRoverId.Caption = "0"
+    txtPLC.Caption = "-"
+End Sub
+
+[VBA_Insert]
+
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

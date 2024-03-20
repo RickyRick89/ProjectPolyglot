@@ -1,0 +1,164 @@
+                <![CDATA[Dim vYCord As Integer
+Dim vXCord As Integer
+Dim vZCord As Integer
+Dim vType As Integer
+
+Private Sub Display_Click()
+    Call ClearData
+    vDisplayName = Me.TagParameters(4)
+    sCmd = "Display " & vDisplayName & " /T {-},{0},{-}"
+    Me.Application.ExecuteCommand sCmd
+End Sub
+Private Sub ClearData()
+    txtCmd.Caption = "-"
+    txtRoverId.Caption = "0"
+    txtPLC.Caption = "-"
+End Sub
+
+Private Sub ZoneSelected(vParameters As String)
+Dim vPLC As String
+Dim vZoneIndex As String
+Dim vMainTag As String
+Dim vTagToWrite As String
+Dim vDisplayName As String
+Dim vRoverId As Integer
+Dim vLocation As String
+Dim vStart As Integer
+Dim vEnd As Integer
+Dim vLen As Integer
+Dim vParameter As String
+Dim sCmd As String
+Dim Answer As Integer
+  
+    vLen = Len(vParameters)
+    vStart = 1
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vZoneIndex = vParameter
+    End If
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vPLC = vParameter
+    End If
+    
+    Set MyTagGroup = Application.CreateTagGroup(Me.AreaName)
+    'Add tags to tag group
+    vMainTag = "[" & vPLC & "]Zones[" & vZoneIndex & "]"
+    vDisplayName = Me.Name
+    
+    If txtCmd.Caption = "MoveTo" Or txtCmd.Caption = "SetLocation" Or txtCmd.Caption = "PickupPallet" Or txtCmd.Caption = "DropPallet" Then
+        vRoverId = txtRoverId.Caption
+        MyTagGroup.Add "{" & vMainTag & ".Crd.X}"
+        MyTagGroup.Add "{" & vMainTag & ".Crd.Y}"
+        MyTagGroup.Add "{" & vMainTag & ".Crd.Z}"
+        MyTagGroup.Add "{" & vMainTag & ".Type}"
+        
+        vXCord = MyTagGroup.Item("{" & vMainTag & ".Crd.X}").Value
+        vYCord = MyTagGroup.Item("{" & vMainTag & ".Crd.Y}").Value
+        vZCord = MyTagGroup.Item("{" & vMainTag & ".Crd.Z}").Value
+        vLocation = Format(vXCord, "000") & "-" & Format(vYCord, "000") & "-" & Format(vZCord, "00")
+        vType = MyTagGroup.Item("{" & vMainTag & ".Type}").Value
+        
+        If (txtCmd.Caption = "PickupPallet" Or txtCmd.Caption = "DropPallet") And (vType < 14 Or vType > 17) Then
+            
+            Answer = MsgBox("Rover Can't Drop Or Pickup Pallet At This Location", vbOKOnly + vbDefaultButton2, "Invalid Location")
+        
+        Else
+        
+            If txtCmd.Caption = "MoveTo" Then
+                Answer = MsgBox("Move Rover " & vRoverId & " To Location " & vLocation & "?", vbQuestion + vbYesNo + vbDefaultButton2, "Confirm Message")
+            ElseIf txtCmd.Caption = "PickupPallet" Then
+                Answer = MsgBox("Pickup Pallet At Location " & vLocation & ", Rover " & vRoverId & "?", vbQuestion + vbYesNo + vbDefaultButton2, "Confirm Message")
+            ElseIf txtCmd.Caption = "DropPallet" Then
+                Answer = MsgBox("Drop Pallet At Location " & vLocation & ", Rover " & vRoverId & "?", vbQuestion + vbYesNo + vbDefaultButton2, "Confirm Message")
+            Else
+                Answer = MsgBox("Set Location " & vLocation & " To Rover " & vRoverId & "?", vbQuestion + vbYesNo + vbDefaultButton2, "Confirm Message")
+            End If
+            
+            If Answer = vbYes Then
+                vTagToWrite = "[" & txtPLC.Caption & "]RoverDta[" & txtRoverId.Caption & "]"
+                If Me.TagParameters(1) = "MoveTo" Then
+                    sCmd = "&Set {" & vTagToWrite & ".EndZoneOpr} """ & vLocation & """"
+                    Me.Application.ExecuteCommand sCmd
+                    sCmd = "&Set {" & vTagToWrite & ".CmdOpr} 91"
+                    Me.Application.ExecuteCommand sCmd
+                ElseIf Me.TagParameters(1) = "PickupPallet" Then
+                    sCmd = "&Set {" & vTagToWrite & ".EndZoneOpr} """ & vLocation & """"
+                    Me.Application.ExecuteCommand sCmd
+                    sCmd = "&Set {" & vTagToWrite & ".CmdOpr} 92"
+                    Me.Application.ExecuteCommand sCmd
+                ElseIf Me.TagParameters(1) = "DropPallet" Then
+                    sCmd = "&Set {" & vTagToWrite & ".EndZoneOpr} """ & vLocation & """"
+                    Me.Application.ExecuteCommand sCmd
+                    sCmd = "&Set {" & vTagToWrite & ".CmdOpr} 93"
+                    Me.Application.ExecuteCommand sCmd
+                ElseIf Me.TagParameters(1) = "SetLocation" Then
+                    sCmd = "&Set {" & vTagToWrite & ".LocSetOpr} """ & vLocation & """"
+                    Me.Application.ExecuteCommand sCmd
+                End If
+            ElseIf Answer = vbNo Then
+            
+            End If
+            
+        End If
+        
+        Call ClearData
+        vDisplayName = Me.TagParameters(4)
+        sCmd = "Display " & vDisplayName & " /T {-},{0},{-}"
+        Me.Application.ExecuteCommand sCmd
+        
+    End If
+    
+    Set MyTagGroup = Nothing
+End Sub
+
+
+Private Sub Display_AnimationStart()
+    Dim vDisplayName As String
+    
+    vDisplayName = Me.Name
+    
+    If vDisplayName = bttMapSel1.ToolTipText & "_Set" Then
+        plgMapSel1.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel2.ToolTipText & "_Set" Then
+        plgMapSel2.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel3.ToolTipText & "_Set" Then
+        plgMapSel3.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel4.ToolTipText & "_Set" Then
+        plgMapSel4.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel5.ToolTipText & "_Set" Then
+        plgMapSel5.BackColor = RGB(192, 192, 192)
+    End If
+    
+    
+    If Me.TagParameters.Count >= 3 Then
+        txtCmd.Caption = Me.TagParameters(1)
+        txtRoverId.Caption = Me.TagParameters(2)
+        txtPLC.Caption = Me.TagParameters(3)
+    Else
+        Me.Unload
+    End If
+End Sub
+
+Private Sub MapSelected(vDisplayName As String)
+
+    sCmd = "Display " & vDisplayName & "_Set /T {" & txtCmd.Caption & "},{" & txtRoverId.Caption & "},{" & txtPLC.Caption & "},{" & vDisplayName & "}"""
+    Me.Application.ExecuteCommand sCmd
+
+End Sub

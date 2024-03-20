@@ -1,0 +1,163 @@
+#include <Excel.au3>
+#include <Array.au3>
+#include <File.au3>
+
+HotKeySet('{esc}', '_Exit')
+
+$sWorkbookPath = "C:\Users\rgrov\RJX AUTOMATION LLC\Raul Barrios - Simplot\2021_Caldwell_L5_Fry\Instrument_List\Motor And Instrument List Rev 0.8.xlsx"
+$sSheetName = 'Instrument List'
+$sSheetName2 = 'New Control Panel Connection'
+$sWinTitle = 'Sandbox.odg - LibreOffice Draw'
+$sWinTitleArea = 'Area'
+$sWinTitleSize = 'Position and Size'
+
+$sPageTemplate = FileRead("C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\Block_Diagrams\Templates\Page_Template.xml")
+$sShapeTemplate = FileRead("C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\Block_Diagrams\Templates\Shape_Template.xml")
+$sConnTemplate = FileRead("C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\Block_Diagrams\Templates\Conn_Template.xml")
+
+
+$oWorkbook = _Excel_BookAttach($sWorkbookPath)
+If Not IsObj($oWorkbook) Then
+	$oExcel = _Excel_Open()
+	$oWorkbook = _Excel_BookOpen($oExcel, $sWorkbookPath)
+Else
+	$oExcel = $oWorkbook.Application
+EndIf
+
+$aSheet = _Excel_RangeRead($oWorkbook, $sSheetName)
+$aPanelSheet = _Excel_RangeRead($oWorkbook, $sSheetName2)
+
+_ArrayDelete($aSheet, 0)
+_ArrayDelete($aPanelSheet, 0)
+;~ _ArraySort($aSheet, 0, 0, 0, 9)
+;~ _ArrayDisplay($aSheet)
+;~ _ArrayDisplay($aPanelSheet)
+Exit
+
+$sLastWiredTo = ''
+$iInstCount = 0
+$iPanelCount = 0
+
+Local $aAddedPanels[1][3]
+
+$iWidth = 0.953
+$iHeight = 0.318
+
+$sBody = ''
+$iPageNum = 1
+$sBody &= '	<draw:page draw:name="page' & $iPageNum & '" draw:style-name="dp2" draw:master-page-name="Default">'
+For $iRow = 0 To UBound($aSheet) - 1
+	$sStatus = $aSheet[$iRow][21]
+	$sWiredTo = $aSheet[$iRow][9]
+	$sID = $aSheet[$iRow][2]
+	$sSigType = $aSheet[$iRow][8]
+
+	$sWiredToPretty = StringStripWS(StringReplace(StringReplace(StringReplace($sWiredTo, '_', ''), '-', ''), '/', ''), 8)
+	$sIDPretty = StringStripWS(StringReplace(StringReplace(StringReplace($sID, '_', ''), '-', ''), '/', ''), 8)
+
+	$iWiredToIsID = _ArraySearch($aSheet, $sWiredTo, 0, 0, 0, 0, 1, 2)
+
+	If $sStatus <> 'Active' Or $sWiredTo = '' Or $iWiredToIsID >= 0 Then ContinueLoop
+
+	$iWiredToIndex = _ArraySearch($aAddedPanels, $sWiredTo, 0, 0, 0, 0, 1, 0)
+	$iPanelIndex = _ArraySearch($aAddedPanels, $sID, 0, 0, 0, 0, 1, 0)
+
+	Switch $sSigType
+		Case 'AS-I'
+			$iStyle = 'ASI'
+		Case 'AI'
+			$iStyle = 'Analog'
+		Case 'DO'
+			$iStyle = 'Digital'
+		Case 'DI'
+			$iStyle = 'Digital'
+		Case 'DI/DO'
+			$iStyle = 'Digital'
+		Case 'OEM Provided'
+			$iStyle = 'Unknown'
+		Case 'Ethernet'
+			$iStyle = 'Ethernet'
+		Case 'Load Cell'
+			$iStyle = 'Unknown'
+		Case 'AI/24VDC'
+			$iStyle = 'Analog'
+		Case 'AI/AO'
+			$iStyle = 'Analog'
+		Case 'AI(RTD)'
+			$iStyle = 'Analog'
+		Case '?'
+			$iStyle = 'Unknown'
+		Case 'RTD'
+			$iStyle = 'Analog'
+	EndSwitch
+
+	If $iWiredToIndex < 0 Then
+		$iPanelCount = 0
+		$iPageNum += 1
+		$sBody &= '   </draw:page>'
+		$sBody &= '	<draw:page draw:name="page' & $iPageNum & '" draw:style-name="dp2" draw:master-page-name="Default">'
+
+
+		$iLeft = 1.317 + Mod($iPanelCount, 20) * 1
+		$iTop = 5 + Floor($iPanelCount / 20) * .5
+
+		$sTemp = $sShapeTemplate
+		$sTemp = StringReplace($sTemp, '[ShapeStyle]', 'Panel')
+		$sTemp = StringReplace($sTemp, '[ShapeID]', $sWiredToPretty)
+		$sTemp = StringReplace($sTemp, '[ShapeWidth]', $iWidth & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeHeight]', $iHeight & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeLeft]', $iLeft & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeTop]', $iTop & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeText]', $sWiredTo)
+
+		$sBody &= @CRLF & $sTemp
+
+		$iWiredToIndex = _ArrayAdd($aAddedPanels, $sWiredTo & '|' & $iLeft & '|' & $iTop)
+		$iPanelCount += 1
+	EndIf
+
+	If $iPanelIndex < 0 Then
+		$iLeft = 1.317 + Mod($iPanelCount, 20) * 1
+		$iTop = 5 + Floor($iPanelCount / 20) * .5
+
+		$sTemp = $sShapeTemplate
+		$sTemp = StringReplace($sTemp, '[ShapeStyle]', $iStyle)
+		$sTemp = StringReplace($sTemp, '[ShapeID]', $sIDPretty)
+		$sTemp = StringReplace($sTemp, '[ShapeWidth]', $iWidth & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeHeight]', $iHeight & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeLeft]', $iLeft & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeTop]', $iTop & 'cm')
+		$sTemp = StringReplace($sTemp, '[ShapeText]', $sID)
+
+		$sBody &= @CRLF & $sTemp
+
+		$iPanelIndex = _ArrayAdd($aAddedPanels, $sID & '|' & $iLeft & '|' & $iTop)
+
+		$iPanelCount += 1
+	EndIf
+
+
+
+	$sTemp = $sConnTemplate
+	$sTemp = StringReplace($sTemp, '[ConnStyle]', 'Conn')
+	$sTemp = StringReplace($sTemp, '[ConnLeft1]', ($aAddedPanels[$iPanelIndex][1] + ($iWidth / 2)) & 'cm')
+	$sTemp = StringReplace($sTemp, '[ConnTop1]', ($aAddedPanels[$iPanelIndex][2]) & 'cm')
+	$sTemp = StringReplace($sTemp, '[ConnLeft2]', ($aAddedPanels[$iWiredToIndex][1] + ($iWidth / 2)) & 'cm')
+	$sTemp = StringReplace($sTemp, '[ConnTop2]', ($aAddedPanels[$iWiredToIndex][2] + $iHeight) & 'cm')
+	$sTemp = StringReplace($sTemp, '[ConnShape1]', $sIDPretty)
+	$sTemp = StringReplace($sTemp, '[ConnShape2]', $sWiredToPretty)
+	$sTemp = StringReplace($sTemp, '[ConnText]', $sSigType)
+
+	$sBody &= @CRLF & $sTemp
+;~ 	Exit
+Next
+
+
+$sBody &= '   </draw:page>'
+
+_FileCreate("C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\Block_Diagrams\Trial.fodg")
+FileWrite("C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\Block_Diagrams\Trial.fodg", (StringReplace($sPageTemplate, '[PAGE]', $sBody)))
+
+Func _Exit()
+	Exit
+EndFunc   ;==>_Exit

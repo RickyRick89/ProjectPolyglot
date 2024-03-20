@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--PowerFlex 755 Drive Output Assembly-->
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="31.02" TargetName="P_PF755_Out" TargetType="DataType" ContainsContext="true" Owner="Triplex" ExportDate="Wed Sep 14 08:27:12 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="CA_PROC_5A">
+<DataTypes Use="Context">
+<DataType Use="Target" Name="P_PF755_Out" Family="NoFamily" Class="User">
+<Description>
+<![CDATA[PowerFlex 755 Drive Output Assembly]]>
+</Description>
+<Members>
+<Member Name="LogicCommand" DataType="DINT" Dimension="0" Radix="Binary" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Stop" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Start" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Jog1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_ClearFaults" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Forward" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Reverse" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Manual" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_AccelTime1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="8" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_AccelTime2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="9" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_DecelTime1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="10" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_DecelTime2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="11" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_SpdRefSel0" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="12" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_SpdRefSel1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="13" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_SpdRefSel2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="14" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_CoastStop" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="16" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_CLimitStop" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="17" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Run" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="18" ExternalAccess="Read/Write"/>
+<Member Name="LogicCommand_Jog2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="LogicCommand" BitNumber="19" ExternalAccess="Read/Write"/>
+<Member Name="Reference" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+</Members>
+</DataType>
+</DataTypes>
+</Controller>
+</RSLogix5000Content>

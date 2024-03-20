@@ -1,0 +1,3 @@
+    <draw:connector draw:style-name="gr3" draw:text-style-name="[ConnStyle]" draw:layer="layout" svg:x1="[ConnLeft1]" svg:y1="[ConnTop1]" svg:x2="[ConnLeft2]" svg:y2="[ConnTop2]" draw:start-shape="[ConnShape1]" draw:start-glue-point="0" draw:end-shape="[ConnShape2]" draw:end-glue-point="2" svg:d="M3795 6950v-2657h-1318v-2658" svg:viewBox="0 0 1319 5316">
+     <text:p><text:span text:style-name="T2">[ConnText]</text:span></text:p>
+    </draw:connector>

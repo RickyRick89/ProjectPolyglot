@@ -1,0 +1,2685 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="32.04" TargetName="StatusMonitoring" TargetType="Program" ContainsContext="true" Owner="Triplex" ExportDate="Mon Apr 03 13:59:33 2023" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="MOLA_L01_CLX">
+<DataTypes Use="Context">
+<DataType Name="EnetCommSts" Family="NoFamily" Class="User">
+<Members>
+<Member Name="IP" DataType="SINT" Dimension="256" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write"/>
+</Members>
+</DataType>
+</DataTypes>
+<Modules Use="Context">
+<Module Use="Reference" Name="AB_PLC_5_D3_R1">
+</Module>
+<Module Use="Reference" Name="AB_PLC_5_D3_R2">
+</Module>
+<Module Use="Reference" Name="AB_PLC_5_D3_R3">
+</Module>
+<Module Use="Reference" Name="AB_PLC_5_D4_R1">
+</Module>
+<Module Use="Reference" Name="EC1402">
+</Module>
+<Module Use="Reference" Name="EC1412">
+</Module>
+<Module Use="Reference" Name="EC1422">
+</Module>
+<Module Use="Reference" Name="EC1423">
+</Module>
+<Module Use="Reference" Name="EC1425">
+</Module>
+<Module Use="Reference" Name="EC1442">
+</Module>
+<Module Use="Reference" Name="EC1443">
+</Module>
+<Module Use="Reference" Name="EC1445">
+</Module>
+<Module Use="Reference" Name="EC1509">
+</Module>
+<Module Use="Reference" Name="EC1523">
+</Module>
+<Module Use="Reference" Name="EC1527">
+</Module>
+<Module Use="Reference" Name="EC1551">
+</Module>
+<Module Use="Reference" Name="EC1583">
+</Module>
+<Module Use="Reference" Name="EC1585">
+</Module>
+<Module Use="Reference" Name="EC1586">
+</Module>
+<Module Use="Reference" Name="EC1587">
+</Module>
+<Module Use="Reference" Name="EC1708">
+</Module>
+<Module Use="Reference" Name="EC1709">
+</Module>
+<Module Use="Reference" Name="EC1711">
+</Module>
+<Module Use="Reference" Name="EC1713">
+</Module>
+<Module Use="Reference" Name="EC1717">
+</Module>
+<Module Use="Reference" Name="EC1721">
+</Module>
+<Module Use="Reference" Name="EC1722">
+</Module>
+<Module Use="Reference" Name="EC1727A">
+</Module>
+<Module Use="Reference" Name="EC1727B">
+</Module>
+<Module Use="Reference" Name="EC1736">
+</Module>
+<Module Use="Reference" Name="EC1739">
+</Module>
+<Module Use="Reference" Name="EC8805">
+</Module>
+<Module Use="Reference" Name="EC8810">
+</Module>
+<Module Use="Reference" Name="EC8815">
+</Module>
+<Module Use="Reference" Name="EC8830">
+</Module>
+<Module Use="Reference" Name="L1_Fryer_Point_IO">
+</Module>
+<Module Use="Reference" Name="Line1_2_Blancher_ASM">
+</Module>
+<Module Use="Reference" Name="Line1_Fryer_ASM">
+</Module>
+<Module Use="Reference" Name="WIT1586A">
+</Module>
+</Modules>
+<Tags Use="Context">
+<Tag Name="ENET_A_ModuleSts" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[16384]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="16384"/>
+</Data>
+</Tag>
+<Tag Name="ENET_B_ModuleSts" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</Data>
+</Tag>
+<Tag Name="ENET_C_ModuleSts" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</Data>
+</Tag>
+<Tag Name="Module_Status_A_BTDT" TagType="Base" DataType="FBD_BIT_FIELD_DISTRIBUTE" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[3,16384,12,4,0,0,4]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="FBD_BIT_FIELD_DISTRIBUTE">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Source" DataType="DINT" Radix="Decimal" Value="16384"/>
+<DataValueMember Name="SourceBit" DataType="DINT" Radix="Decimal" Value="12"/>
+<DataValueMember Name="Length" DataType="DINT" Radix="Decimal" Value="4"/>
+<DataValueMember Name="DestBit" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Target" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Dest" DataType="DINT" Radix="Decimal" Value="4"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="Module_Status_B_BTDT" TagType="Base" DataType="FBD_BIT_FIELD_DISTRIBUTE" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[1,0,0,1,0,0,0]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="FBD_BIT_FIELD_DISTRIBUTE">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Source" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="SourceBit" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Length" DataType="DINT" Radix="Decimal" Value="1"/>
+<DataValueMember Name="DestBit" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Target" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Dest" DataType="DINT" Radix="Decimal" Value="0"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="Module_Status_C_BTDT" TagType="Base" DataType="FBD_BIT_FIELD_DISTRIBUTE" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[1,0,0,1,0,0,0]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="FBD_BIT_FIELD_DISTRIBUTE">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Source" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="SourceBit" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Length" DataType="DINT" Radix="Decimal" Value="1"/>
+<DataValueMember Name="DestBit" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Target" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Dest" DataType="DINT" Radix="Decimal" Value="0"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_A" TagType="Base" DataType="EnetCommSts" Constant="false" ExternalAccess="Read/Write">
+<Comments>
+<Comment Operand=".IP[107]">
+<![CDATA[L1_Fryer_Point_IO]]>
+</Comment>
+<Comment Operand=".IP[107].0">
+<![CDATA[L1_Fryer_Point_IO - 1734-AENTR/C Ethernet/IP 
+IP: 10.97.81.107]]>
+</Comment>
+<Comment Operand=".IP[108]">
+<![CDATA[AB_PLC_5_D3_R1]]>
+</Comment>
+<Comment Operand=".IP[108].0">
+<![CDATA[AB_PLC_5_D3_R1 - 1756-EN2T Ethernet/IP 
+IP: 10.97.81.108]]>
+</Comment>
+<Comment Operand=".IP[109]">
+<![CDATA[AB_PLC_5_D3_R2]]>
+</Comment>
+<Comment Operand=".IP[109].0">
+<![CDATA[AB_PLC_5_D3_R2 - 1756-EN2T Ethernet/IP 
+IP: 10.97.81.109]]>
+</Comment>
+<Comment Operand=".IP[110]">
+<![CDATA[AB_PLC_5_D3_R3]]>
+</Comment>
+<Comment Operand=".IP[110].0">
+<![CDATA[AB_PLC_5_D3_R3 - 1756-EN2T Ethernet/IP 
+IP: 10.97.81.110]]>
+</Comment>
+<Comment Operand=".IP[111]">
+<![CDATA[AB_PLC_5_D4_R1]]>
+</Comment>
+<Comment Operand=".IP[111].0">
+<![CDATA[AB_PLC_5_D4_R1 - 1756-EN2T Ethernet/IP 
+IP: 10.97.81.111]]>
+</Comment>
+</Comments>
+<Data Format="L5K">
+<![CDATA[[[0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1
+		,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,6,-1,-1,3,4,4
+		,4,4,-1,6,-1,4,-1,4,-1,4,-1,-1,4,4,-1,4,4,4,4,-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,4,4,4,4,4,4,4,-1,4,-1,-1
+		,-1,4,-1,4,-1,4,-1,4,-1,-1,-1,4,-1,4,4,4,4,4,4,4,4,-1,4,4,4,4,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1
+		,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0]]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="EnetCommSts">
+<ArrayMember Name="IP" DataType="SINT" Dimensions="256" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="-1"/>
+<Element Index="[2]" Value="-1"/>
+<Element Index="[3]" Value="-1"/>
+<Element Index="[4]" Value="-1"/>
+<Element Index="[5]" Value="-1"/>
+<Element Index="[6]" Value="-1"/>
+<Element Index="[7]" Value="-1"/>
+<Element Index="[8]" Value="-1"/>
+<Element Index="[9]" Value="-1"/>
+<Element Index="[10]" Value="-1"/>
+<Element Index="[11]" Value="-1"/>
+<Element Index="[12]" Value="-1"/>
+<Element Index="[13]" Value="-1"/>
+<Element Index="[14]" Value="-1"/>
+<Element Index="[15]" Value="-1"/>
+<Element Index="[16]" Value="-1"/>
+<Element Index="[17]" Value="4"/>
+<Element Index="[18]" Value="-1"/>
+<Element Index="[19]" Value="-1"/>
+<Element Index="[20]" Value="-1"/>
+<Element Index="[21]" Value="-1"/>
+<Element Index="[22]" Value="-1"/>
+<Element Index="[23]" Value="-1"/>
+<Element Index="[24]" Value="-1"/>
+<Element Index="[25]" Value="4"/>
+<Element Index="[26]" Value="4"/>
+<Element Index="[27]" Value="4"/>
+<Element Index="[28]" Value="-1"/>
+<Element Index="[29]" Value="-1"/>
+<Element Index="[30]" Value="-1"/>
+<Element Index="[31]" Value="-1"/>
+<Element Index="[32]" Value="-1"/>
+<Element Index="[33]" Value="-1"/>
+<Element Index="[34]" Value="-1"/>
+<Element Index="[35]" Value="4"/>
+<Element Index="[36]" Value="4"/>
+<Element Index="[37]" Value="4"/>
+<Element Index="[38]" Value="-1"/>
+<Element Index="[39]" Value="-1"/>
+<Element Index="[40]" Value="-1"/>
+<Element Index="[41]" Value="-1"/>
+<Element Index="[42]" Value="-1"/>
+<Element Index="[43]" Value="-1"/>
+<Element Index="[44]" Value="-1"/>
+<Element Index="[45]" Value="4"/>
+<Element Index="[46]" Value="4"/>
+<Element Index="[47]" Value="4"/>
+<Element Index="[48]" Value="-1"/>
+<Element Index="[49]" Value="-1"/>
+<Element Index="[50]" Value="-1"/>
+<Element Index="[51]" Value="-1"/>
+<Element Index="[52]" Value="-1"/>
+<Element Index="[53]" Value="-1"/>
+<Element Index="[54]" Value="-1"/>
+<Element Index="[55]" Value="4"/>
+<Element Index="[56]" Value="4"/>
+<Element Index="[57]" Value="4"/>
+<Element Index="[58]" Value="-1"/>
+<Element Index="[59]" Value="-1"/>
+<Element Index="[60]" Value="-1"/>
+<Element Index="[61]" Value="-1"/>
+<Element Index="[62]" Value="-1"/>
+<Element Index="[63]" Value="-1"/>
+<Element Index="[64]" Value="-1"/>
+<Element Index="[65]" Value="4"/>
+<Element Index="[66]" Value="4"/>
+<Element Index="[67]" Value="4"/>
+<Element Index="[68]" Value="-1"/>
+<Element Index="[69]" Value="-1"/>
+<Element Index="[70]" Value="-1"/>
+<Element Index="[71]" Value="-1"/>
+<Element Index="[72]" Value="-1"/>
+<Element Index="[73]" Value="-1"/>
+<Element Index="[74]" Value="-1"/>
+<Element Index="[75]" Value="4"/>
+<Element Index="[76]" Value="4"/>
+<Element Index="[77]" Value="4"/>
+<Element Index="[78]" Value="-1"/>
+<Element Index="[79]" Value="-1"/>
+<Element Index="[80]" Value="-1"/>
+<Element Index="[81]" Value="-1"/>
+<Element Index="[82]" Value="-1"/>
+<Element Index="[83]" Value="-1"/>
+<Element Index="[84]" Value="-1"/>
+<Element Index="[85]" Value="4"/>
+<Element Index="[86]" Value="4"/>
+<Element Index="[87]" Value="4"/>
+<Element Index="[88]" Value="-1"/>
+<Element Index="[89]" Value="6"/>
+<Element Index="[90]" Value="-1"/>
+<Element Index="[91]" Value="-1"/>
+<Element Index="[92]" Value="3"/>
+<Element Index="[93]" Value="4"/>
+<Element Index="[94]" Value="4"/>
+<Element Index="[95]" Value="4"/>
+<Element Index="[96]" Value="4"/>
+<Element Index="[97]" Value="-1"/>
+<Element Index="[98]" Value="6"/>
+<Element Index="[99]" Value="-1"/>
+<Element Index="[100]" Value="4"/>
+<Element Index="[101]" Value="-1"/>
+<Element Index="[102]" Value="4"/>
+<Element Index="[103]" Value="-1"/>
+<Element Index="[104]" Value="4"/>
+<Element Index="[105]" Value="-1"/>
+<Element Index="[106]" Value="-1"/>
+<Element Index="[107]" Value="4"/>
+<Element Index="[108]" Value="4"/>
+<Element Index="[109]" Value="-1"/>
+<Element Index="[110]" Value="4"/>
+<Element Index="[111]" Value="4"/>
+<Element Index="[112]" Value="4"/>
+<Element Index="[113]" Value="4"/>
+<Element Index="[114]" Value="-1"/>
+<Element Index="[115]" Value="4"/>
+<Element Index="[116]" Value="-1"/>
+<Element Index="[117]" Value="-1"/>
+<Element Index="[118]" Value="-1"/>
+<Element Index="[119]" Value="-1"/>
+<Element Index="[120]" Value="-1"/>
+<Element Index="[121]" Value="-1"/>
+<Element Index="[122]" Value="-1"/>
+<Element Index="[123]" Value="-1"/>
+<Element Index="[124]" Value="-1"/>
+<Element Index="[125]" Value="-1"/>
+<Element Index="[126]" Value="-1"/>
+<Element Index="[127]" Value="-1"/>
+<Element Index="[128]" Value="-1"/>
+<Element Index="[129]" Value="-1"/>
+<Element Index="[130]" Value="-1"/>
+<Element Index="[131]" Value="-1"/>
+<Element Index="[132]" Value="-1"/>
+<Element Index="[133]" Value="-1"/>
+<Element Index="[134]" Value="-1"/>
+<Element Index="[135]" Value="4"/>
+<Element Index="[136]" Value="4"/>
+<Element Index="[137]" Value="4"/>
+<Element Index="[138]" Value="4"/>
+<Element Index="[139]" Value="4"/>
+<Element Index="[140]" Value="4"/>
+<Element Index="[141]" Value="4"/>
+<Element Index="[142]" Value="4"/>
+<Element Index="[143]" Value="-1"/>
+<Element Index="[144]" Value="4"/>
+<Element Index="[145]" Value="-1"/>
+<Element Index="[146]" Value="-1"/>
+<Element Index="[147]" Value="-1"/>
+<Element Index="[148]" Value="4"/>
+<Element Index="[149]" Value="-1"/>
+<Element Index="[150]" Value="4"/>
+<Element Index="[151]" Value="-1"/>
+<Element Index="[152]" Value="4"/>
+<Element Index="[153]" Value="-1"/>
+<Element Index="[154]" Value="4"/>
+<Element Index="[155]" Value="-1"/>
+<Element Index="[156]" Value="-1"/>
+<Element Index="[157]" Value="-1"/>
+<Element Index="[158]" Value="4"/>
+<Element Index="[159]" Value="-1"/>
+<Element Index="[160]" Value="4"/>
+<Element Index="[161]" Value="4"/>
+<Element Index="[162]" Value="4"/>
+<Element Index="[163]" Value="4"/>
+<Element Index="[164]" Value="4"/>
+<Element Index="[165]" Value="4"/>
+<Element Index="[166]" Value="4"/>
+<Element Index="[167]" Value="4"/>
+<Element Index="[168]" Value="-1"/>
+<Element Index="[169]" Value="4"/>
+<Element Index="[170]" Value="4"/>
+<Element Index="[171]" Value="4"/>
+<Element Index="[172]" Value="4"/>
+<Element Index="[173]" Value="4"/>
+<Element Index="[174]" Value="-1"/>
+<Element Index="[175]" Value="-1"/>
+<Element Index="[176]" Value="-1"/>
+<Element Index="[177]" Value="-1"/>
+<Element Index="[178]" Value="-1"/>
+<Element Index="[179]" Value="-1"/>
+<Element Index="[180]" Value="-1"/>
+<Element Index="[181]" Value="-1"/>
+<Element Index="[182]" Value="-1"/>
+<Element Index="[183]" Value="-1"/>
+<Element Index="[184]" Value="-1"/>
+<Element Index="[185]" Value="-1"/>
+<Element Index="[186]" Value="-1"/>
+<Element Index="[187]" Value="-1"/>
+<Element Index="[188]" Value="4"/>
+<Element Index="[189]" Value="4"/>
+<Element Index="[190]" Value="4"/>
+<Element Index="[191]" Value="4"/>
+<Element Index="[192]" Value="-1"/>
+<Element Index="[193]" Value="4"/>
+<Element Index="[194]" Value="-1"/>
+<Element Index="[195]" Value="4"/>
+<Element Index="[196]" Value="4"/>
+<Element Index="[197]" Value="4"/>
+<Element Index="[198]" Value="4"/>
+<Element Index="[199]" Value="-1"/>
+<Element Index="[200]" Value="4"/>
+<Element Index="[201]" Value="-1"/>
+<Element Index="[202]" Value="4"/>
+<Element Index="[203]" Value="4"/>
+<Element Index="[204]" Value="4"/>
+<Element Index="[205]" Value="4"/>
+<Element Index="[206]" Value="-1"/>
+<Element Index="[207]" Value="4"/>
+<Element Index="[208]" Value="-1"/>
+<Element Index="[209]" Value="4"/>
+<Element Index="[210]" Value="4"/>
+<Element Index="[211]" Value="4"/>
+<Element Index="[212]" Value="4"/>
+<Element Index="[213]" Value="-1"/>
+<Element Index="[214]" Value="4"/>
+<Element Index="[215]" Value="-1"/>
+<Element Index="[216]" Value="4"/>
+<Element Index="[217]" Value="4"/>
+<Element Index="[218]" Value="4"/>
+<Element Index="[219]" Value="4"/>
+<Element Index="[220]" Value="-1"/>
+<Element Index="[221]" Value="4"/>
+<Element Index="[222]" Value="-1"/>
+<Element Index="[223]" Value="4"/>
+<Element Index="[224]" Value="4"/>
+<Element Index="[225]" Value="4"/>
+<Element Index="[226]" Value="4"/>
+<Element Index="[227]" Value="-1"/>
+<Element Index="[228]" Value="4"/>
+<Element Index="[229]" Value="-1"/>
+<Element Index="[230]" Value="4"/>
+<Element Index="[231]" Value="4"/>
+<Element Index="[232]" Value="4"/>
+<Element Index="[233]" Value="4"/>
+<Element Index="[234]" Value="4"/>
+<Element Index="[235]" Value="4"/>
+<Element Index="[236]" Value="4"/>
+<Element Index="[237]" Value="4"/>
+<Element Index="[238]" Value="4"/>
+<Element Index="[239]" Value="4"/>
+<Element Index="[240]" Value="4"/>
+<Element Index="[241]" Value="4"/>
+<Element Index="[242]" Value="4"/>
+<Element Index="[243]" Value="4"/>
+<Element Index="[244]" Value="0"/>
+<Element Index="[245]" Value="0"/>
+<Element Index="[246]" Value="0"/>
+<Element Index="[247]" Value="0"/>
+<Element Index="[248]" Value="0"/>
+<Element Index="[249]" Value="0"/>
+<Element Index="[250]" Value="0"/>
+<Element Index="[251]" Value="0"/>
+<Element Index="[252]" Value="0"/>
+<Element Index="[253]" Value="0"/>
+<Element Index="[254]" Value="0"/>
+<Element Index="[255]" Value="0"/>
+</ArrayMember>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_A_Alm" TagType="Base" DataType="BOOL" Dimensions="256" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#1,2#0,2#0,2#1,2#0,2#0,2#0,2#0,2#0,2#1,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0]]]>
+</Data>
+<Data Format="Decorated">
+<Array DataType="BOOL" Dimensions="256" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="0"/>
+<Element Index="[2]" Value="0"/>
+<Element Index="[3]" Value="0"/>
+<Element Index="[4]" Value="0"/>
+<Element Index="[5]" Value="0"/>
+<Element Index="[6]" Value="0"/>
+<Element Index="[7]" Value="0"/>
+<Element Index="[8]" Value="0"/>
+<Element Index="[9]" Value="0"/>
+<Element Index="[10]" Value="0"/>
+<Element Index="[11]" Value="0"/>
+<Element Index="[12]" Value="0"/>
+<Element Index="[13]" Value="0"/>
+<Element Index="[14]" Value="0"/>
+<Element Index="[15]" Value="0"/>
+<Element Index="[16]" Value="0"/>
+<Element Index="[17]" Value="0"/>
+<Element Index="[18]" Value="0"/>
+<Element Index="[19]" Value="0"/>
+<Element Index="[20]" Value="0"/>
+<Element Index="[21]" Value="0"/>
+<Element Index="[22]" Value="0"/>
+<Element Index="[23]" Value="0"/>
+<Element Index="[24]" Value="0"/>
+<Element Index="[25]" Value="0"/>
+<Element Index="[26]" Value="0"/>
+<Element Index="[27]" Value="0"/>
+<Element Index="[28]" Value="0"/>
+<Element Index="[29]" Value="0"/>
+<Element Index="[30]" Value="0"/>
+<Element Index="[31]" Value="0"/>
+<Element Index="[32]" Value="0"/>
+<Element Index="[33]" Value="0"/>
+<Element Index="[34]" Value="0"/>
+<Element Index="[35]" Value="0"/>
+<Element Index="[36]" Value="0"/>
+<Element Index="[37]" Value="0"/>
+<Element Index="[38]" Value="0"/>
+<Element Index="[39]" Value="0"/>
+<Element Index="[40]" Value="0"/>
+<Element Index="[41]" Value="0"/>
+<Element Index="[42]" Value="0"/>
+<Element Index="[43]" Value="0"/>
+<Element Index="[44]" Value="0"/>
+<Element Index="[45]" Value="0"/>
+<Element Index="[46]" Value="0"/>
+<Element Index="[47]" Value="0"/>
+<Element Index="[48]" Value="0"/>
+<Element Index="[49]" Value="0"/>
+<Element Index="[50]" Value="0"/>
+<Element Index="[51]" Value="0"/>
+<Element Index="[52]" Value="0"/>
+<Element Index="[53]" Value="0"/>
+<Element Index="[54]" Value="0"/>
+<Element Index="[55]" Value="0"/>
+<Element Index="[56]" Value="0"/>
+<Element Index="[57]" Value="0"/>
+<Element Index="[58]" Value="0"/>
+<Element Index="[59]" Value="0"/>
+<Element Index="[60]" Value="0"/>
+<Element Index="[61]" Value="0"/>
+<Element Index="[62]" Value="0"/>
+<Element Index="[63]" Value="0"/>
+<Element Index="[64]" Value="0"/>
+<Element Index="[65]" Value="0"/>
+<Element Index="[66]" Value="0"/>
+<Element Index="[67]" Value="0"/>
+<Element Index="[68]" Value="0"/>
+<Element Index="[69]" Value="0"/>
+<Element Index="[70]" Value="0"/>
+<Element Index="[71]" Value="0"/>
+<Element Index="[72]" Value="0"/>
+<Element Index="[73]" Value="0"/>
+<Element Index="[74]" Value="0"/>
+<Element Index="[75]" Value="0"/>
+<Element Index="[76]" Value="0"/>
+<Element Index="[77]" Value="0"/>
+<Element Index="[78]" Value="0"/>
+<Element Index="[79]" Value="0"/>
+<Element Index="[80]" Value="0"/>
+<Element Index="[81]" Value="0"/>
+<Element Index="[82]" Value="0"/>
+<Element Index="[83]" Value="0"/>
+<Element Index="[84]" Value="0"/>
+<Element Index="[85]" Value="0"/>
+<Element Index="[86]" Value="0"/>
+<Element Index="[87]" Value="0"/>
+<Element Index="[88]" Value="0"/>
+<Element Index="[89]" Value="1"/>
+<Element Index="[90]" Value="0"/>
+<Element Index="[91]" Value="0"/>
+<Element Index="[92]" Value="1"/>
+<Element Index="[93]" Value="0"/>
+<Element Index="[94]" Value="0"/>
+<Element Index="[95]" Value="0"/>
+<Element Index="[96]" Value="0"/>
+<Element Index="[97]" Value="0"/>
+<Element Index="[98]" Value="1"/>
+<Element Index="[99]" Value="0"/>
+<Element Index="[100]" Value="0"/>
+<Element Index="[101]" Value="0"/>
+<Element Index="[102]" Value="0"/>
+<Element Index="[103]" Value="0"/>
+<Element Index="[104]" Value="0"/>
+<Element Index="[105]" Value="0"/>
+<Element Index="[106]" Value="0"/>
+<Element Index="[107]" Value="0"/>
+<Element Index="[108]" Value="0"/>
+<Element Index="[109]" Value="0"/>
+<Element Index="[110]" Value="0"/>
+<Element Index="[111]" Value="0"/>
+<Element Index="[112]" Value="0"/>
+<Element Index="[113]" Value="0"/>
+<Element Index="[114]" Value="0"/>
+<Element Index="[115]" Value="0"/>
+<Element Index="[116]" Value="0"/>
+<Element Index="[117]" Value="0"/>
+<Element Index="[118]" Value="0"/>
+<Element Index="[119]" Value="0"/>
+<Element Index="[120]" Value="0"/>
+<Element Index="[121]" Value="0"/>
+<Element Index="[122]" Value="0"/>
+<Element Index="[123]" Value="0"/>
+<Element Index="[124]" Value="0"/>
+<Element Index="[125]" Value="0"/>
+<Element Index="[126]" Value="0"/>
+<Element Index="[127]" Value="0"/>
+<Element Index="[128]" Value="0"/>
+<Element Index="[129]" Value="0"/>
+<Element Index="[130]" Value="0"/>
+<Element Index="[131]" Value="0"/>
+<Element Index="[132]" Value="0"/>
+<Element Index="[133]" Value="0"/>
+<Element Index="[134]" Value="0"/>
+<Element Index="[135]" Value="0"/>
+<Element Index="[136]" Value="0"/>
+<Element Index="[137]" Value="0"/>
+<Element Index="[138]" Value="0"/>
+<Element Index="[139]" Value="0"/>
+<Element Index="[140]" Value="0"/>
+<Element Index="[141]" Value="0"/>
+<Element Index="[142]" Value="0"/>
+<Element Index="[143]" Value="0"/>
+<Element Index="[144]" Value="0"/>
+<Element Index="[145]" Value="0"/>
+<Element Index="[146]" Value="0"/>
+<Element Index="[147]" Value="0"/>
+<Element Index="[148]" Value="0"/>
+<Element Index="[149]" Value="0"/>
+<Element Index="[150]" Value="0"/>
+<Element Index="[151]" Value="0"/>
+<Element Index="[152]" Value="0"/>
+<Element Index="[153]" Value="0"/>
+<Element Index="[154]" Value="0"/>
+<Element Index="[155]" Value="0"/>
+<Element Index="[156]" Value="0"/>
+<Element Index="[157]" Value="0"/>
+<Element Index="[158]" Value="0"/>
+<Element Index="[159]" Value="0"/>
+<Element Index="[160]" Value="0"/>
+<Element Index="[161]" Value="0"/>
+<Element Index="[162]" Value="0"/>
+<Element Index="[163]" Value="0"/>
+<Element Index="[164]" Value="0"/>
+<Element Index="[165]" Value="0"/>
+<Element Index="[166]" Value="0"/>
+<Element Index="[167]" Value="0"/>
+<Element Index="[168]" Value="0"/>
+<Element Index="[169]" Value="0"/>
+<Element Index="[170]" Value="0"/>
+<Element Index="[171]" Value="0"/>
+<Element Index="[172]" Value="0"/>
+<Element Index="[173]" Value="0"/>
+<Element Index="[174]" Value="0"/>
+<Element Index="[175]" Value="0"/>
+<Element Index="[176]" Value="0"/>
+<Element Index="[177]" Value="0"/>
+<Element Index="[178]" Value="0"/>
+<Element Index="[179]" Value="0"/>
+<Element Index="[180]" Value="0"/>
+<Element Index="[181]" Value="0"/>
+<Element Index="[182]" Value="0"/>
+<Element Index="[183]" Value="0"/>
+<Element Index="[184]" Value="0"/>
+<Element Index="[185]" Value="0"/>
+<Element Index="[186]" Value="0"/>
+<Element Index="[187]" Value="0"/>
+<Element Index="[188]" Value="0"/>
+<Element Index="[189]" Value="0"/>
+<Element Index="[190]" Value="0"/>
+<Element Index="[191]" Value="0"/>
+<Element Index="[192]" Value="0"/>
+<Element Index="[193]" Value="0"/>
+<Element Index="[194]" Value="0"/>
+<Element Index="[195]" Value="0"/>
+<Element Index="[196]" Value="0"/>
+<Element Index="[197]" Value="0"/>
+<Element Index="[198]" Value="0"/>
+<Element Index="[199]" Value="0"/>
+<Element Index="[200]" Value="0"/>
+<Element Index="[201]" Value="0"/>
+<Element Index="[202]" Value="0"/>
+<Element Index="[203]" Value="0"/>
+<Element Index="[204]" Value="0"/>
+<Element Index="[205]" Value="0"/>
+<Element Index="[206]" Value="0"/>
+<Element Index="[207]" Value="0"/>
+<Element Index="[208]" Value="0"/>
+<Element Index="[209]" Value="0"/>
+<Element Index="[210]" Value="0"/>
+<Element Index="[211]" Value="0"/>
+<Element Index="[212]" Value="0"/>
+<Element Index="[213]" Value="0"/>
+<Element Index="[214]" Value="0"/>
+<Element Index="[215]" Value="0"/>
+<Element Index="[216]" Value="0"/>
+<Element Index="[217]" Value="0"/>
+<Element Index="[218]" Value="0"/>
+<Element Index="[219]" Value="0"/>
+<Element Index="[220]" Value="0"/>
+<Element Index="[221]" Value="0"/>
+<Element Index="[222]" Value="0"/>
+<Element Index="[223]" Value="0"/>
+<Element Index="[224]" Value="0"/>
+<Element Index="[225]" Value="0"/>
+<Element Index="[226]" Value="0"/>
+<Element Index="[227]" Value="0"/>
+<Element Index="[228]" Value="0"/>
+<Element Index="[229]" Value="0"/>
+<Element Index="[230]" Value="0"/>
+<Element Index="[231]" Value="0"/>
+<Element Index="[232]" Value="0"/>
+<Element Index="[233]" Value="0"/>
+<Element Index="[234]" Value="0"/>
+<Element Index="[235]" Value="0"/>
+<Element Index="[236]" Value="0"/>
+<Element Index="[237]" Value="0"/>
+<Element Index="[238]" Value="0"/>
+<Element Index="[239]" Value="0"/>
+<Element Index="[240]" Value="0"/>
+<Element Index="[241]" Value="0"/>
+<Element Index="[242]" Value="0"/>
+<Element Index="[243]" Value="0"/>
+<Element Index="[244]" Value="0"/>
+<Element Index="[245]" Value="0"/>
+<Element Index="[246]" Value="0"/>
+<Element Index="[247]" Value="0"/>
+<Element Index="[248]" Value="0"/>
+<Element Index="[249]" Value="0"/>
+<Element Index="[250]" Value="0"/>
+<Element Index="[251]" Value="0"/>
+<Element Index="[252]" Value="0"/>
+<Element Index="[253]" Value="0"/>
+<Element Index="[254]" Value="0"/>
+<Element Index="[255]" Value="0"/>
+</Array>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_A_ALMD" TagType="Base" DataType="ALARM_DIGITAL" ExternalAccess="Read/Write">
+<Data Format="Alarm">
+<AlarmDigitalParameters Severity="750" MinDurationPRE="0" ShelveDuration="0" MaxShelveDuration="0" ProgTime="DT#1970-01-01-00:00:00.000_000Z" EnableIn="true" In="false" InFault="false" Condition="true" AckRequired="true" Latched="false"
+ ProgAck="false" OperAck="false" ProgReset="false" OperReset="false" ProgSuppress="false" OperSuppress="false" ProgUnsuppress="false" OperUnsuppress="false" OperShelve="false" ProgUnshelve="false" OperUnshelve="false"
+ ProgDisable="false" OperDisable="false" ProgEnable="false" OperEnable="false" AlarmCountReset="false" UseProgTime="false" AssocTag1="MOLA_L01_IO_A_ModuleName"/>
+<AlarmConfig>
+<Messages>
+<Message Type="AM">
+<Text Lang="en-US">
+<![CDATA[Line 1 PLC - /*S:0 %Tag1*/ Communication Error]]>
+</Text>
+</Message>
+</Messages>
+<AlarmClass>
+<![CDATA[ENET_COMMS]]>
+</AlarmClass>
+</AlarmConfig>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_A_ALMD_In" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_A_ModuleName" TagType="Base" DataType="STRING" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[6,'SC7153CSM8Station$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		]]]>
+</Data>
+<Data Format="String" Length="6">
+<![CDATA['SC7153']]>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_B" TagType="Base" DataType="EnetCommSts" Constant="false" ExternalAccess="Read/Write">
+<Comments>
+<Comment Operand=".IP[31]">
+<![CDATA[EC1509]]>
+</Comment>
+<Comment Operand=".IP[31].0">
+<![CDATA[EC1509 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.31]]>
+</Comment>
+<Comment Operand=".IP[32]">
+<![CDATA[EC1551]]>
+</Comment>
+<Comment Operand=".IP[32].0">
+<![CDATA[EC1551 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.32]]>
+</Comment>
+<Comment Operand=".IP[33]">
+<![CDATA[EC8805]]>
+</Comment>
+<Comment Operand=".IP[33].0">
+<![CDATA[EC8805 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.33]]>
+</Comment>
+<Comment Operand=".IP[34]">
+<![CDATA[EC8810]]>
+</Comment>
+<Comment Operand=".IP[34].0">
+<![CDATA[EC8810 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.34]]>
+</Comment>
+<Comment Operand=".IP[35]">
+<![CDATA[EC8815]]>
+</Comment>
+<Comment Operand=".IP[35].0">
+<![CDATA[EC8815 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.35]]>
+</Comment>
+<Comment Operand=".IP[63]">
+<![CDATA[EC1722]]>
+</Comment>
+<Comment Operand=".IP[63].0">
+<![CDATA[EC1722 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.63]]>
+</Comment>
+<Comment Operand=".IP[95]">
+<![CDATA[EC1402]]>
+</Comment>
+<Comment Operand=".IP[95].0">
+<![CDATA[EC1402 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.95]]>
+</Comment>
+<Comment Operand=".IP[116]">
+<![CDATA[EC1422]]>
+</Comment>
+<Comment Operand=".IP[116].0">
+<![CDATA[EC1422 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.116]]>
+</Comment>
+<Comment Operand=".IP[117]">
+<![CDATA[EC1425]]>
+</Comment>
+<Comment Operand=".IP[117].0">
+<![CDATA[EC1425 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.117]]>
+</Comment>
+<Comment Operand=".IP[118]">
+<![CDATA[EC1423]]>
+</Comment>
+<Comment Operand=".IP[118].0">
+<![CDATA[EC1423 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.118]]>
+</Comment>
+<Comment Operand=".IP[119]">
+<![CDATA[EC1442]]>
+</Comment>
+<Comment Operand=".IP[119].0">
+<![CDATA[EC1442 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.119]]>
+</Comment>
+<Comment Operand=".IP[120]">
+<![CDATA[EC1445]]>
+</Comment>
+<Comment Operand=".IP[120].0">
+<![CDATA[EC1445 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.120]]>
+</Comment>
+<Comment Operand=".IP[121]">
+<![CDATA[EC1443]]>
+</Comment>
+<Comment Operand=".IP[121].0">
+<![CDATA[EC1443 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.121]]>
+</Comment>
+<Comment Operand=".IP[122]">
+<![CDATA[EC1412]]>
+</Comment>
+<Comment Operand=".IP[122].0">
+<![CDATA[EC1412 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.122]]>
+</Comment>
+<Comment Operand=".IP[123]">
+<![CDATA[EC1527]]>
+</Comment>
+<Comment Operand=".IP[123].0">
+<![CDATA[EC1527 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.123]]>
+</Comment>
+<Comment Operand=".IP[124]">
+<![CDATA[EC1523]]>
+</Comment>
+<Comment Operand=".IP[124].0">
+<![CDATA[EC1523 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.124]]>
+</Comment>
+<Comment Operand=".IP[125]">
+<![CDATA[EC1583]]>
+</Comment>
+<Comment Operand=".IP[125].0">
+<![CDATA[EC1583 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.125]]>
+</Comment>
+<Comment Operand=".IP[126]">
+<![CDATA[EC1586]]>
+</Comment>
+<Comment Operand=".IP[126].0">
+<![CDATA[EC1586 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.126]]>
+</Comment>
+<Comment Operand=".IP[127]">
+<![CDATA[EC1587]]>
+</Comment>
+<Comment Operand=".IP[127].0">
+<![CDATA[EC1587 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.127]]>
+</Comment>
+<Comment Operand=".IP[128]">
+<![CDATA[EC1708]]>
+</Comment>
+<Comment Operand=".IP[128].0">
+<![CDATA[EC1708 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.128]]>
+</Comment>
+<Comment Operand=".IP[129]">
+<![CDATA[EC1713]]>
+</Comment>
+<Comment Operand=".IP[129].0">
+<![CDATA[EC1713 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.129]]>
+</Comment>
+<Comment Operand=".IP[130]">
+<![CDATA[EC1711]]>
+</Comment>
+<Comment Operand=".IP[130].0">
+<![CDATA[EC1711 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.130]]>
+</Comment>
+<Comment Operand=".IP[131]">
+<![CDATA[EC1709]]>
+</Comment>
+<Comment Operand=".IP[131].0">
+<![CDATA[EC1709 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.131]]>
+</Comment>
+<Comment Operand=".IP[132]">
+<![CDATA[EC1717]]>
+</Comment>
+<Comment Operand=".IP[132].0">
+<![CDATA[EC1717 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.132]]>
+</Comment>
+<Comment Operand=".IP[133]">
+<![CDATA[EC1721]]>
+</Comment>
+<Comment Operand=".IP[133].0">
+<![CDATA[EC1721 - PowerFlex 753-ENETR Ethernet/IP 
+IP: 10.97.82.133]]>
+</Comment>
+<Comment Operand=".IP[136]">
+<![CDATA[EC1739]]>
+</Comment>
+<Comment Operand=".IP[136].0">
+<![CDATA[EC1739 - PowerFlex 753-ENETR Ethernet/IP 
+IP: 10.97.82.136]]>
+</Comment>
+<Comment Operand=".IP[137]">
+<![CDATA[EC1727A]]>
+</Comment>
+<Comment Operand=".IP[137].0">
+<![CDATA[EC1727A - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.137]]>
+</Comment>
+<Comment Operand=".IP[138]">
+<![CDATA[EC1727B]]>
+</Comment>
+<Comment Operand=".IP[138].0">
+<![CDATA[EC1727B - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.138]]>
+</Comment>
+<Comment Operand=".IP[139]">
+<![CDATA[EC1736]]>
+</Comment>
+<Comment Operand=".IP[139].0">
+<![CDATA[EC1736 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.139]]>
+</Comment>
+<Comment Operand=".IP[149]">
+<![CDATA[EC1585]]>
+</Comment>
+<Comment Operand=".IP[149].0">
+<![CDATA[EC1585 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.149]]>
+</Comment>
+<Comment Operand=".IP[155]">
+<![CDATA[EC8830]]>
+</Comment>
+<Comment Operand=".IP[155].0">
+<![CDATA[EC8830 - ETHERNET-MODULE Ethernet/IP 
+IP: 10.97.82.155]]>
+</Comment>
+</Comments>
+<Data Format="L5K">
+<![CDATA[[[0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1
+		,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,6,-1,-1,3,4,4
+		,4,4,-1,6,-1,4,-1,4,-1,4,-1,-1,4,4,-1,4,4,4,4,-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,4,4,4,4,4,4,4,-1,4,-1,-1
+		,-1,4,-1,4,-1,4,-1,4,-1,-1,-1,4,-1,4,4,4,4,4,4,4,4,-1,4,4,4,4,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1
+		,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0]]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="EnetCommSts">
+<ArrayMember Name="IP" DataType="SINT" Dimensions="256" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="-1"/>
+<Element Index="[2]" Value="-1"/>
+<Element Index="[3]" Value="-1"/>
+<Element Index="[4]" Value="-1"/>
+<Element Index="[5]" Value="-1"/>
+<Element Index="[6]" Value="-1"/>
+<Element Index="[7]" Value="-1"/>
+<Element Index="[8]" Value="-1"/>
+<Element Index="[9]" Value="-1"/>
+<Element Index="[10]" Value="-1"/>
+<Element Index="[11]" Value="-1"/>
+<Element Index="[12]" Value="-1"/>
+<Element Index="[13]" Value="-1"/>
+<Element Index="[14]" Value="-1"/>
+<Element Index="[15]" Value="-1"/>
+<Element Index="[16]" Value="-1"/>
+<Element Index="[17]" Value="4"/>
+<Element Index="[18]" Value="-1"/>
+<Element Index="[19]" Value="-1"/>
+<Element Index="[20]" Value="-1"/>
+<Element Index="[21]" Value="-1"/>
+<Element Index="[22]" Value="-1"/>
+<Element Index="[23]" Value="-1"/>
+<Element Index="[24]" Value="-1"/>
+<Element Index="[25]" Value="4"/>
+<Element Index="[26]" Value="4"/>
+<Element Index="[27]" Value="4"/>
+<Element Index="[28]" Value="-1"/>
+<Element Index="[29]" Value="-1"/>
+<Element Index="[30]" Value="-1"/>
+<Element Index="[31]" Value="-1"/>
+<Element Index="[32]" Value="-1"/>
+<Element Index="[33]" Value="-1"/>
+<Element Index="[34]" Value="-1"/>
+<Element Index="[35]" Value="4"/>
+<Element Index="[36]" Value="4"/>
+<Element Index="[37]" Value="4"/>
+<Element Index="[38]" Value="-1"/>
+<Element Index="[39]" Value="-1"/>
+<Element Index="[40]" Value="-1"/>
+<Element Index="[41]" Value="-1"/>
+<Element Index="[42]" Value="-1"/>
+<Element Index="[43]" Value="-1"/>
+<Element Index="[44]" Value="-1"/>
+<Element Index="[45]" Value="4"/>
+<Element Index="[46]" Value="4"/>
+<Element Index="[47]" Value="4"/>
+<Element Index="[48]" Value="-1"/>
+<Element Index="[49]" Value="-1"/>
+<Element Index="[50]" Value="-1"/>
+<Element Index="[51]" Value="-1"/>
+<Element Index="[52]" Value="-1"/>
+<Element Index="[53]" Value="-1"/>
+<Element Index="[54]" Value="-1"/>
+<Element Index="[55]" Value="4"/>
+<Element Index="[56]" Value="4"/>
+<Element Index="[57]" Value="4"/>
+<Element Index="[58]" Value="-1"/>
+<Element Index="[59]" Value="-1"/>
+<Element Index="[60]" Value="-1"/>
+<Element Index="[61]" Value="-1"/>
+<Element Index="[62]" Value="-1"/>
+<Element Index="[63]" Value="-1"/>
+<Element Index="[64]" Value="-1"/>
+<Element Index="[65]" Value="4"/>
+<Element Index="[66]" Value="4"/>
+<Element Index="[67]" Value="4"/>
+<Element Index="[68]" Value="-1"/>
+<Element Index="[69]" Value="-1"/>
+<Element Index="[70]" Value="-1"/>
+<Element Index="[71]" Value="-1"/>
+<Element Index="[72]" Value="-1"/>
+<Element Index="[73]" Value="-1"/>
+<Element Index="[74]" Value="-1"/>
+<Element Index="[75]" Value="4"/>
+<Element Index="[76]" Value="4"/>
+<Element Index="[77]" Value="4"/>
+<Element Index="[78]" Value="-1"/>
+<Element Index="[79]" Value="-1"/>
+<Element Index="[80]" Value="-1"/>
+<Element Index="[81]" Value="-1"/>
+<Element Index="[82]" Value="-1"/>
+<Element Index="[83]" Value="-1"/>
+<Element Index="[84]" Value="-1"/>
+<Element Index="[85]" Value="4"/>
+<Element Index="[86]" Value="4"/>
+<Element Index="[87]" Value="4"/>
+<Element Index="[88]" Value="-1"/>
+<Element Index="[89]" Value="6"/>
+<Element Index="[90]" Value="-1"/>
+<Element Index="[91]" Value="-1"/>
+<Element Index="[92]" Value="3"/>
+<Element Index="[93]" Value="4"/>
+<Element Index="[94]" Value="4"/>
+<Element Index="[95]" Value="4"/>
+<Element Index="[96]" Value="4"/>
+<Element Index="[97]" Value="-1"/>
+<Element Index="[98]" Value="6"/>
+<Element Index="[99]" Value="-1"/>
+<Element Index="[100]" Value="4"/>
+<Element Index="[101]" Value="-1"/>
+<Element Index="[102]" Value="4"/>
+<Element Index="[103]" Value="-1"/>
+<Element Index="[104]" Value="4"/>
+<Element Index="[105]" Value="-1"/>
+<Element Index="[106]" Value="-1"/>
+<Element Index="[107]" Value="4"/>
+<Element Index="[108]" Value="4"/>
+<Element Index="[109]" Value="-1"/>
+<Element Index="[110]" Value="4"/>
+<Element Index="[111]" Value="4"/>
+<Element Index="[112]" Value="4"/>
+<Element Index="[113]" Value="4"/>
+<Element Index="[114]" Value="-1"/>
+<Element Index="[115]" Value="4"/>
+<Element Index="[116]" Value="-1"/>
+<Element Index="[117]" Value="-1"/>
+<Element Index="[118]" Value="-1"/>
+<Element Index="[119]" Value="-1"/>
+<Element Index="[120]" Value="-1"/>
+<Element Index="[121]" Value="-1"/>
+<Element Index="[122]" Value="-1"/>
+<Element Index="[123]" Value="-1"/>
+<Element Index="[124]" Value="-1"/>
+<Element Index="[125]" Value="-1"/>
+<Element Index="[126]" Value="-1"/>
+<Element Index="[127]" Value="-1"/>
+<Element Index="[128]" Value="-1"/>
+<Element Index="[129]" Value="-1"/>
+<Element Index="[130]" Value="-1"/>
+<Element Index="[131]" Value="-1"/>
+<Element Index="[132]" Value="-1"/>
+<Element Index="[133]" Value="-1"/>
+<Element Index="[134]" Value="-1"/>
+<Element Index="[135]" Value="4"/>
+<Element Index="[136]" Value="4"/>
+<Element Index="[137]" Value="4"/>
+<Element Index="[138]" Value="4"/>
+<Element Index="[139]" Value="4"/>
+<Element Index="[140]" Value="4"/>
+<Element Index="[141]" Value="4"/>
+<Element Index="[142]" Value="4"/>
+<Element Index="[143]" Value="-1"/>
+<Element Index="[144]" Value="4"/>
+<Element Index="[145]" Value="-1"/>
+<Element Index="[146]" Value="-1"/>
+<Element Index="[147]" Value="-1"/>
+<Element Index="[148]" Value="4"/>
+<Element Index="[149]" Value="-1"/>
+<Element Index="[150]" Value="4"/>
+<Element Index="[151]" Value="-1"/>
+<Element Index="[152]" Value="4"/>
+<Element Index="[153]" Value="-1"/>
+<Element Index="[154]" Value="4"/>
+<Element Index="[155]" Value="-1"/>
+<Element Index="[156]" Value="-1"/>
+<Element Index="[157]" Value="-1"/>
+<Element Index="[158]" Value="4"/>
+<Element Index="[159]" Value="-1"/>
+<Element Index="[160]" Value="4"/>
+<Element Index="[161]" Value="4"/>
+<Element Index="[162]" Value="4"/>
+<Element Index="[163]" Value="4"/>
+<Element Index="[164]" Value="4"/>
+<Element Index="[165]" Value="4"/>
+<Element Index="[166]" Value="4"/>
+<Element Index="[167]" Value="4"/>
+<Element Index="[168]" Value="-1"/>
+<Element Index="[169]" Value="4"/>
+<Element Index="[170]" Value="4"/>
+<Element Index="[171]" Value="4"/>
+<Element Index="[172]" Value="4"/>
+<Element Index="[173]" Value="4"/>
+<Element Index="[174]" Value="-1"/>
+<Element Index="[175]" Value="-1"/>
+<Element Index="[176]" Value="-1"/>
+<Element Index="[177]" Value="-1"/>
+<Element Index="[178]" Value="-1"/>
+<Element Index="[179]" Value="-1"/>
+<Element Index="[180]" Value="-1"/>
+<Element Index="[181]" Value="-1"/>
+<Element Index="[182]" Value="-1"/>
+<Element Index="[183]" Value="-1"/>
+<Element Index="[184]" Value="-1"/>
+<Element Index="[185]" Value="-1"/>
+<Element Index="[186]" Value="-1"/>
+<Element Index="[187]" Value="-1"/>
+<Element Index="[188]" Value="4"/>
+<Element Index="[189]" Value="4"/>
+<Element Index="[190]" Value="4"/>
+<Element Index="[191]" Value="4"/>
+<Element Index="[192]" Value="-1"/>
+<Element Index="[193]" Value="4"/>
+<Element Index="[194]" Value="-1"/>
+<Element Index="[195]" Value="4"/>
+<Element Index="[196]" Value="4"/>
+<Element Index="[197]" Value="4"/>
+<Element Index="[198]" Value="4"/>
+<Element Index="[199]" Value="-1"/>
+<Element Index="[200]" Value="4"/>
+<Element Index="[201]" Value="-1"/>
+<Element Index="[202]" Value="4"/>
+<Element Index="[203]" Value="4"/>
+<Element Index="[204]" Value="4"/>
+<Element Index="[205]" Value="4"/>
+<Element Index="[206]" Value="-1"/>
+<Element Index="[207]" Value="4"/>
+<Element Index="[208]" Value="-1"/>
+<Element Index="[209]" Value="4"/>
+<Element Index="[210]" Value="4"/>
+<Element Index="[211]" Value="4"/>
+<Element Index="[212]" Value="4"/>
+<Element Index="[213]" Value="-1"/>
+<Element Index="[214]" Value="4"/>
+<Element Index="[215]" Value="-1"/>
+<Element Index="[216]" Value="4"/>
+<Element Index="[217]" Value="4"/>
+<Element Index="[218]" Value="4"/>
+<Element Index="[219]" Value="4"/>
+<Element Index="[220]" Value="-1"/>
+<Element Index="[221]" Value="4"/>
+<Element Index="[222]" Value="-1"/>
+<Element Index="[223]" Value="4"/>
+<Element Index="[224]" Value="4"/>
+<Element Index="[225]" Value="4"/>
+<Element Index="[226]" Value="4"/>
+<Element Index="[227]" Value="-1"/>
+<Element Index="[228]" Value="4"/>
+<Element Index="[229]" Value="-1"/>
+<Element Index="[230]" Value="4"/>
+<Element Index="[231]" Value="4"/>
+<Element Index="[232]" Value="4"/>
+<Element Index="[233]" Value="4"/>
+<Element Index="[234]" Value="4"/>
+<Element Index="[235]" Value="4"/>
+<Element Index="[236]" Value="4"/>
+<Element Index="[237]" Value="4"/>
+<Element Index="[238]" Value="4"/>
+<Element Index="[239]" Value="4"/>
+<Element Index="[240]" Value="4"/>
+<Element Index="[241]" Value="4"/>
+<Element Index="[242]" Value="4"/>
+<Element Index="[243]" Value="4"/>
+<Element Index="[244]" Value="0"/>
+<Element Index="[245]" Value="0"/>
+<Element Index="[246]" Value="0"/>
+<Element Index="[247]" Value="0"/>
+<Element Index="[248]" Value="0"/>
+<Element Index="[249]" Value="0"/>
+<Element Index="[250]" Value="0"/>
+<Element Index="[251]" Value="0"/>
+<Element Index="[252]" Value="0"/>
+<Element Index="[253]" Value="0"/>
+<Element Index="[254]" Value="0"/>
+<Element Index="[255]" Value="0"/>
+</ArrayMember>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_B_Alm" TagType="Base" DataType="BOOL" Dimensions="256" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#1,2#0,2#0,2#1,2#0,2#0,2#0,2#0,2#0,2#1,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0]]]>
+</Data>
+<Data Format="Decorated">
+<Array DataType="BOOL" Dimensions="256" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="0"/>
+<Element Index="[2]" Value="0"/>
+<Element Index="[3]" Value="0"/>
+<Element Index="[4]" Value="0"/>
+<Element Index="[5]" Value="0"/>
+<Element Index="[6]" Value="0"/>
+<Element Index="[7]" Value="0"/>
+<Element Index="[8]" Value="0"/>
+<Element Index="[9]" Value="0"/>
+<Element Index="[10]" Value="0"/>
+<Element Index="[11]" Value="0"/>
+<Element Index="[12]" Value="0"/>
+<Element Index="[13]" Value="0"/>
+<Element Index="[14]" Value="0"/>
+<Element Index="[15]" Value="0"/>
+<Element Index="[16]" Value="0"/>
+<Element Index="[17]" Value="0"/>
+<Element Index="[18]" Value="0"/>
+<Element Index="[19]" Value="0"/>
+<Element Index="[20]" Value="0"/>
+<Element Index="[21]" Value="0"/>
+<Element Index="[22]" Value="0"/>
+<Element Index="[23]" Value="0"/>
+<Element Index="[24]" Value="0"/>
+<Element Index="[25]" Value="0"/>
+<Element Index="[26]" Value="0"/>
+<Element Index="[27]" Value="0"/>
+<Element Index="[28]" Value="0"/>
+<Element Index="[29]" Value="0"/>
+<Element Index="[30]" Value="0"/>
+<Element Index="[31]" Value="0"/>
+<Element Index="[32]" Value="0"/>
+<Element Index="[33]" Value="0"/>
+<Element Index="[34]" Value="0"/>
+<Element Index="[35]" Value="0"/>
+<Element Index="[36]" Value="0"/>
+<Element Index="[37]" Value="0"/>
+<Element Index="[38]" Value="0"/>
+<Element Index="[39]" Value="0"/>
+<Element Index="[40]" Value="0"/>
+<Element Index="[41]" Value="0"/>
+<Element Index="[42]" Value="0"/>
+<Element Index="[43]" Value="0"/>
+<Element Index="[44]" Value="0"/>
+<Element Index="[45]" Value="0"/>
+<Element Index="[46]" Value="0"/>
+<Element Index="[47]" Value="0"/>
+<Element Index="[48]" Value="0"/>
+<Element Index="[49]" Value="0"/>
+<Element Index="[50]" Value="0"/>
+<Element Index="[51]" Value="0"/>
+<Element Index="[52]" Value="0"/>
+<Element Index="[53]" Value="0"/>
+<Element Index="[54]" Value="0"/>
+<Element Index="[55]" Value="0"/>
+<Element Index="[56]" Value="0"/>
+<Element Index="[57]" Value="0"/>
+<Element Index="[58]" Value="0"/>
+<Element Index="[59]" Value="0"/>
+<Element Index="[60]" Value="0"/>
+<Element Index="[61]" Value="0"/>
+<Element Index="[62]" Value="0"/>
+<Element Index="[63]" Value="0"/>
+<Element Index="[64]" Value="0"/>
+<Element Index="[65]" Value="0"/>
+<Element Index="[66]" Value="0"/>
+<Element Index="[67]" Value="0"/>
+<Element Index="[68]" Value="0"/>
+<Element Index="[69]" Value="0"/>
+<Element Index="[70]" Value="0"/>
+<Element Index="[71]" Value="0"/>
+<Element Index="[72]" Value="0"/>
+<Element Index="[73]" Value="0"/>
+<Element Index="[74]" Value="0"/>
+<Element Index="[75]" Value="0"/>
+<Element Index="[76]" Value="0"/>
+<Element Index="[77]" Value="0"/>
+<Element Index="[78]" Value="0"/>
+<Element Index="[79]" Value="0"/>
+<Element Index="[80]" Value="0"/>
+<Element Index="[81]" Value="0"/>
+<Element Index="[82]" Value="0"/>
+<Element Index="[83]" Value="0"/>
+<Element Index="[84]" Value="0"/>
+<Element Index="[85]" Value="0"/>
+<Element Index="[86]" Value="0"/>
+<Element Index="[87]" Value="0"/>
+<Element Index="[88]" Value="0"/>
+<Element Index="[89]" Value="1"/>
+<Element Index="[90]" Value="0"/>
+<Element Index="[91]" Value="0"/>
+<Element Index="[92]" Value="1"/>
+<Element Index="[93]" Value="0"/>
+<Element Index="[94]" Value="0"/>
+<Element Index="[95]" Value="0"/>
+<Element Index="[96]" Value="0"/>
+<Element Index="[97]" Value="0"/>
+<Element Index="[98]" Value="1"/>
+<Element Index="[99]" Value="0"/>
+<Element Index="[100]" Value="0"/>
+<Element Index="[101]" Value="0"/>
+<Element Index="[102]" Value="0"/>
+<Element Index="[103]" Value="0"/>
+<Element Index="[104]" Value="0"/>
+<Element Index="[105]" Value="0"/>
+<Element Index="[106]" Value="0"/>
+<Element Index="[107]" Value="0"/>
+<Element Index="[108]" Value="0"/>
+<Element Index="[109]" Value="0"/>
+<Element Index="[110]" Value="0"/>
+<Element Index="[111]" Value="0"/>
+<Element Index="[112]" Value="0"/>
+<Element Index="[113]" Value="0"/>
+<Element Index="[114]" Value="0"/>
+<Element Index="[115]" Value="0"/>
+<Element Index="[116]" Value="0"/>
+<Element Index="[117]" Value="0"/>
+<Element Index="[118]" Value="0"/>
+<Element Index="[119]" Value="0"/>
+<Element Index="[120]" Value="0"/>
+<Element Index="[121]" Value="0"/>
+<Element Index="[122]" Value="0"/>
+<Element Index="[123]" Value="0"/>
+<Element Index="[124]" Value="0"/>
+<Element Index="[125]" Value="0"/>
+<Element Index="[126]" Value="0"/>
+<Element Index="[127]" Value="0"/>
+<Element Index="[128]" Value="0"/>
+<Element Index="[129]" Value="0"/>
+<Element Index="[130]" Value="0"/>
+<Element Index="[131]" Value="0"/>
+<Element Index="[132]" Value="0"/>
+<Element Index="[133]" Value="0"/>
+<Element Index="[134]" Value="0"/>
+<Element Index="[135]" Value="0"/>
+<Element Index="[136]" Value="0"/>
+<Element Index="[137]" Value="0"/>
+<Element Index="[138]" Value="0"/>
+<Element Index="[139]" Value="0"/>
+<Element Index="[140]" Value="0"/>
+<Element Index="[141]" Value="0"/>
+<Element Index="[142]" Value="0"/>
+<Element Index="[143]" Value="0"/>
+<Element Index="[144]" Value="0"/>
+<Element Index="[145]" Value="0"/>
+<Element Index="[146]" Value="0"/>
+<Element Index="[147]" Value="0"/>
+<Element Index="[148]" Value="0"/>
+<Element Index="[149]" Value="0"/>
+<Element Index="[150]" Value="0"/>
+<Element Index="[151]" Value="0"/>
+<Element Index="[152]" Value="0"/>
+<Element Index="[153]" Value="0"/>
+<Element Index="[154]" Value="0"/>
+<Element Index="[155]" Value="0"/>
+<Element Index="[156]" Value="0"/>
+<Element Index="[157]" Value="0"/>
+<Element Index="[158]" Value="0"/>
+<Element Index="[159]" Value="0"/>
+<Element Index="[160]" Value="0"/>
+<Element Index="[161]" Value="0"/>
+<Element Index="[162]" Value="0"/>
+<Element Index="[163]" Value="0"/>
+<Element Index="[164]" Value="0"/>
+<Element Index="[165]" Value="0"/>
+<Element Index="[166]" Value="0"/>
+<Element Index="[167]" Value="0"/>
+<Element Index="[168]" Value="0"/>
+<Element Index="[169]" Value="0"/>
+<Element Index="[170]" Value="0"/>
+<Element Index="[171]" Value="0"/>
+<Element Index="[172]" Value="0"/>
+<Element Index="[173]" Value="0"/>
+<Element Index="[174]" Value="0"/>
+<Element Index="[175]" Value="0"/>
+<Element Index="[176]" Value="0"/>
+<Element Index="[177]" Value="0"/>
+<Element Index="[178]" Value="0"/>
+<Element Index="[179]" Value="0"/>
+<Element Index="[180]" Value="0"/>
+<Element Index="[181]" Value="0"/>
+<Element Index="[182]" Value="0"/>
+<Element Index="[183]" Value="0"/>
+<Element Index="[184]" Value="0"/>
+<Element Index="[185]" Value="0"/>
+<Element Index="[186]" Value="0"/>
+<Element Index="[187]" Value="0"/>
+<Element Index="[188]" Value="0"/>
+<Element Index="[189]" Value="0"/>
+<Element Index="[190]" Value="0"/>
+<Element Index="[191]" Value="0"/>
+<Element Index="[192]" Value="0"/>
+<Element Index="[193]" Value="0"/>
+<Element Index="[194]" Value="0"/>
+<Element Index="[195]" Value="0"/>
+<Element Index="[196]" Value="0"/>
+<Element Index="[197]" Value="0"/>
+<Element Index="[198]" Value="0"/>
+<Element Index="[199]" Value="0"/>
+<Element Index="[200]" Value="0"/>
+<Element Index="[201]" Value="0"/>
+<Element Index="[202]" Value="0"/>
+<Element Index="[203]" Value="0"/>
+<Element Index="[204]" Value="0"/>
+<Element Index="[205]" Value="0"/>
+<Element Index="[206]" Value="0"/>
+<Element Index="[207]" Value="0"/>
+<Element Index="[208]" Value="0"/>
+<Element Index="[209]" Value="0"/>
+<Element Index="[210]" Value="0"/>
+<Element Index="[211]" Value="0"/>
+<Element Index="[212]" Value="0"/>
+<Element Index="[213]" Value="0"/>
+<Element Index="[214]" Value="0"/>
+<Element Index="[215]" Value="0"/>
+<Element Index="[216]" Value="0"/>
+<Element Index="[217]" Value="0"/>
+<Element Index="[218]" Value="0"/>
+<Element Index="[219]" Value="0"/>
+<Element Index="[220]" Value="0"/>
+<Element Index="[221]" Value="0"/>
+<Element Index="[222]" Value="0"/>
+<Element Index="[223]" Value="0"/>
+<Element Index="[224]" Value="0"/>
+<Element Index="[225]" Value="0"/>
+<Element Index="[226]" Value="0"/>
+<Element Index="[227]" Value="0"/>
+<Element Index="[228]" Value="0"/>
+<Element Index="[229]" Value="0"/>
+<Element Index="[230]" Value="0"/>
+<Element Index="[231]" Value="0"/>
+<Element Index="[232]" Value="0"/>
+<Element Index="[233]" Value="0"/>
+<Element Index="[234]" Value="0"/>
+<Element Index="[235]" Value="0"/>
+<Element Index="[236]" Value="0"/>
+<Element Index="[237]" Value="0"/>
+<Element Index="[238]" Value="0"/>
+<Element Index="[239]" Value="0"/>
+<Element Index="[240]" Value="0"/>
+<Element Index="[241]" Value="0"/>
+<Element Index="[242]" Value="0"/>
+<Element Index="[243]" Value="0"/>
+<Element Index="[244]" Value="0"/>
+<Element Index="[245]" Value="0"/>
+<Element Index="[246]" Value="0"/>
+<Element Index="[247]" Value="0"/>
+<Element Index="[248]" Value="0"/>
+<Element Index="[249]" Value="0"/>
+<Element Index="[250]" Value="0"/>
+<Element Index="[251]" Value="0"/>
+<Element Index="[252]" Value="0"/>
+<Element Index="[253]" Value="0"/>
+<Element Index="[254]" Value="0"/>
+<Element Index="[255]" Value="0"/>
+</Array>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_B_ALMD" TagType="Base" DataType="ALARM_DIGITAL" ExternalAccess="Read/Write">
+<Data Format="Alarm">
+<AlarmDigitalParameters Severity="750" MinDurationPRE="0" ShelveDuration="0" MaxShelveDuration="0" ProgTime="DT#1970-01-01-00:00:00.000_000Z" EnableIn="true" In="false" InFault="false" Condition="true" AckRequired="true" Latched="false"
+ ProgAck="false" OperAck="false" ProgReset="false" OperReset="false" ProgSuppress="false" OperSuppress="false" ProgUnsuppress="false" OperUnsuppress="false" OperShelve="false" ProgUnshelve="false" OperUnshelve="false"
+ ProgDisable="false" OperDisable="false" ProgEnable="false" OperEnable="false" AlarmCountReset="false" UseProgTime="false" AssocTag1="MOLA_L01_IO_B_ModuleName"/>
+<AlarmConfig>
+<Messages>
+<Message Type="AM">
+<Text Lang="en-US">
+<![CDATA[Line 1 PLC - /*S:0 %Tag1*/ Communication Error]]>
+</Text>
+</Message>
+</Messages>
+<AlarmClass>
+<![CDATA[ENET_COMMS]]>
+</AlarmClass>
+</AlarmConfig>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_B_ALMD_In" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_B_ModuleName" TagType="Base" DataType="STRING" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[6,'SC7153CSM8Station$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		]]]>
+</Data>
+<Data Format="String" Length="6">
+<![CDATA['SC7153']]>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_C" TagType="Base" DataType="EnetCommSts" Constant="false" ExternalAccess="Read/Write">
+<Comments>
+<Comment Operand=".IP[28]">
+<![CDATA[WIT1586A]]>
+</Comment>
+<Comment Operand=".IP[28].0">
+<![CDATA[WIT1586A - TLB-RE/EIS Ethernet/IP 
+IP: 10.97.85.28]]>
+</Comment>
+<Comment Operand=".IP[31]">
+<![CDATA[Line1_Fryer_ASM]]>
+</Comment>
+<Comment Operand=".IP[31].0">
+<![CDATA[Line1_Fryer_ASM - AC1422 Ethernet/IP 
+IP: 10.97.85.31]]>
+</Comment>
+<Comment Operand=".IP[32]">
+<![CDATA[Line1_Blancher_ASM]]>
+</Comment>
+<Comment Operand=".IP[32].0">
+<![CDATA[Line1_2_Blancher_ASM - AC1422 Ethernet/IP 
+IP: 10.97.85.32]]>
+</Comment>
+</Comments>
+<Data Format="L5K">
+<![CDATA[[[0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1
+		,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,-1,-1,-1,-1,-1,-1,4,4,4,-1,6,-1,-1,3,4,4
+		,4,4,-1,6,-1,4,-1,4,-1,4,-1,-1,4,4,-1,4,4,4,4,-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,4,4,4,4,4,4,4,-1,4,-1,-1
+		,-1,4,-1,4,-1,4,-1,4,-1,-1,-1,4,-1,4,4,4,4,4,4,4,4,-1,4,4,4,4,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1
+		,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,-1,4,-1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0]]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="EnetCommSts">
+<ArrayMember Name="IP" DataType="SINT" Dimensions="256" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="-1"/>
+<Element Index="[2]" Value="-1"/>
+<Element Index="[3]" Value="-1"/>
+<Element Index="[4]" Value="-1"/>
+<Element Index="[5]" Value="-1"/>
+<Element Index="[6]" Value="-1"/>
+<Element Index="[7]" Value="-1"/>
+<Element Index="[8]" Value="-1"/>
+<Element Index="[9]" Value="-1"/>
+<Element Index="[10]" Value="-1"/>
+<Element Index="[11]" Value="-1"/>
+<Element Index="[12]" Value="-1"/>
+<Element Index="[13]" Value="-1"/>
+<Element Index="[14]" Value="-1"/>
+<Element Index="[15]" Value="-1"/>
+<Element Index="[16]" Value="-1"/>
+<Element Index="[17]" Value="4"/>
+<Element Index="[18]" Value="-1"/>
+<Element Index="[19]" Value="-1"/>
+<Element Index="[20]" Value="-1"/>
+<Element Index="[21]" Value="-1"/>
+<Element Index="[22]" Value="-1"/>
+<Element Index="[23]" Value="-1"/>
+<Element Index="[24]" Value="-1"/>
+<Element Index="[25]" Value="4"/>
+<Element Index="[26]" Value="4"/>
+<Element Index="[27]" Value="4"/>
+<Element Index="[28]" Value="-1"/>
+<Element Index="[29]" Value="-1"/>
+<Element Index="[30]" Value="-1"/>
+<Element Index="[31]" Value="-1"/>
+<Element Index="[32]" Value="-1"/>
+<Element Index="[33]" Value="-1"/>
+<Element Index="[34]" Value="-1"/>
+<Element Index="[35]" Value="4"/>
+<Element Index="[36]" Value="4"/>
+<Element Index="[37]" Value="4"/>
+<Element Index="[38]" Value="-1"/>
+<Element Index="[39]" Value="-1"/>
+<Element Index="[40]" Value="-1"/>
+<Element Index="[41]" Value="-1"/>
+<Element Index="[42]" Value="-1"/>
+<Element Index="[43]" Value="-1"/>
+<Element Index="[44]" Value="-1"/>
+<Element Index="[45]" Value="4"/>
+<Element Index="[46]" Value="4"/>
+<Element Index="[47]" Value="4"/>
+<Element Index="[48]" Value="-1"/>
+<Element Index="[49]" Value="-1"/>
+<Element Index="[50]" Value="-1"/>
+<Element Index="[51]" Value="-1"/>
+<Element Index="[52]" Value="-1"/>
+<Element Index="[53]" Value="-1"/>
+<Element Index="[54]" Value="-1"/>
+<Element Index="[55]" Value="4"/>
+<Element Index="[56]" Value="4"/>
+<Element Index="[57]" Value="4"/>
+<Element Index="[58]" Value="-1"/>
+<Element Index="[59]" Value="-1"/>
+<Element Index="[60]" Value="-1"/>
+<Element Index="[61]" Value="-1"/>
+<Element Index="[62]" Value="-1"/>
+<Element Index="[63]" Value="-1"/>
+<Element Index="[64]" Value="-1"/>
+<Element Index="[65]" Value="4"/>
+<Element Index="[66]" Value="4"/>
+<Element Index="[67]" Value="4"/>
+<Element Index="[68]" Value="-1"/>
+<Element Index="[69]" Value="-1"/>
+<Element Index="[70]" Value="-1"/>
+<Element Index="[71]" Value="-1"/>
+<Element Index="[72]" Value="-1"/>
+<Element Index="[73]" Value="-1"/>
+<Element Index="[74]" Value="-1"/>
+<Element Index="[75]" Value="4"/>
+<Element Index="[76]" Value="4"/>
+<Element Index="[77]" Value="4"/>
+<Element Index="[78]" Value="-1"/>
+<Element Index="[79]" Value="-1"/>
+<Element Index="[80]" Value="-1"/>
+<Element Index="[81]" Value="-1"/>
+<Element Index="[82]" Value="-1"/>
+<Element Index="[83]" Value="-1"/>
+<Element Index="[84]" Value="-1"/>
+<Element Index="[85]" Value="4"/>
+<Element Index="[86]" Value="4"/>
+<Element Index="[87]" Value="4"/>
+<Element Index="[88]" Value="-1"/>
+<Element Index="[89]" Value="6"/>
+<Element Index="[90]" Value="-1"/>
+<Element Index="[91]" Value="-1"/>
+<Element Index="[92]" Value="3"/>
+<Element Index="[93]" Value="4"/>
+<Element Index="[94]" Value="4"/>
+<Element Index="[95]" Value="4"/>
+<Element Index="[96]" Value="4"/>
+<Element Index="[97]" Value="-1"/>
+<Element Index="[98]" Value="6"/>
+<Element Index="[99]" Value="-1"/>
+<Element Index="[100]" Value="4"/>
+<Element Index="[101]" Value="-1"/>
+<Element Index="[102]" Value="4"/>
+<Element Index="[103]" Value="-1"/>
+<Element Index="[104]" Value="4"/>
+<Element Index="[105]" Value="-1"/>
+<Element Index="[106]" Value="-1"/>
+<Element Index="[107]" Value="4"/>
+<Element Index="[108]" Value="4"/>
+<Element Index="[109]" Value="-1"/>
+<Element Index="[110]" Value="4"/>
+<Element Index="[111]" Value="4"/>
+<Element Index="[112]" Value="4"/>
+<Element Index="[113]" Value="4"/>
+<Element Index="[114]" Value="-1"/>
+<Element Index="[115]" Value="4"/>
+<Element Index="[116]" Value="-1"/>
+<Element Index="[117]" Value="-1"/>
+<Element Index="[118]" Value="-1"/>
+<Element Index="[119]" Value="-1"/>
+<Element Index="[120]" Value="-1"/>
+<Element Index="[121]" Value="-1"/>
+<Element Index="[122]" Value="-1"/>
+<Element Index="[123]" Value="-1"/>
+<Element Index="[124]" Value="-1"/>
+<Element Index="[125]" Value="-1"/>
+<Element Index="[126]" Value="-1"/>
+<Element Index="[127]" Value="-1"/>
+<Element Index="[128]" Value="-1"/>
+<Element Index="[129]" Value="-1"/>
+<Element Index="[130]" Value="-1"/>
+<Element Index="[131]" Value="-1"/>
+<Element Index="[132]" Value="-1"/>
+<Element Index="[133]" Value="-1"/>
+<Element Index="[134]" Value="-1"/>
+<Element Index="[135]" Value="4"/>
+<Element Index="[136]" Value="4"/>
+<Element Index="[137]" Value="4"/>
+<Element Index="[138]" Value="4"/>
+<Element Index="[139]" Value="4"/>
+<Element Index="[140]" Value="4"/>
+<Element Index="[141]" Value="4"/>
+<Element Index="[142]" Value="4"/>
+<Element Index="[143]" Value="-1"/>
+<Element Index="[144]" Value="4"/>
+<Element Index="[145]" Value="-1"/>
+<Element Index="[146]" Value="-1"/>
+<Element Index="[147]" Value="-1"/>
+<Element Index="[148]" Value="4"/>
+<Element Index="[149]" Value="-1"/>
+<Element Index="[150]" Value="4"/>
+<Element Index="[151]" Value="-1"/>
+<Element Index="[152]" Value="4"/>
+<Element Index="[153]" Value="-1"/>
+<Element Index="[154]" Value="4"/>
+<Element Index="[155]" Value="-1"/>
+<Element Index="[156]" Value="-1"/>
+<Element Index="[157]" Value="-1"/>
+<Element Index="[158]" Value="4"/>
+<Element Index="[159]" Value="-1"/>
+<Element Index="[160]" Value="4"/>
+<Element Index="[161]" Value="4"/>
+<Element Index="[162]" Value="4"/>
+<Element Index="[163]" Value="4"/>
+<Element Index="[164]" Value="4"/>
+<Element Index="[165]" Value="4"/>
+<Element Index="[166]" Value="4"/>
+<Element Index="[167]" Value="4"/>
+<Element Index="[168]" Value="-1"/>
+<Element Index="[169]" Value="4"/>
+<Element Index="[170]" Value="4"/>
+<Element Index="[171]" Value="4"/>
+<Element Index="[172]" Value="4"/>
+<Element Index="[173]" Value="4"/>
+<Element Index="[174]" Value="-1"/>
+<Element Index="[175]" Value="-1"/>
+<Element Index="[176]" Value="-1"/>
+<Element Index="[177]" Value="-1"/>
+<Element Index="[178]" Value="-1"/>
+<Element Index="[179]" Value="-1"/>
+<Element Index="[180]" Value="-1"/>
+<Element Index="[181]" Value="-1"/>
+<Element Index="[182]" Value="-1"/>
+<Element Index="[183]" Value="-1"/>
+<Element Index="[184]" Value="-1"/>
+<Element Index="[185]" Value="-1"/>
+<Element Index="[186]" Value="-1"/>
+<Element Index="[187]" Value="-1"/>
+<Element Index="[188]" Value="4"/>
+<Element Index="[189]" Value="4"/>
+<Element Index="[190]" Value="4"/>
+<Element Index="[191]" Value="4"/>
+<Element Index="[192]" Value="-1"/>
+<Element Index="[193]" Value="4"/>
+<Element Index="[194]" Value="-1"/>
+<Element Index="[195]" Value="4"/>
+<Element Index="[196]" Value="4"/>
+<Element Index="[197]" Value="4"/>
+<Element Index="[198]" Value="4"/>
+<Element Index="[199]" Value="-1"/>
+<Element Index="[200]" Value="4"/>
+<Element Index="[201]" Value="-1"/>
+<Element Index="[202]" Value="4"/>
+<Element Index="[203]" Value="4"/>
+<Element Index="[204]" Value="4"/>
+<Element Index="[205]" Value="4"/>
+<Element Index="[206]" Value="-1"/>
+<Element Index="[207]" Value="4"/>
+<Element Index="[208]" Value="-1"/>
+<Element Index="[209]" Value="4"/>
+<Element Index="[210]" Value="4"/>
+<Element Index="[211]" Value="4"/>
+<Element Index="[212]" Value="4"/>
+<Element Index="[213]" Value="-1"/>
+<Element Index="[214]" Value="4"/>
+<Element Index="[215]" Value="-1"/>
+<Element Index="[216]" Value="4"/>
+<Element Index="[217]" Value="4"/>
+<Element Index="[218]" Value="4"/>
+<Element Index="[219]" Value="4"/>
+<Element Index="[220]" Value="-1"/>
+<Element Index="[221]" Value="4"/>
+<Element Index="[222]" Value="-1"/>
+<Element Index="[223]" Value="4"/>
+<Element Index="[224]" Value="4"/>
+<Element Index="[225]" Value="4"/>
+<Element Index="[226]" Value="4"/>
+<Element Index="[227]" Value="-1"/>
+<Element Index="[228]" Value="4"/>
+<Element Index="[229]" Value="-1"/>
+<Element Index="[230]" Value="4"/>
+<Element Index="[231]" Value="4"/>
+<Element Index="[232]" Value="4"/>
+<Element Index="[233]" Value="4"/>
+<Element Index="[234]" Value="4"/>
+<Element Index="[235]" Value="4"/>
+<Element Index="[236]" Value="4"/>
+<Element Index="[237]" Value="4"/>
+<Element Index="[238]" Value="4"/>
+<Element Index="[239]" Value="4"/>
+<Element Index="[240]" Value="4"/>
+<Element Index="[241]" Value="4"/>
+<Element Index="[242]" Value="4"/>
+<Element Index="[243]" Value="4"/>
+<Element Index="[244]" Value="0"/>
+<Element Index="[245]" Value="0"/>
+<Element Index="[246]" Value="0"/>
+<Element Index="[247]" Value="0"/>
+<Element Index="[248]" Value="0"/>
+<Element Index="[249]" Value="0"/>
+<Element Index="[250]" Value="0"/>
+<Element Index="[251]" Value="0"/>
+<Element Index="[252]" Value="0"/>
+<Element Index="[253]" Value="0"/>
+<Element Index="[254]" Value="0"/>
+<Element Index="[255]" Value="0"/>
+</ArrayMember>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_C_Alm" TagType="Base" DataType="BOOL" Dimensions="256" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#1,2#0,2#0,2#1,2#0,2#0,2#0,2#0,2#0,2#1,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0]]]>
+</Data>
+<Data Format="Decorated">
+<Array DataType="BOOL" Dimensions="256" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="0"/>
+<Element Index="[2]" Value="0"/>
+<Element Index="[3]" Value="0"/>
+<Element Index="[4]" Value="0"/>
+<Element Index="[5]" Value="0"/>
+<Element Index="[6]" Value="0"/>
+<Element Index="[7]" Value="0"/>
+<Element Index="[8]" Value="0"/>
+<Element Index="[9]" Value="0"/>
+<Element Index="[10]" Value="0"/>
+<Element Index="[11]" Value="0"/>
+<Element Index="[12]" Value="0"/>
+<Element Index="[13]" Value="0"/>
+<Element Index="[14]" Value="0"/>
+<Element Index="[15]" Value="0"/>
+<Element Index="[16]" Value="0"/>
+<Element Index="[17]" Value="0"/>
+<Element Index="[18]" Value="0"/>
+<Element Index="[19]" Value="0"/>
+<Element Index="[20]" Value="0"/>
+<Element Index="[21]" Value="0"/>
+<Element Index="[22]" Value="0"/>
+<Element Index="[23]" Value="0"/>
+<Element Index="[24]" Value="0"/>
+<Element Index="[25]" Value="0"/>
+<Element Index="[26]" Value="0"/>
+<Element Index="[27]" Value="0"/>
+<Element Index="[28]" Value="0"/>
+<Element Index="[29]" Value="0"/>
+<Element Index="[30]" Value="0"/>
+<Element Index="[31]" Value="0"/>
+<Element Index="[32]" Value="0"/>
+<Element Index="[33]" Value="0"/>
+<Element Index="[34]" Value="0"/>
+<Element Index="[35]" Value="0"/>
+<Element Index="[36]" Value="0"/>
+<Element Index="[37]" Value="0"/>
+<Element Index="[38]" Value="0"/>
+<Element Index="[39]" Value="0"/>
+<Element Index="[40]" Value="0"/>
+<Element Index="[41]" Value="0"/>
+<Element Index="[42]" Value="0"/>
+<Element Index="[43]" Value="0"/>
+<Element Index="[44]" Value="0"/>
+<Element Index="[45]" Value="0"/>
+<Element Index="[46]" Value="0"/>
+<Element Index="[47]" Value="0"/>
+<Element Index="[48]" Value="0"/>
+<Element Index="[49]" Value="0"/>
+<Element Index="[50]" Value="0"/>
+<Element Index="[51]" Value="0"/>
+<Element Index="[52]" Value="0"/>
+<Element Index="[53]" Value="0"/>
+<Element Index="[54]" Value="0"/>
+<Element Index="[55]" Value="0"/>
+<Element Index="[56]" Value="0"/>
+<Element Index="[57]" Value="0"/>
+<Element Index="[58]" Value="0"/>
+<Element Index="[59]" Value="0"/>
+<Element Index="[60]" Value="0"/>
+<Element Index="[61]" Value="0"/>
+<Element Index="[62]" Value="0"/>
+<Element Index="[63]" Value="0"/>
+<Element Index="[64]" Value="0"/>
+<Element Index="[65]" Value="0"/>
+<Element Index="[66]" Value="0"/>
+<Element Index="[67]" Value="0"/>
+<Element Index="[68]" Value="0"/>
+<Element Index="[69]" Value="0"/>
+<Element Index="[70]" Value="0"/>
+<Element Index="[71]" Value="0"/>
+<Element Index="[72]" Value="0"/>
+<Element Index="[73]" Value="0"/>
+<Element Index="[74]" Value="0"/>
+<Element Index="[75]" Value="0"/>
+<Element Index="[76]" Value="0"/>
+<Element Index="[77]" Value="0"/>
+<Element Index="[78]" Value="0"/>
+<Element Index="[79]" Value="0"/>
+<Element Index="[80]" Value="0"/>
+<Element Index="[81]" Value="0"/>
+<Element Index="[82]" Value="0"/>
+<Element Index="[83]" Value="0"/>
+<Element Index="[84]" Value="0"/>
+<Element Index="[85]" Value="0"/>
+<Element Index="[86]" Value="0"/>
+<Element Index="[87]" Value="0"/>
+<Element Index="[88]" Value="0"/>
+<Element Index="[89]" Value="1"/>
+<Element Index="[90]" Value="0"/>
+<Element Index="[91]" Value="0"/>
+<Element Index="[92]" Value="1"/>
+<Element Index="[93]" Value="0"/>
+<Element Index="[94]" Value="0"/>
+<Element Index="[95]" Value="0"/>
+<Element Index="[96]" Value="0"/>
+<Element Index="[97]" Value="0"/>
+<Element Index="[98]" Value="1"/>
+<Element Index="[99]" Value="0"/>
+<Element Index="[100]" Value="0"/>
+<Element Index="[101]" Value="0"/>
+<Element Index="[102]" Value="0"/>
+<Element Index="[103]" Value="0"/>
+<Element Index="[104]" Value="0"/>
+<Element Index="[105]" Value="0"/>
+<Element Index="[106]" Value="0"/>
+<Element Index="[107]" Value="0"/>
+<Element Index="[108]" Value="0"/>
+<Element Index="[109]" Value="0"/>
+<Element Index="[110]" Value="0"/>
+<Element Index="[111]" Value="0"/>
+<Element Index="[112]" Value="0"/>
+<Element Index="[113]" Value="0"/>
+<Element Index="[114]" Value="0"/>
+<Element Index="[115]" Value="0"/>
+<Element Index="[116]" Value="0"/>
+<Element Index="[117]" Value="0"/>
+<Element Index="[118]" Value="0"/>
+<Element Index="[119]" Value="0"/>
+<Element Index="[120]" Value="0"/>
+<Element Index="[121]" Value="0"/>
+<Element Index="[122]" Value="0"/>
+<Element Index="[123]" Value="0"/>
+<Element Index="[124]" Value="0"/>
+<Element Index="[125]" Value="0"/>
+<Element Index="[126]" Value="0"/>
+<Element Index="[127]" Value="0"/>
+<Element Index="[128]" Value="0"/>
+<Element Index="[129]" Value="0"/>
+<Element Index="[130]" Value="0"/>
+<Element Index="[131]" Value="0"/>
+<Element Index="[132]" Value="0"/>
+<Element Index="[133]" Value="0"/>
+<Element Index="[134]" Value="0"/>
+<Element Index="[135]" Value="0"/>
+<Element Index="[136]" Value="0"/>
+<Element Index="[137]" Value="0"/>
+<Element Index="[138]" Value="0"/>
+<Element Index="[139]" Value="0"/>
+<Element Index="[140]" Value="0"/>
+<Element Index="[141]" Value="0"/>
+<Element Index="[142]" Value="0"/>
+<Element Index="[143]" Value="0"/>
+<Element Index="[144]" Value="0"/>
+<Element Index="[145]" Value="0"/>
+<Element Index="[146]" Value="0"/>
+<Element Index="[147]" Value="0"/>
+<Element Index="[148]" Value="0"/>
+<Element Index="[149]" Value="0"/>
+<Element Index="[150]" Value="0"/>
+<Element Index="[151]" Value="0"/>
+<Element Index="[152]" Value="0"/>
+<Element Index="[153]" Value="0"/>
+<Element Index="[154]" Value="0"/>
+<Element Index="[155]" Value="0"/>
+<Element Index="[156]" Value="0"/>
+<Element Index="[157]" Value="0"/>
+<Element Index="[158]" Value="0"/>
+<Element Index="[159]" Value="0"/>
+<Element Index="[160]" Value="0"/>
+<Element Index="[161]" Value="0"/>
+<Element Index="[162]" Value="0"/>
+<Element Index="[163]" Value="0"/>
+<Element Index="[164]" Value="0"/>
+<Element Index="[165]" Value="0"/>
+<Element Index="[166]" Value="0"/>
+<Element Index="[167]" Value="0"/>
+<Element Index="[168]" Value="0"/>
+<Element Index="[169]" Value="0"/>
+<Element Index="[170]" Value="0"/>
+<Element Index="[171]" Value="0"/>
+<Element Index="[172]" Value="0"/>
+<Element Index="[173]" Value="0"/>
+<Element Index="[174]" Value="0"/>
+<Element Index="[175]" Value="0"/>
+<Element Index="[176]" Value="0"/>
+<Element Index="[177]" Value="0"/>
+<Element Index="[178]" Value="0"/>
+<Element Index="[179]" Value="0"/>
+<Element Index="[180]" Value="0"/>
+<Element Index="[181]" Value="0"/>
+<Element Index="[182]" Value="0"/>
+<Element Index="[183]" Value="0"/>
+<Element Index="[184]" Value="0"/>
+<Element Index="[185]" Value="0"/>
+<Element Index="[186]" Value="0"/>
+<Element Index="[187]" Value="0"/>
+<Element Index="[188]" Value="0"/>
+<Element Index="[189]" Value="0"/>
+<Element Index="[190]" Value="0"/>
+<Element Index="[191]" Value="0"/>
+<Element Index="[192]" Value="0"/>
+<Element Index="[193]" Value="0"/>
+<Element Index="[194]" Value="0"/>
+<Element Index="[195]" Value="0"/>
+<Element Index="[196]" Value="0"/>
+<Element Index="[197]" Value="0"/>
+<Element Index="[198]" Value="0"/>
+<Element Index="[199]" Value="0"/>
+<Element Index="[200]" Value="0"/>
+<Element Index="[201]" Value="0"/>
+<Element Index="[202]" Value="0"/>
+<Element Index="[203]" Value="0"/>
+<Element Index="[204]" Value="0"/>
+<Element Index="[205]" Value="0"/>
+<Element Index="[206]" Value="0"/>
+<Element Index="[207]" Value="0"/>
+<Element Index="[208]" Value="0"/>
+<Element Index="[209]" Value="0"/>
+<Element Index="[210]" Value="0"/>
+<Element Index="[211]" Value="0"/>
+<Element Index="[212]" Value="0"/>
+<Element Index="[213]" Value="0"/>
+<Element Index="[214]" Value="0"/>
+<Element Index="[215]" Value="0"/>
+<Element Index="[216]" Value="0"/>
+<Element Index="[217]" Value="0"/>
+<Element Index="[218]" Value="0"/>
+<Element Index="[219]" Value="0"/>
+<Element Index="[220]" Value="0"/>
+<Element Index="[221]" Value="0"/>
+<Element Index="[222]" Value="0"/>
+<Element Index="[223]" Value="0"/>
+<Element Index="[224]" Value="0"/>
+<Element Index="[225]" Value="0"/>
+<Element Index="[226]" Value="0"/>
+<Element Index="[227]" Value="0"/>
+<Element Index="[228]" Value="0"/>
+<Element Index="[229]" Value="0"/>
+<Element Index="[230]" Value="0"/>
+<Element Index="[231]" Value="0"/>
+<Element Index="[232]" Value="0"/>
+<Element Index="[233]" Value="0"/>
+<Element Index="[234]" Value="0"/>
+<Element Index="[235]" Value="0"/>
+<Element Index="[236]" Value="0"/>
+<Element Index="[237]" Value="0"/>
+<Element Index="[238]" Value="0"/>
+<Element Index="[239]" Value="0"/>
+<Element Index="[240]" Value="0"/>
+<Element Index="[241]" Value="0"/>
+<Element Index="[242]" Value="0"/>
+<Element Index="[243]" Value="0"/>
+<Element Index="[244]" Value="0"/>
+<Element Index="[245]" Value="0"/>
+<Element Index="[246]" Value="0"/>
+<Element Index="[247]" Value="0"/>
+<Element Index="[248]" Value="0"/>
+<Element Index="[249]" Value="0"/>
+<Element Index="[250]" Value="0"/>
+<Element Index="[251]" Value="0"/>
+<Element Index="[252]" Value="0"/>
+<Element Index="[253]" Value="0"/>
+<Element Index="[254]" Value="0"/>
+<Element Index="[255]" Value="0"/>
+</Array>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_C_ALMD" TagType="Base" DataType="ALARM_DIGITAL" ExternalAccess="Read/Write">
+<Data Format="Alarm">
+<AlarmDigitalParameters Severity="750" MinDurationPRE="0" ShelveDuration="0" MaxShelveDuration="0" ProgTime="DT#1970-01-01-00:00:00.000_000Z" EnableIn="true" In="false" InFault="false" Condition="true" AckRequired="true" Latched="false"
+ ProgAck="false" OperAck="false" ProgReset="false" OperReset="false" ProgSuppress="false" OperSuppress="false" ProgUnsuppress="false" OperUnsuppress="false" OperShelve="false" ProgUnshelve="false" OperUnshelve="false"
+ ProgDisable="false" OperDisable="false" ProgEnable="false" OperEnable="false" AlarmCountReset="false" UseProgTime="false" AssocTag1="MOLA_L01_IO_C_ModuleName"/>
+<AlarmConfig>
+<Messages>
+<Message Type="AM">
+<Text Lang="en-US">
+<![CDATA[HBF B PLC - /*S:0 %Tag1*/ Communication Error]]>
+</Text>
+</Message>
+</Messages>
+<AlarmClass>
+<![CDATA[ENET_COMMS]]>
+</AlarmClass>
+</AlarmConfig>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_C_ALMD_In" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</Data>
+</Tag>
+<Tag Name="MOLA_L01_IO_C_ModuleName" TagType="Base" DataType="STRING" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[6,'SC7153CSM8Station$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		]]]>
+</Data>
+<Data Format="String" Length="6">
+<![CDATA['SC7153']]>
+</Data>
+</Tag>
+</Tags>
+<Programs Use="Context">
+<Program Use="Target" Name="StatusMonitoring" TestEdits="false" MainRoutineName="Main" Disabled="false" UseAsFolder="false">
+<Tags>
+<Tag Name="vCountA" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[48]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="48"/>
+</Data>
+</Tag>
+<Tag Name="vCount_A" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[162]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="162"/>
+</Data>
+</Tag>
+<Tag Name="vCount_B" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[162]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="162"/>
+</Data>
+</Tag>
+<Tag Name="vCount_C" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[162]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="162"/>
+</Data>
+</Tag>
+</Tags>
+<Routines>
+<Routine Name="ENET_A_Comm_Status" Type="ST">
+<STContent>
+<Line Number="0">
+<![CDATA[ALMD(MOLA_L01_IO_A_ALMD,0,0,0,0,0);]]>
+</Line>
+<Line Number="1">
+<![CDATA[]]>
+</Line>
+<Line Number="2">
+<![CDATA[Module_Status_A_BTDT.SourceBit := 12;]]>
+</Line>
+<Line Number="3">
+<![CDATA[Module_Status_A_BTDT.Length := 4;]]>
+</Line>
+<Line Number="4">
+<![CDATA[Module_Status_A_BTDT.DestBit := 0;]]>
+</Line>
+<Line Number="5">
+<![CDATA[Module_Status_A_BTDT.Dest := -1;]]>
+</Line>
+<Line Number="6">
+<![CDATA[MOLA_L01_IO_A_ALMD_In := 0;]]>
+</Line>
+<Line Number="7">
+<![CDATA[]]>
+</Line>
+<Line Number="8">
+<![CDATA[CASE vCount_A OF]]>
+</Line>
+<Line Number="9">
+<![CDATA[	107: GSV(Module,L1_Fryer_Point_IO,EntryStatus,ENET_A_ModuleSts); Module_Status_A_BTDT.Source := ENET_A_ModuleSts; BTDT(Module_Status_A_BTDT); MOLA_L01_IO_A_ModuleName := 'L1_Fryer_Point_IO';]]>
+</Line>
+<Line Number="10">
+<![CDATA[	108: GSV(Module,AB_PLC_5_D3_R1,EntryStatus,ENET_A_ModuleSts); Module_Status_A_BTDT.Source := ENET_A_ModuleSts; BTDT(Module_Status_A_BTDT); MOLA_L01_IO_A_ModuleName := 'AB_PLC_5_D3_R1';]]>
+</Line>
+<Line Number="11">
+<![CDATA[	109: GSV(Module,AB_PLC_5_D3_R2,EntryStatus,ENET_A_ModuleSts); Module_Status_A_BTDT.Source := ENET_A_ModuleSts; BTDT(Module_Status_A_BTDT); MOLA_L01_IO_A_ModuleName := 'AB_PLC_5_D3_R2';]]>
+</Line>
+<Line Number="12">
+<![CDATA[	110: GSV(Module,AB_PLC_5_D3_R3,EntryStatus,ENET_A_ModuleSts); Module_Status_A_BTDT.Source := ENET_A_ModuleSts; BTDT(Module_Status_A_BTDT); MOLA_L01_IO_A_ModuleName := 'AB_PLC_5_D3_R3';]]>
+</Line>
+<Line Number="13">
+<![CDATA[	111: GSV(Module,AB_PLC_5_D4_R1,EntryStatus,ENET_A_ModuleSts); Module_Status_A_BTDT.Source := ENET_A_ModuleSts; BTDT(Module_Status_A_BTDT); MOLA_L01_IO_A_ModuleName := 'AB_PLC_5_D4_R1';]]>
+</Line>
+<Line Number="14">
+<![CDATA[]]>
+</Line>
+<Line Number="15">
+<![CDATA[ELSE]]>
+</Line>
+<Line Number="16">
+<![CDATA[	]]>
+</Line>
+<Line Number="17">
+<![CDATA[END_CASE;]]>
+</Line>
+<Line Number="18">
+<![CDATA[]]>
+</Line>
+<Line Number="19">
+<![CDATA[If vCount_A > 0 And vCount_A <= 255 Then]]>
+</Line>
+<Line Number="20">
+<![CDATA[	MOLA_L01_IO_A.IP[vCount_A] := Module_Status_A_BTDT.Dest;]]>
+</Line>
+<Line Number="21">
+<![CDATA[	If Module_Status_A_BTDT.Dest <> -1 Then]]>
+</Line>
+<Line Number="22">
+<![CDATA[		MOLA_L01_IO_A_ALMD_In := Module_Status_A_BTDT.Dest <> 4;]]>
+</Line>
+<Line Number="23">
+<![CDATA[	Else]]>
+</Line>
+<Line Number="24">
+<![CDATA[		MOLA_L01_IO_A_ALMD_In := 0;]]>
+</Line>
+<Line Number="25">
+<![CDATA[	End_If;]]>
+</Line>
+<Line Number="26">
+<![CDATA[]]>
+</Line>
+<Line Number="27">
+<![CDATA[	If MOLA_L01_IO_A_ALMD_In And Not MOLA_L01_IO_A_Alm[vCount_A] And Module_Status_A_BTDT.Dest <> -1 Then]]>
+</Line>
+<Line Number="28">
+<![CDATA[		ALMD(MOLA_L01_IO_A_ALMD,MOLA_L01_IO_A_ALMD_In,0,0,0,0);]]>
+</Line>
+<Line Number="29">
+<![CDATA[	End_If;]]>
+</Line>
+<Line Number="30">
+<![CDATA[]]>
+</Line>
+<Line Number="31">
+<![CDATA[	MOLA_L01_IO_A_Alm[vCount_A] := MOLA_L01_IO_A_ALMD_In;]]>
+</Line>
+<Line Number="32">
+<![CDATA[End_If;]]>
+</Line>
+<Line Number="33">
+<![CDATA[]]>
+</Line>
+<Line Number="34">
+<![CDATA[vCount_A := vCount_A + 1;]]>
+</Line>
+<Line Number="35">
+<![CDATA[]]>
+</Line>
+<Line Number="36">
+<![CDATA[If vCount_A > 111 Then]]>
+</Line>
+<Line Number="37">
+<![CDATA[	vCount_A := 107;]]>
+</Line>
+<Line Number="38">
+<![CDATA[End_If;]]>
+</Line>
+</STContent>
+</Routine>
+<Routine Name="ENET_B_Comm_Status" Type="ST">
+<STContent>
+<Line Number="0">
+<![CDATA[ALMD(MOLA_L01_IO_B_ALMD,0,0,0,0,0);]]>
+</Line>
+<Line Number="1">
+<![CDATA[]]>
+</Line>
+<Line Number="2">
+<![CDATA[Module_Status_B_BTDT.SourceBit := 12;]]>
+</Line>
+<Line Number="3">
+<![CDATA[Module_Status_B_BTDT.Length := 4;]]>
+</Line>
+<Line Number="4">
+<![CDATA[Module_Status_B_BTDT.DestBit := 0;]]>
+</Line>
+<Line Number="5">
+<![CDATA[Module_Status_B_BTDT.Dest := -1;]]>
+</Line>
+<Line Number="6">
+<![CDATA[MOLA_L01_IO_B_ALMD_In := 0;]]>
+</Line>
+<Line Number="7">
+<![CDATA[]]>
+</Line>
+<Line Number="8">
+<![CDATA[CASE vCount_B OF]]>
+</Line>
+<Line Number="9">
+<![CDATA[	31: GSV(Module,EC1509,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1509';]]>
+</Line>
+<Line Number="10">
+<![CDATA[	32: GSV(Module,EC1551,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1551';]]>
+</Line>
+<Line Number="11">
+<![CDATA[	33: GSV(Module,EC8805,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC8805';]]>
+</Line>
+<Line Number="12">
+<![CDATA[	34: GSV(Module,EC8810,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC8810';]]>
+</Line>
+<Line Number="13">
+<![CDATA[	35: GSV(Module,EC8815,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC8815';]]>
+</Line>
+<Line Number="14">
+<![CDATA[	63: GSV(Module,EC1722,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1722';]]>
+</Line>
+<Line Number="15">
+<![CDATA[	95: GSV(Module,EC1402,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1402';]]>
+</Line>
+<Line Number="16">
+<![CDATA[	116: GSV(Module,EC1422,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1422';]]>
+</Line>
+<Line Number="17">
+<![CDATA[	117: GSV(Module,EC1425,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1425';]]>
+</Line>
+<Line Number="18">
+<![CDATA[	118: GSV(Module,EC1423,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1423';]]>
+</Line>
+<Line Number="19">
+<![CDATA[	119: GSV(Module,EC1442,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1442';]]>
+</Line>
+<Line Number="20">
+<![CDATA[	120: GSV(Module,EC1445,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1445';]]>
+</Line>
+<Line Number="21">
+<![CDATA[	121: GSV(Module,EC1443,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1443';]]>
+</Line>
+<Line Number="22">
+<![CDATA[	122: GSV(Module,EC1412,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1412';]]>
+</Line>
+<Line Number="23">
+<![CDATA[	123: GSV(Module,EC1527,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1527';]]>
+</Line>
+<Line Number="24">
+<![CDATA[	124: GSV(Module,EC1523,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1523';]]>
+</Line>
+<Line Number="25">
+<![CDATA[	125: GSV(Module,EC1583,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1583';]]>
+</Line>
+<Line Number="26">
+<![CDATA[	126: GSV(Module,EC1586,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1586';]]>
+</Line>
+<Line Number="27">
+<![CDATA[	127: GSV(Module,EC1587,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1587';]]>
+</Line>
+<Line Number="28">
+<![CDATA[	128: GSV(Module,EC1708,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1708';]]>
+</Line>
+<Line Number="29">
+<![CDATA[	129: GSV(Module,EC1713,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1713';]]>
+</Line>
+<Line Number="30">
+<![CDATA[	130: GSV(Module,EC1711,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1711';]]>
+</Line>
+<Line Number="31">
+<![CDATA[	131: GSV(Module,EC1709,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1709';]]>
+</Line>
+<Line Number="32">
+<![CDATA[	132: GSV(Module,EC1717,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1717';]]>
+</Line>
+<Line Number="33">
+<![CDATA[	133: GSV(Module,EC1721,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1721';]]>
+</Line>
+<Line Number="34">
+<![CDATA[	136: GSV(Module,EC1739,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1739';]]>
+</Line>
+<Line Number="35">
+<![CDATA[	137: GSV(Module,EC1727A,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1727A';]]>
+</Line>
+<Line Number="36">
+<![CDATA[	138: GSV(Module,EC1727B,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1727B';]]>
+</Line>
+<Line Number="37">
+<![CDATA[	139: GSV(Module,EC1736,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1736';]]>
+</Line>
+<Line Number="38">
+<![CDATA[	149: GSV(Module,EC1585,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC1585';]]>
+</Line>
+<Line Number="39">
+<![CDATA[	155: GSV(Module,EC8830,EntryStatus,ENET_B_ModuleSts); Module_Status_B_BTDT.Source := ENET_B_ModuleSts; BTDT(Module_Status_B_BTDT); MOLA_L01_IO_B_ModuleName := 'EC8830';]]>
+</Line>
+<Line Number="40">
+<![CDATA[	]]>
+</Line>
+<Line Number="41">
+<![CDATA[ELSE]]>
+</Line>
+<Line Number="42">
+<![CDATA[	]]>
+</Line>
+<Line Number="43">
+<![CDATA[END_CASE;]]>
+</Line>
+<Line Number="44">
+<![CDATA[]]>
+</Line>
+<Line Number="45">
+<![CDATA[If vCount_B > 0 And vCount_B <= 255 Then]]>
+</Line>
+<Line Number="46">
+<![CDATA[	MOLA_L01_IO_B.IP[vCount_B] := Module_Status_B_BTDT.Dest;]]>
+</Line>
+<Line Number="47">
+<![CDATA[	If Module_Status_B_BTDT.Dest <> -1 Then]]>
+</Line>
+<Line Number="48">
+<![CDATA[		MOLA_L01_IO_B_ALMD_In := Module_Status_B_BTDT.Dest <> 4;]]>
+</Line>
+<Line Number="49">
+<![CDATA[	Else]]>
+</Line>
+<Line Number="50">
+<![CDATA[		MOLA_L01_IO_B_ALMD_In := 0;]]>
+</Line>
+<Line Number="51">
+<![CDATA[	End_If;]]>
+</Line>
+<Line Number="52">
+<![CDATA[]]>
+</Line>
+<Line Number="53">
+<![CDATA[	If MOLA_L01_IO_B_ALMD_In And Not MOLA_L01_IO_B_Alm[vCount_B] And Module_Status_B_BTDT.Dest <> -1 Then]]>
+</Line>
+<Line Number="54">
+<![CDATA[		ALMD(MOLA_L01_IO_B_ALMD,MOLA_L01_IO_B_ALMD_In,0,0,0,0);]]>
+</Line>
+<Line Number="55">
+<![CDATA[	End_If;]]>
+</Line>
+<Line Number="56">
+<![CDATA[]]>
+</Line>
+<Line Number="57">
+<![CDATA[	MOLA_L01_IO_B_Alm[vCount_B] := MOLA_L01_IO_B_ALMD_In;]]>
+</Line>
+<Line Number="58">
+<![CDATA[End_If;]]>
+</Line>
+<Line Number="59">
+<![CDATA[]]>
+</Line>
+<Line Number="60">
+<![CDATA[vCount_B := vCount_B + 1;]]>
+</Line>
+<Line Number="61">
+<![CDATA[]]>
+</Line>
+<Line Number="62">
+<![CDATA[If vCount_B > 155 Then]]>
+</Line>
+<Line Number="63">
+<![CDATA[	vCount_B := 31;]]>
+</Line>
+<Line Number="64">
+<![CDATA[End_If;]]>
+</Line>
+</STContent>
+</Routine>
+<Routine Name="ENET_C_Comm_Status" Type="ST">
+<STContent>
+<Line Number="0">
+<![CDATA[ALMD(MOLA_L01_IO_C_ALMD,0,0,0,0,0);]]>
+</Line>
+<Line Number="1">
+<![CDATA[]]>
+</Line>
+<Line Number="2">
+<![CDATA[Module_Status_C_BTDT.SourceBit := 12;]]>
+</Line>
+<Line Number="3">
+<![CDATA[Module_Status_C_BTDT.Length := 4;]]>
+</Line>
+<Line Number="4">
+<![CDATA[Module_Status_C_BTDT.DestBit := 0;]]>
+</Line>
+<Line Number="5">
+<![CDATA[Module_Status_C_BTDT.Dest := -1;]]>
+</Line>
+<Line Number="6">
+<![CDATA[MOLA_L01_IO_C_ALMD_In := 0;]]>
+</Line>
+<Line Number="7">
+<![CDATA[]]>
+</Line>
+<Line Number="8">
+<![CDATA[CASE vCount_C OF]]>
+</Line>
+<Line Number="9">
+<![CDATA[	28: GSV(Module,WIT1586A,EntryStatus,ENET_C_ModuleSts); Module_Status_C_BTDT.Source := ENET_C_ModuleSts; BTDT(Module_Status_C_BTDT); MOLA_L01_IO_C_ModuleName := 'WIT1586A';]]>
+</Line>
+<Line Number="10">
+<![CDATA[	31: GSV(Module,Line1_Fryer_ASM,EntryStatus,ENET_C_ModuleSts); Module_Status_C_BTDT.Source := ENET_C_ModuleSts; BTDT(Module_Status_C_BTDT); MOLA_L01_IO_C_ModuleName := 'Line1_Fryer_ASM';]]>
+</Line>
+<Line Number="11">
+<![CDATA[	32: GSV(Module,Line1_2_Blancher_ASM,EntryStatus,ENET_C_ModuleSts); Module_Status_C_BTDT.Source := ENET_C_ModuleSts; BTDT(Module_Status_C_BTDT); MOLA_L01_IO_C_ModuleName := 'Line1_2_Blancher_ASM';]]>
+</Line>
+<Line Number="12">
+<![CDATA[]]>
+</Line>
+<Line Number="13">
+<![CDATA[ELSE]]>
+</Line>
+<Line Number="14">
+<![CDATA[	]]>
+</Line>
+<Line Number="15">
+<![CDATA[END_CASE;]]>
+</Line>
+<Line Number="16">
+<![CDATA[]]>
+</Line>
+<Line Number="17">
+<![CDATA[If vCount_C > 0 And vCount_C <= 255 Then]]>
+</Line>
+<Line Number="18">
+<![CDATA[	MOLA_L01_IO_C.IP[vCount_C] := Module_Status_C_BTDT.Dest;]]>
+</Line>
+<Line Number="19">
+<![CDATA[	If Module_Status_C_BTDT.Dest <> -1 Then]]>
+</Line>
+<Line Number="20">
+<![CDATA[		MOLA_L01_IO_C_ALMD_In := Module_Status_C_BTDT.Dest <> 4;]]>
+</Line>
+<Line Number="21">
+<![CDATA[	Else]]>
+</Line>
+<Line Number="22">
+<![CDATA[		MOLA_L01_IO_C_ALMD_In := 0;]]>
+</Line>
+<Line Number="23">
+<![CDATA[	End_If;]]>
+</Line>
+<Line Number="24">
+<![CDATA[]]>
+</Line>
+<Line Number="25">
+<![CDATA[	If MOLA_L01_IO_C_ALMD_In And Not MOLA_L01_IO_C_Alm[vCount_C] And Module_Status_C_BTDT.Dest <> -1 Then]]>
+</Line>
+<Line Number="26">
+<![CDATA[		ALMD(MOLA_L01_IO_C_ALMD,MOLA_L01_IO_C_ALMD_In,0,0,0,0);]]>
+</Line>
+<Line Number="27">
+<![CDATA[	End_If;]]>
+</Line>
+<Line Number="28">
+<![CDATA[]]>
+</Line>
+<Line Number="29">
+<![CDATA[	MOLA_L01_IO_C_Alm[vCount_C] := MOLA_L01_IO_C_ALMD_In;]]>
+</Line>
+<Line Number="30">
+<![CDATA[End_If;]]>
+</Line>
+<Line Number="31">
+<![CDATA[]]>
+</Line>
+<Line Number="32">
+<![CDATA[vCount_C := vCount_C + 1;]]>
+</Line>
+<Line Number="33">
+<![CDATA[]]>
+</Line>
+<Line Number="34">
+<![CDATA[If vCount_C > 32 Then]]>
+</Line>
+<Line Number="35">
+<![CDATA[	vCount_C := 28;]]>
+</Line>
+<Line Number="36">
+<![CDATA[End_If;]]>
+</Line>
+</STContent>
+</Routine>
+<Routine Name="Main" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Text>
+<![CDATA[JSR(ENET_A_Comm_Status,0);]]>
+</Text>
+</Rung>
+<Rung Number="1" Type="N">
+<Text>
+<![CDATA[JSR(ENET_B_Comm_Status,0);]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
+<Text>
+<![CDATA[JSR(ENET_C_Comm_Status,0);]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+</Program>
+</Programs>
+</Controller>
+</RSLogix5000Content>

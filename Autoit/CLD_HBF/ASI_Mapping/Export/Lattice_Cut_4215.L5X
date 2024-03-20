@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="30.02" TargetName="Lattice_Cut_4215" TargetType="Routine" TargetSubType="RLL" ContainsContext="true" Owner="Triplex" ExportDate="Thu Sep 15 15:37:44 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="P2_L04A_CLX">
+<DataTypes Use="Context">
+<DataType Name="Lattice_Cutter" Family="NoFamily" Class="User">
+<Members>
+<Member Name="VM_1" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Vibration Monitor 1 (0-1" per sec)]]>
+</Description>
+</Member>
+<Member Name="VM_2" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Vibration Monitor 2 (0-1" pre sec)]]>
+</Description>
+</Member>
+<Member Name="VM_3" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Vib
+ration Monitor 3 (0-1" per sec)]]>
+</Description>
+</Member>
+<Member Name="ZZZZZZZZZZLattice_Cu3" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="VM_1_Alert" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="0" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Vibration Monitor 1  Alert]]>
+</Description>
+</Member>
+<Member Name="VM_2_Alert" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="1" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Vibration Monitor 2
+ Alert]]>
+</Description>
+</Member>
+<Member Name="VM_3_Alert" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="2" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Vibration Monitor 3 Alert]]>
+</Description>
+</Member>
+<Member Name="SW_203" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="3" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Door Safety Switch]]>
+</Description>
+</Member>
+<Member Name="SW_300" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="4" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Estop Push Button Indication]]>
+</Description>
+</Member>
+<Member Name="X32" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="5" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Estop Relay Monitoring]]>
+</Description>
+</Member>
+<Member Name="Cutter_Control_Relay" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="6" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[aux contact]]>
+</Description>
+</Member>
+<Member Name="Auger_Control_Realy" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu3" BitNumber="7" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[aux Conctact]]>
+</Description>
+</Member>
+<Member Name="ZZZZZZZZZZLattice_Cu12" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="Safey_Relay_Reset_CMD" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu12" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="IND_501" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu12" BitNumber="1" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Tower Light Green]]>
+</Description>
+</Member>
+<Member Name="IND_502" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu12" BitNumber="2" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Tower Light Yellow]]>
+</Description>
+</Member>
+<Member Name="IND_503" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZLattice_Cu12" BitNumber="3" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Tower Light Red]]>
+</Description>
+</Member>
+</Members>
+</DataType>
+</DataTypes>
+<Modules Use="Context">
+<Module Use="Reference">
+</Module>
+<Module Use="Reference" Name="L04_Cut_4215">
+</Module>
+</Modules>
+<Tags Use="Context">
+<Tag Name="always_off" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</Data>
+</Tag>
+<Tag Name="CUT_4215" TagType="Base" DataType="Lattice_Cutter" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[1.30000000e-003,8.99999985e-004,1.09999999e-003,0,8]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="Lattice_Cutter">
+<DataValueMember Name="VM_1" DataType="REAL" Radix="Float" Value="0.0013"/>
+<DataValueMember Name="VM_2" DataType="REAL" Radix="Float" Value="0.0009"/>
+<DataValueMember Name="VM_3" DataType="REAL" Radix="Float" Value="0.0011"/>
+<DataValueMember Name="VM_1_Alert" DataType="BOOL" Value="0"/>
+<DataValueMember Name="VM_2_Alert" DataType="BOOL" Value="0"/>
+<DataValueMember Name="VM_3_Alert" DataType="BOOL" Value="0"/>
+<DataValueMember Name="SW_203" DataType="BOOL" Value="0"/>
+<DataValueMember Name="SW_300" DataType="BOOL" Value="0"/>
+<DataValueMember Name="X32" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Cutter_Control_Relay" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Auger_Control_Realy" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Safey_Relay_Reset_CMD" DataType="BOOL" Value="0"/>
+<DataValueMember Name="IND_501" DataType="BOOL" Value="0"/>
+<DataValueMember Name="IND_502" DataType="BOOL" Value="0"/>
+<DataValueMember Name="IND_503" DataType="BOOL" Value="1"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="Cut_4215_Comm_Fail" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[1]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="1"/>
+</Data>
+</Tag>
+<Tag Name="Cut_4215_FaultCode" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[516]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="516"/>
+</Data>
+</Tag>
+</Tags>
+<Programs Use="Context">
+<Program Use="Context" Name="L04_LATTCE_CUTTERS_DIG_INST">
+<Routines Use="Context">
+<Routine Use="Target" Name="Lattice_Cut_4215" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Text>
+<![CDATA[GSV(Module,L04_Cut_4215,FaultCode,Cut_4215_FaultCode);]]>
+</Text>
+</Rung>
+<Rung Number="1" Type="N">
+<Text>
+<![CDATA[NEQ(Cut_4215_FaultCode,0)OTE(Cut_4215_Comm_Fail);]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
+<Text>
+<![CDATA[XIC(Cut_4215_Comm_Fail)MOV(0,L04_Cut_4215:2:I)MOV(0,L04_Cut_4215:3:I);]]>
+</Text>
+</Rung>
+<Rung Number="3" Type="N">
+<Comment>
+<![CDATA[Analog Mapping Card 1]]>
+</Comment>
+<Text>
+<![CDATA[DIV(L04_Cut_4215:1:I.Ch0Data,10000,CUT_4215.VM_1)DIV(L04_Cut_4215:1:I.Ch1Data,10000,CUT_4215.VM_2)DIV(L04_Cut_4215:1:I.Ch2Data,10000,CUT_4215.VM_3);]]>
+</Text>
+</Rung>
+<Rung Number="4" Type="N">
+<Comment>
+<![CDATA[Discrete Input 
+Mapping Card 2]]>
+</Comment>
+<Text>
+<![CDATA[[XIC(L04_Cut_4215:2:I.0) OTE(CUT_4215.VM_1_Alert) ,XIC(L04_Cut_4215:2:I.1) OTE(CUT_4215.VM_2_Alert) ,XIC(L04_Cut_4215:2:I.2) OTE(CUT_4215.VM_3_Alert) ,XIC(L04_Cut_4215:2:I.3) OTE(CUT_4215.SW_203) ];]]>
+</Text>
+</Rung>
+<Rung Number="5" Type="N">
+<Comment>
+<![CDATA[Discrete Input 
+Mapping Card 3
+]]>
+</Comment>
+<Text>
+<![CDATA[[XIC(L04_Cut_4215:3:I.0) OTE(CUT_4215.SW_300) ,XIC(L04_Cut_4215:3:I.1) OTE(CUT_4215.X32) ,XIC(L04_Cut_4215:3:I.2) OTE(CUT_4215.Cutter_Control_Relay) ,XIC(L04_Cut_4215:3:I.3) OTE(CUT_4215.Auger_Control_Realy) ];]]>
+</Text>
+</Rung>
+<Rung Number="6" Type="N">
+<Comment>
+<![CDATA[Discrete Output
+Mapping Card 4]]>
+</Comment>
+<Text>
+<![CDATA[[XIC(CUT_4215.Safey_Relay_Reset_CMD) OTE(L04_Cut_4215:4:O.0) ,XIC(always_off) OTE(L04_Cut_4215:4:O.1) ,XIC(always_off) OTE(L04_Cut_4215:4:O.2) ,XIC(always_off) OTE(L04_Cut_4215:4:O.3) ];]]>
+</Text>
+</Rung>
+<Rung Number="7" Type="N">
+<Comment>
+<![CDATA[Discrete Output
+Mapping Card 5
+]]>
+</Comment>
+<Text>
+<![CDATA[[XIC(always_off) OTE(L04_Cut_4215:5:O.0) ,XIC(CUT_4215.IND_501) OTE(L04_Cut_4215:5:O.1) ,XIC(CUT_4215.IND_502) OTE(L04_Cut_4215:5:O.2) ,XIC(CUT_4215.IND_503) OTE(L04_Cut_4215:5:O.3) ];]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+</Program>
+</Programs>
+</Controller>
+</RSLogix5000Content>

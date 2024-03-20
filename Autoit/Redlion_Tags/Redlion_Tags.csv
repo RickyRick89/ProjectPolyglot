@@ -1,0 +1,6 @@
+
+[Numeric.0.0]
+
+Name,Value,Extent,Manipulate,TreatAs,Access,ScaleTo,Sim,OnWrite,HasSP,Label,Alias,Desc,Class,FormType,LimitMin,LimitMax,LimitType,Deadband,ColType,Event1 / Mode,Event2 / Mode,Trigger1 / Mode,Trigger2 / Mode,QuickPlot / Mode,Sec / Access,Sec / Logging
+_Calc,_Data/100,,None,,,,,,No,,,,,General,,,Automatic,,General,Disabled,Disabled,Disabled,Disabled,Disabled,Default for Object,Default for Object
+_Data,[Sorter.400066.LONG],0,None,Signed Integer,Read Only,Do Not Scale,,,No,,,,,General,,,Automatic,,General,Disabled,Disabled,Disabled,Disabled,Disabled,Default for Object,Default for Object

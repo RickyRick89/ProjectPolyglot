@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE13.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="0" positionY="0" securityCode="*" backColor="#E0E0E0" titleBar="true" titleBarText="" maximumTagUpdateRate="1" focusHighlightColor="gray" disableFocusHighlight="false" size="specifySizeInPixels" width="1000" height="800" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="true" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="true" TrackName="" allowResizing="false" whenResized="scale" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="gray" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="#3F3F3F" fieldNotSelectedFillColor="white" fieldSelectedTextColor="#3F3F3F" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="#3F3F3F" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="#3F3F3F" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="GlobalObjectAnnotationGroup5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="GlobalObjectAnnotationPolygon5" height="178" width="180" left="59" top="169" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#A0A0A4" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="GlobalObjectAnnotationTitle5" height="16" width="135" left="67" top="162" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#E0E0E0" foreColor="#A0A0A4" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=" Digital Input (P_DIn) "/>
+    </group>
+    <group name="GO_P_DIn1" visible="true" wallpaper="false" toolTipText="/*S:0 {#102.Cfg_Tag}*/: /*S:0 #102.Cfg_Desc*/" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="godsAlarmPolygon21" height="27" width="123" left="76" top="239" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#00C000" foreColor="black" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="({#102.Val_NotifyAll} &gt; 0)" expressionTrueState="visible"/>
+                <animateColor expression="{#102.Val_NotifyAll}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#E0E0E0" foreColor2="#E0E0E0" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="blink" foreColor1="white" foreColor2="#E0E0E0" backBehavior="blink" backColor1="white" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="#00A7F7" foreColor2="#00A7F7" backBehavior="solid" backColor1="#00A7F7" backColor2="#00A7F7" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="3" foreBehavior="blink" foreColor1="#00A7F7" foreColor2="silver" backBehavior="blink" backColor1="#00A7F7" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="4" foreBehavior="solid" foreColor1="yellow" foreColor2="yellow" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="5" foreBehavior="blink" foreColor1="yellow" foreColor2="silver" backBehavior="blink" backColor1="yellow" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="6" foreBehavior="solid" foreColor1="red" foreColor2="red" backBehavior="solid" backColor1="red" backColor2="red" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="7" foreBehavior="blink" foreColor1="red" foreColor2="silver" backBehavior="blink" backColor1="red" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="8" foreBehavior="solid" foreColor1="magenta" foreColor2="magenta" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="9" foreBehavior="blink" foreColor1="magenta" foreColor2="silver" backBehavior="blink" backColor1="magenta" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <group name="DIN_Group_Value2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="DIN_BlackBG_Value2" height="20" width="111" left="82" top="243" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="black" foreColor="#E0E0E0" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="#E5CEBC" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <stringDisplay name="godsData_Value1" height="18" width="110" left="82" top="243" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="#E0E0E0" backStyle="transparent" foreColor="#FFC0FF" fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="10" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="if {#102.Sts} then&#xA;   {#102.Cfg_1StText}&#xA;else&#xA;   {#102.Cfg_0StText}"/>
+                </connections>
+            </stringDisplay>
+            <animations>
+                <animateColor expression="{#102.Sts_TgtDisagree}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#3F3F3F" foreColor2="#3F3F3F" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="solid" foreColor1="white" foreColor2="white" backBehavior="solid" backColor1="black" backColor2="black" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </group>
+        <multistateIndicator name="msi_AlarmIndicator14" height="16" width="16" left="71" top="234" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="9" captionOnBorder="false" setLastStateId="11">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="#C000C0" backColor="#E0E0E0" backStyle="solid" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleLeft" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_AckReqd" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="2" value="2" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="4" value="4" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="5" value="5" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="6" value="6" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="7" value="7" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="8" value="8" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="9" value="9" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="10" value="10" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_Inhibit" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="If (({#102.Val_NotifyAll} = 0) and {#102.Sts_AlmInh}) then&#xA;   10&#xA;else&#xA;   {#102.Val_NotifyAll}"/>
+            </connections>
+        </multistateIndicator>
+        <animations>
+            <animateVisibility expression="{#102.Cfg_NormTextVis} OR ({#102.Val_NotifyAll} &gt; 0) OR {#102.Sts_TgtDisagree} OR &#xA;{#102.Sts_AlmInh} OR &#xA;{#102.Sts_SubstPV} OR ({#102.SrcQ} &gt;= 8)" expressionTrueState="visible"/>
+        </animations>
+        <parameters>
+            <parameter name="#102" description="Object Tag (P_DIn)" value=""/>
+        </parameters>
+    </group>
+    <group name="GO_P_DIn" visible="true" wallpaper="false" toolTipText="/*S:0 {#102.Cfg_Tag}*/: /*S:0 #102.Cfg_Desc*/" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="godsAlarmPolygon20" height="38" width="124" left="79" top="189" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="black" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="({#102.Val_NotifyAll} &gt; 0)" expressionTrueState="visible"/>
+                <animateColor expression="{#102.Val_NotifyAll}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#E0E0E0" foreColor2="#E0E0E0" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="blink" foreColor1="white" foreColor2="#E0E0E0" backBehavior="blink" backColor1="white" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="#00A7F7" foreColor2="#00A7F7" backBehavior="solid" backColor1="#00A7F7" backColor2="#00A7F7" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="3" foreBehavior="blink" foreColor1="#00A7F7" foreColor2="silver" backBehavior="blink" backColor1="#00A7F7" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="4" foreBehavior="solid" foreColor1="yellow" foreColor2="yellow" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="5" foreBehavior="blink" foreColor1="yellow" foreColor2="silver" backBehavior="blink" backColor1="yellow" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="6" foreBehavior="solid" foreColor1="red" foreColor2="red" backBehavior="solid" backColor1="red" backColor2="red" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="7" foreBehavior="blink" foreColor1="red" foreColor2="silver" backBehavior="blink" backColor1="red" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="8" foreBehavior="solid" foreColor1="magenta" foreColor2="magenta" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="9" foreBehavior="blink" foreColor1="magenta" foreColor2="silver" backBehavior="blink" backColor1="magenta" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <group name="DIN_Group_Value" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="DIN_BlackBG_Value" height="20" width="111" left="86" top="205" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="black" foreColor="#E0E0E0" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="#E5CEBC" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <stringDisplay name="godsData_Value" height="18" width="110" left="86" top="205" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="#E0E0E0" backStyle="transparent" foreColor="#FFC0FF" fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="10" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="if {#102.Sts} then&#xA;   {#102.Cfg_1StText}&#xA;else&#xA;   {#102.Cfg_0StText}"/>
+                </connections>
+            </stringDisplay>
+            <animations>
+                <animateColor expression="{#102.Sts_TgtDisagree}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#3F3F3F" foreColor2="#3F3F3F" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="solid" foreColor1="white" foreColor2="white" backBehavior="solid" backColor1="black" backColor2="black" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </group>
+        <stringDisplay name="godsLabel" height="14" width="140" left="71" top="191" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="20" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#102.Cfg_Label}"/>
+            </connections>
+        </stringDisplay>
+        <multistateIndicator name="msi_AlarmIndicator47" height="16" width="16" left="75" top="185" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="9" captionOnBorder="false" setLastStateId="11">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="#C000C0" backColor="#E0E0E0" backStyle="solid" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleLeft" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_AckReqd" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="2" value="2" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="4" value="4" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="5" value="5" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="6" value="6" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="7" value="7" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="8" value="8" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="9" value="9" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="10" value="10" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_Inhibit" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="If (({#102.Val_NotifyAll} = 0) and {#102.Sts_AlmInh}) then&#xA;   10&#xA;else&#xA;   {#102.Val_NotifyAll}"/>
+            </connections>
+        </multistateIndicator>
+        <parameters>
+            <parameter name="#102" description="Object Tag (P_DIn)" value=""/>
+        </parameters>
+    </group>
+    <group name="GO_P_DInCircle" visible="true" wallpaper="false" toolTipText="/*S:0 {#102.Cfg_Tag}*/: /*S:0 #102.Cfg_Desc*/" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="godsAlarmPolygon22" height="24" width="24" left="76" top="280" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#00C000" foreColor="black" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="({#102.Val_NotifyAll} &gt; 0)" expressionTrueState="visible"/>
+                <animateColor expression="{#102.Val_NotifyAll}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#E0E0E0" foreColor2="#E0E0E0" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="blink" foreColor1="white" foreColor2="#E0E0E0" backBehavior="blink" backColor1="white" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="#00A7F7" foreColor2="#00A7F7" backBehavior="solid" backColor1="#00A7F7" backColor2="#00A7F7" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="3" foreBehavior="blink" foreColor1="#00A7F7" foreColor2="silver" backBehavior="blink" backColor1="#00A7F7" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="4" foreBehavior="solid" foreColor1="yellow" foreColor2="yellow" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="5" foreBehavior="blink" foreColor1="yellow" foreColor2="silver" backBehavior="blink" backColor1="yellow" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="6" foreBehavior="solid" foreColor1="red" foreColor2="red" backBehavior="solid" backColor1="red" backColor2="red" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="7" foreBehavior="blink" foreColor1="red" foreColor2="silver" backBehavior="blink" backColor1="red" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="8" foreBehavior="solid" foreColor1="magenta" foreColor2="magenta" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="9" foreBehavior="blink" foreColor1="magenta" foreColor2="silver" backBehavior="blink" backColor1="magenta" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <multistateIndicator name="msi_TgtDisagree" height="20" width="20" left="78" top="282" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="true" borderWidth="8" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Sts_Good" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Sts_NotOK" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{#102.Sts_TgtDisagree}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="msi_AlarmIndicator1" height="16" width="16" left="71" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="9" captionOnBorder="false" setLastStateId="11">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="#C000C0" backColor="#E0E0E0" backStyle="solid" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleLeft" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_AckReqd" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="2" value="2" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="4" value="4" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="5" value="5" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="6" value="6" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="7" value="7" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="8" value="8" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="9" value="9" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="10" value="10" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_Inhibit" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="If (({#102.Val_NotifyAll} = 0) and {#102.Sts_AlmInh}) then&#xA;   10&#xA;else&#xA;   {#102.Val_NotifyAll}"/>
+            </connections>
+        </multistateIndicator>
+        <animations>
+            <animateVisibility expression="{#102.Cfg_NormTextVis} OR ({#102.Val_NotifyAll} &gt; 0) OR {#102.Sts_TgtDisagree} OR &#xA;{#102.Sts_AlmInh} OR &#xA;{#102.Sts_SubstPV} OR ({#102.SrcQ} &gt;= 8)" expressionTrueState="visible"/>
+        </animations>
+        <parameters>
+            <parameter name="#102" description="Object Tag (P_DIn)" value=""/>
+        </parameters>
+    </group>
+    <group name="GO_P_DInCircleWLabel" visible="true" wallpaper="false" toolTipText="/*S:0 {#102.Cfg_Tag}*/: /*S:0 #102.Cfg_Desc*/" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="godsAlarmPolygon23" height="24" width="130" left="76" top="311" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#00C000" foreColor="black" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="({#102.Val_NotifyAll} &gt; 0)" expressionTrueState="visible"/>
+                <animateColor expression="{#102.Val_NotifyAll}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#E0E0E0" foreColor2="#E0E0E0" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="blink" foreColor1="white" foreColor2="#E0E0E0" backBehavior="blink" backColor1="white" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="#00A7F7" foreColor2="#00A7F7" backBehavior="solid" backColor1="#00A7F7" backColor2="#00A7F7" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="3" foreBehavior="blink" foreColor1="#00A7F7" foreColor2="silver" backBehavior="blink" backColor1="#00A7F7" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="4" foreBehavior="solid" foreColor1="yellow" foreColor2="yellow" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="5" foreBehavior="blink" foreColor1="yellow" foreColor2="silver" backBehavior="blink" backColor1="yellow" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="6" foreBehavior="solid" foreColor1="red" foreColor2="red" backBehavior="solid" backColor1="red" backColor2="red" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="7" foreBehavior="blink" foreColor1="red" foreColor2="silver" backBehavior="blink" backColor1="red" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="8" foreBehavior="solid" foreColor1="magenta" foreColor2="magenta" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="9" foreBehavior="blink" foreColor1="magenta" foreColor2="silver" backBehavior="blink" backColor1="magenta" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <stringDisplay name="godsLabel51" height="14" width="140" left="98" top="316" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="20" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#102.Cfg_Label}"/>
+            </connections>
+        </stringDisplay>
+        <multistateIndicator name="msi_TgtDisagree1" height="20" width="20" left="78" top="313" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="true" borderWidth="8" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Sts_Good" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Sts_NotOK" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{#102.Sts_TgtDisagree}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="msi_AlarmIndicator2" height="16" width="16" left="71" top="306" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="9" captionOnBorder="false" setLastStateId="11">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="#C000C0" backColor="#E0E0E0" backStyle="solid" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleLeft" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_AckReqd" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="2" value="2" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityLo" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="4" value="4" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="5" value="5" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityMed" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="6" value="6" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="7" value="7" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityHi" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="8" value="8" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="9" value="9" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_PriorityUrg" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="true"/>
+                </state>
+                <state stateId="10" value="10" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Alm_Inhibit" alignment="middleCenter" backStyle="transparent" color="#6A6A6A" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="If (({#102.Val_NotifyAll} = 0) and {#102.Sts_AlmInh}) then&#xA;   10&#xA;else&#xA;   {#102.Val_NotifyAll}"/>
+            </connections>
+        </multistateIndicator>
+        <animations>
+            <animateVisibility expression="{#102.Cfg_NormTextVis} OR ({#102.Val_NotifyAll} &gt; 0) OR {#102.Sts_TgtDisagree} OR &#xA;{#102.Sts_AlmInh} OR &#xA;{#102.Sts_SubstPV} OR ({#102.SrcQ} &gt;= 8)" expressionTrueState="visible"/>
+        </animations>
+        <parameters>
+            <parameter name="#102" description="Object Tag (P_DIn)" value=""/>
+        </parameters>
+    </group>
+    <group name="GroupInstructions" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="GO_GraphicSymbolIstructions" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="GraphicSymbolIstructionsPanel" height="80" width="530" left="0" top="48" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <panel name="GraphicSymbolIstructionsTPanel" height="76" width="526" left="2" top="49" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="white" patternColor="#FFE0C0" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="GraphicSymbolIstructionText" height="64" width="516" left="7" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="blue" wordWrap="true" sizeToFit="false" alignment="topLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="To use these Display Elements on your display:&#xA;     1)  Copy the object and paste it to your display&#xA;     2)  Right click on the new object and select &quot;Global Object Parameter Values&quot;&#xA;     3)  Populate the Values as specified in the description column"/>
+        </group>
+    </group>
+    <text name="TextCopyright" height="16" width="346" left="540" top="5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#3F3F3F" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Copyright © Rockwell Automation, Inc.  All Rights Reserved"/>
+    <group name="GO_VersionId_ProcessGraphicsLibrary" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <panel name="Panel_VersionId" height="48" width="530" left="0" top="0" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <group name="Group_VersionDescription" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel_VersionDescription" height="22" width="526" left="2" top="24" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#FFE0C0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text_VersionDescription" height="16" width="399" left="7" top="27" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#3F3F3F" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Digital Input Display Elements for use on overview and detail displays"/>
+        </group>
+        <group name="Group_VersionNumber" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel_VersionNumber" height="22" width="206" left="322" top="2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#FFE0C0" patternColor="#E0E0E0" blink="false" description="" borderColor="#FFE0C0" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text_VersionNumber" height="16" width="201" left="327" top="5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#3F3F3F" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Version 4.10-02 Release"/>
+        </group>
+        <group name="Group_VersionFilename" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel_VersionFilename" height="22" width="320" left="2" top="2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#FFE0C0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text_VersionFilename" height="16" width="258" left="7" top="5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#3F3F3F" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="(RA-FRAME) P_DIn Graphics Library.ggfx"/>
+        </group>
+    </group>
+    <vbaProject>
+        <vbaReferencesLink>
+            <!--All checked references on the references dialog box!-->
+            <vbaRefLink hash="ad542389a48a5aae612a313b3334f89f" TypeLib_Name="VBA" Description="Visual Basic For Applications">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBWAEIAQQAsACAARABlAHMAYwByAGkAcAB0AGkAbwBu
+AD0AVgBpAHMAdQBhAGwAIABCAGEAcwBpAGMAIABGAG8AcgAgAEEAcABwAGwAaQBjAGEAdABpAG8A
+bgBzACwAIABHAFUASQBEAD0AewAwADAAMAAyADAANABFAEYALQAwADAAMAAwAC0AMAAwADAAMAAt
+AEMAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADQANgB9ACwAIABNAGEAagBvAHIAVgBlAHIA
+cwBpAG8AbgA9ADQALAAgAE0AaQBuAG8AcgBWAGUAcgBzAGkAbwBuAD0AMAAsACAA
+]]>
+            </vbaRefLink>
+            <vbaRefLink hash="9bf92fbe175229b5f0601c4bf4381b5f" TypeLib_Name="DisplayClient" Description="RSView Display Client Object Model">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBEAGkAcwBwAGwAYQB5AEMAbABpAGUAbgB0ACwAIABE
+AGUAcwBjAHIAaQBwAHQAaQBvAG4APQBSAFMAVgBpAGUAdwAgAEQAaQBzAHAAbABhAHkAIABDAGwA
+aQBlAG4AdAAgAE8AYgBqAGUAYwB0ACAATQBvAGQAZQBsACwAIABHAFUASQBEAD0AewA4ADUANAA2
+ADkAMwA0ADAALQBGADEAOAA5AC0AMQAxAEQAMQAtADkAQwAxADcALQAwADAANgAwADkANwA3AEMA
+QQBBAEYAMQB9ACwAIABNAGEAagBvAHIAVgBlAHIAcwBpAG8AbgA9ADEALAAgAE0AaQBuAG8AcgBW
+AGUAcgBzAGkAbwBuAD0AMAAsACAA
+]]>
+            </vbaRefLink>
+            <vbaRefLink hash="b0d387d1804d29964988314e5c534502" TypeLib_Name="stdole" Description="OLE Automation">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBzAHQAZABvAGwAZQAsACAARABlAHMAYwByAGkAcAB0
+AGkAbwBuAD0ATwBMAEUAIABBAHUAdABvAG0AYQB0AGkAbwBuACwAIABHAFUASQBEAD0AewAwADAA
+MAAyADAANAAzADAALQAwADAAMAAwAC0AMAAwADAAMAAtAEMAMAAwADAALQAwADAAMAAwADAAMAAw
+ADAAMAAwADQANgB9ACwAIABNAGEAagBvAHIAVgBlAHIAcwBpAG8AbgA9ADIALAAgAE0AaQBuAG8A
+cgBWAGUAcgBzAGkAbwBuAD0AMAAsACAA
+]]>
+            </vbaRefLink>
+        </vbaReferencesLink>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

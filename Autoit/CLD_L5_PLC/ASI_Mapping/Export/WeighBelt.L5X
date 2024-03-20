@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="31.02" TargetName="WeighBelt" TargetType="AddOnInstructionDefinition" TargetRevision="1.0 " TargetLastEdited="2022-09-16T21:16:06.901Z" ContainsContext="true" Owner="Triplex" ExportDate="Fri Sep 16 15:19:54 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="WIT_Test">
+<DataTypes Use="Context">
+</DataTypes>
+<AddOnInstructionDefinitions Use="Context">
+<AddOnInstructionDefinition Use="Target" Name="WeighBelt" Revision="1.0" ExecutePrescan="false" ExecutePostscan="false" ExecuteEnableInFalse="false" CreatedDate="2022-09-16T16:08:16.244Z" CreatedBy="TXAVM003\Triplex" EditedDate="2022-09-16T21:16:06.901Z" EditedBy="TXAVM003\Triplex" SoftwareRevision="v31.02"
+>
+<Parameters>
+<Parameter Name="EnableIn" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[Enable Input - System Defined Parameter]]>
+</Description>
+</Parameter>
+<Parameter Name="EnableOut" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[Enable Output - System Defined Parameter]]>
+</Description>
+</Parameter>
+<Parameter Name="Cfg_BeltLengthFt" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[WeighBelt Length in Feet]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Cfg_FPMPerHz" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Weigh Belt Feet per Minute per Hz of the Motor]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Cmd_SaveK" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Command to Start Using the Proposed K-Factor]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Cmd_StartDropTest" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Command to Start the Drop Test Callibration Process]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Cmd_StopDropTest" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Command to Stop the Drop Test Callibration Process]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Cmd_ResetK" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Command to Set the K-Factor to 1]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Inp_MotorHz" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[The Motor Frequency on the Weight Belt]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Inp_NetWeight" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Weight from the WIT in Pounds]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Inp_TestWeight" TagType="Base" DataType="REAL" Usage="Input" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[The Total Weight of the Product that will be Used for Callibration]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Out_ProposedKFactor" TagType="Base" DataType="REAL" Usage="Output" Radix="Float" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[The K-Factor Calculated During the Drop Test Callibration]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Out_WeightRate" TagType="Base" DataType="REAL" Usage="Output" Radix="Float" Required="false" Visible="true" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[The WeighBelt Rate in Pounds per Hour]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</Parameter>
+<Parameter Name="Ref_KFactor" TagType="Base" DataType="REAL" Usage="InOut" Radix="Float" Required="true" Visible="true" Constant="false">
+<Description>
+<![CDATA[The K-Factor Currently Being Used to Calculate the Weight Rate]]>
+</Description>
+</Parameter>
+</Parameters>
+<LocalTags>
+<LocalTag Name="DropTestStarted" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="TotalWeight" DataType="TOTALIZER" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[1,0.00000000e+000,0,1.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0,0.00000000e+000,1,0,0,0.00000000e+000,0.00000000e+000,0.00000000e+000,0,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,5.60519386e-045,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000]]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<Structure DataType="TOTALIZER">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="In" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="InFault" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TimeBase" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Gain" DataType="REAL" Radix="Float" Value="1.0"/>
+<DataValueMember Name="ResetValue" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Target" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="TargetDev1" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="TargetDev2" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="LowInCutoff" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="ProgProgReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ProgOperReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ProgStartReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ProgStopReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ProgResetReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OperProgReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OperOperReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OperStartReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OperStopReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OperResetReq" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ProgValueReset" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TimingMode" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="OversampleDT" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="RTSTime" DataType="DINT" Radix="Decimal" Value="1"/>
+<DataValueMember Name="RTSTimeStamp" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Total" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="OldTotal" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="ProgOper" DataType="BOOL" Value="0"/>
+<DataValueMember Name="RunStop" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ProgResetDone" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TargetFlag" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TargetDev1Flag" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TargetDev2Flag" DataType="BOOL" Value="0"/>
+<DataValueMember Name="LowInCutoffFlag" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DeltaT" DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValueMember Name="Status" DataType="DINT" Radix="Hex" Value="16#0000_0000"/>
+<DataValueMember Name="InstructFault" DataType="BOOL" Value="0"/>
+<DataValueMember Name="InFaulted" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TimeBaseInv" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TimingModeInv" DataType="BOOL" Value="0"/>
+<DataValueMember Name="RTSMissed" DataType="BOOL" Value="0"/>
+<DataValueMember Name="RTSTimeInv" DataType="BOOL" Value="0"/>
+<DataValueMember Name="RTSTimeStampInv" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DeltaTInv" DataType="BOOL" Value="0"/>
+</Structure>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="FPM" DataType="REAL" Radix="Float" ExternalAccess="None">
+<Description>
+<![CDATA[Feed per Minute of the Belt]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="PPF" DataType="REAL" Radix="Float" ExternalAccess="None">
+<Description>
+<![CDATA[Pounds of Product per Linear Foot of Belt]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="FPH" DataType="REAL" Radix="Float" ExternalAccess="None">
+<Description>
+<![CDATA[Feet per Hour of the Belt]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="PPH" DataType="REAL" Radix="Float" ExternalAccess="None">
+<Description>
+<![CDATA[Pounds per Hour]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="PPM" DataType="REAL" Radix="Float" ExternalAccess="None">
+<Description>
+<![CDATA[Pounds per Minute]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0.00000000e+000]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+</DefaultData>
+</LocalTag>
+</LocalTags>
+<Routines>
+<Routine Name="Logic" Type="ST">
+<STContent>
+<Line Number="0">
+<![CDATA[//~~~~~~~~~ Initiate the Drop Test Callibration Process ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="1">
+<![CDATA[if Cmd_StartDropTest then]]>
+</Line>
+<Line Number="2">
+<![CDATA[	DropTestStarted := 1;]]>
+</Line>
+<Line Number="3">
+<![CDATA[elsif Cmd_StopDropTest then]]>
+</Line>
+<Line Number="4">
+<![CDATA[	DropTestStarted := 0;]]>
+</Line>
+<Line Number="5">
+<![CDATA[end_if;]]>
+</Line>
+<Line Number="6">
+<![CDATA[]]>
+</Line>
+<Line Number="7">
+<![CDATA[//~~~~~~~~~ K-Factor Save/Reset ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="8">
+<![CDATA[if Cmd_SaveK then]]>
+</Line>
+<Line Number="9">
+<![CDATA[	Ref_KFactor := Out_ProposedKFactor;]]>
+</Line>
+<Line Number="10">
+<![CDATA[	Out_ProposedKFactor := 0;]]>
+</Line>
+<Line Number="11">
+<![CDATA[	Cmd_SaveK := 0;]]>
+</Line>
+<Line Number="12">
+<![CDATA[end_if;]]>
+</Line>
+<Line Number="13">
+<![CDATA[]]>
+</Line>
+<Line Number="14">
+<![CDATA[if Ref_KFactor <= 0 or Cmd_ResetK then]]>
+</Line>
+<Line Number="15">
+<![CDATA[	Ref_KFactor := 1;	]]>
+</Line>
+<Line Number="16">
+<![CDATA[	Cmd_ResetK := 0;]]>
+</Line>
+<Line Number="17">
+<![CDATA[end_if;]]>
+</Line>
+<Line Number="18">
+<![CDATA[]]>
+</Line>
+<Line Number="19">
+<![CDATA[//~~~~~~~~~ Set Negative Weight Values to Zero ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="20">
+<![CDATA[if Inp_NetWeight < 0 then]]>
+</Line>
+<Line Number="21">
+<![CDATA[	Inp_NetWeight := 0;]]>
+</Line>
+<Line Number="22">
+<![CDATA[end_if;]]>
+</Line>
+<Line Number="23">
+<![CDATA[]]>
+</Line>
+<Line Number="24">
+<![CDATA[//~~~~~~~~~ Calculate Belt Feet per Minute and Feet per Hour ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="25">
+<![CDATA[FPM := Cfg_FPMPerHz * Inp_MotorHz;]]>
+</Line>
+<Line Number="26">
+<![CDATA[FPH := FPM * 60;]]>
+</Line>
+<Line Number="27">
+<![CDATA[]]>
+</Line>
+<Line Number="28">
+<![CDATA[//~~~~~~~~~ Calculate Pounds per Foot ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="29">
+<![CDATA[if DropTestStarted then]]>
+</Line>
+<Line Number="30">
+<![CDATA[	PPF := (Inp_NetWeight) / Cfg_BeltLengthFt;]]>
+</Line>
+<Line Number="31">
+<![CDATA[else]]>
+</Line>
+<Line Number="32">
+<![CDATA[	PPF := (Inp_NetWeight * Ref_KFactor) / Cfg_BeltLengthFt;]]>
+</Line>
+<Line Number="33">
+<![CDATA[end_if;]]>
+</Line>
+<Line Number="34">
+<![CDATA[]]>
+</Line>
+<Line Number="35">
+<![CDATA[//~~~~~~~~~ Calculate Pounds per Minute and Pounds per Hour ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="36">
+<![CDATA[PPM := PPF * FPM;]]>
+</Line>
+<Line Number="37">
+<![CDATA[PPH := PPF * FPH;]]>
+</Line>
+<Line Number="38">
+<![CDATA[]]>
+</Line>
+<Line Number="39">
+<![CDATA[Out_WeightRate := PPH;]]>
+</Line>
+<Line Number="40">
+<![CDATA[]]>
+</Line>
+<Line Number="41">
+<![CDATA[//~~~~~~~~~ Totalize Pounds During the Drop Test Calibration ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="42">
+<![CDATA[TotalWeight.TimeBase := 2; //0 = Seconds, 1 = Minutes, 2 = Hours, 3 = Days]]>
+</Line>
+<Line Number="43">
+<![CDATA[TotalWeight.In := Out_WeightRate;]]>
+</Line>
+<Line Number="44">
+<![CDATA[TotalWeight.ProgProgReq := 1;]]>
+</Line>
+<Line Number="45">
+<![CDATA[TotalWeight.ProgStartReq := DropTestStarted;]]>
+</Line>
+<Line Number="46">
+<![CDATA[TotalWeight.ProgStopReq := not DropTestStarted;]]>
+</Line>
+<Line Number="47">
+<![CDATA[TotalWeight.ProgResetReq := Cmd_StartDropTest;]]>
+</Line>
+<Line Number="48">
+<![CDATA[TOT(TotalWeight);]]>
+</Line>
+<Line Number="49">
+<![CDATA[]]>
+</Line>
+<Line Number="50">
+<![CDATA[]]>
+</Line>
+<Line Number="51">
+<![CDATA[//~~~~~~~~~ Reset the Drop Test Start Command ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="52">
+<![CDATA[if Cmd_StartDropTest then]]>
+</Line>
+<Line Number="53">
+<![CDATA[	Cmd_StartDropTest := 0;]]>
+</Line>
+<Line Number="54">
+<![CDATA[end_if;]]>
+</Line>
+<Line Number="55">
+<![CDATA[//~~~~~~~~~ Reset the Drop Test Stop Command and Calculate a New K-Factor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+</Line>
+<Line Number="56">
+<![CDATA[if Cmd_StopDropTest then]]>
+</Line>
+<Line Number="57">
+<![CDATA[	Out_ProposedKFactor := Inp_TestWeight/TotalWeight.Total;]]>
+</Line>
+<Line Number="58">
+<![CDATA[	Cmd_StopDropTest := 0;]]>
+</Line>
+<Line Number="59">
+<![CDATA[end_if;]]>
+</Line>
+</STContent>
+</Routine>
+</Routines>
+</AddOnInstructionDefinition>
+</AddOnInstructionDefinitions>
+</Controller>
+</RSLogix5000Content>

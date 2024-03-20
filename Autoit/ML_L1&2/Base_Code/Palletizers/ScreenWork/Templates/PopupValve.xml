@@ -1,0 +1,214 @@
+<group name="[NAME]" visible="true" wallpaper="false" toolTipText="/*S:0 {#102.Cfg_Tag}*/: /*S:0 #102.Cfg_Desc*/" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2" linkToolTipText="true">
+        <rectangle name="[NAME]_AlarmPolygon" height="58" width="59" left="[LEFT+-11]" top="[TOP+92]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_AlarmPolygon" linkToolTipText="true" backStyle="transparent" backColor="#E0E0E0" foreColor="black" lineStyle="solid" lineWidth="2" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="({#102.Val_Notify} &gt; 0)" expressionTrueState="visible"/>
+                <animateColor expression="{#102.Val_Notify}" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="#E0E0E0" foreColor2="#E0E0E0" backBehavior="solid" backColor1="#E0E0E0" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="blink" foreColor1="white" foreColor2="#E0E0E0" backBehavior="blink" backColor1="white" backColor2="#E0E0E0" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="#00A7F7" foreColor2="#00A7F7" backBehavior="solid" backColor1="#00A7F7" backColor2="#00A7F7" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="3" foreBehavior="blink" foreColor1="#00A7F7" foreColor2="silver" backBehavior="blink" backColor1="#00A7F7" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="4" foreBehavior="solid" foreColor1="yellow" foreColor2="yellow" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="5" foreBehavior="blink" foreColor1="yellow" foreColor2="silver" backBehavior="blink" backColor1="yellow" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="6" foreBehavior="solid" foreColor1="red" foreColor2="red" backBehavior="solid" backColor1="red" backColor2="red" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="7" foreBehavior="blink" foreColor1="red" foreColor2="silver" backBehavior="blink" backColor1="red" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="8" foreBehavior="solid" foreColor1="magenta" foreColor2="magenta" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="9" foreBehavior="blink" foreColor1="magenta" foreColor2="silver" backBehavior="blink" backColor1="magenta" backColor2="silver" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <group name="[NAME]_Buttons3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_Buttons3" linkToolTipText="true">
+            <button name="[NAME]_btn_Faceplate7" height="52" width="56" left="[LEFT+-9]" top="[TOP+94]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_btn_Faceplate7" linkToolTipText="true" style="noborder" captureCursor="false" highlightOnFocus="true" tabIndex="6">
+                <command pressAction="" repeatAction="" releaseAction="Display ($#102.Inf_Lib$) $#102.Inf_Type$-Faceplate /T{#102},{#103},&quot;#120&quot;,&quot;#121&quot;,{X} #120 #121" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="transparent" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+                <eSignature requireElectronicSignature="false" allowBlankComment="false" requireReAuthentication="false" requireCounterSignature="false" authorizedGroup=""/>
+                <useVariable requireUseVariable="false" tagName="" confirmationValue="1" eSigValue1="2" eSigValue2="3">
+                    <confirm buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                    <eSignature_1 allowBlankComment="false" requireReAuthentication="false"/>
+                    <eSignature_2 allowBlankComment="false" authorizedGroup="Administrators"/>
+                </useVariable>
+            </button>
+            <button name="[NAME]_btn_Quick7" height="52" width="56" left="[LEFT+-9]" top="[TOP+94]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_btn_Quick7" linkToolTipText="true" style="noborder" captureCursor="false" highlightOnFocus="true" tabIndex="7">
+                <command pressAction="" repeatAction="" releaseAction="Display ($#102.Inf_Lib$) $#102.Inf_Type$-Quick /T{#102},{#103},&quot;#120&quot;,&quot;#121&quot;,{X} #120 #121" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="transparent" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+                <eSignature requireElectronicSignature="false" allowBlankComment="false" requireReAuthentication="false" requireCounterSignature="false" authorizedGroup=""/>
+                <useVariable requireUseVariable="false" tagName="" confirmationValue="1" eSigValue1="2" eSigValue2="3">
+                    <confirm buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                    <eSignature_1 allowBlankComment="false" requireReAuthentication="false"/>
+                    <eSignature_2 allowBlankComment="false" authorizedGroup="Administrators"/>
+                </useVariable>
+                <animations>
+                    <animateVisibility expression="(&quot;#122&quot; = &quot;2&quot;) or ((&quot;#122&quot; = &quot;1&quot;) and (not CurrentUserHasCode( C )))" expressionTrueState="visible"/>
+                </animations>
+            </button>
+        </group>
+        <group name="[NAME]_Group2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_Group2" linkToolTipText="true">
+            <group name="[NAME]_Body2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_Body2" linkToolTipText="true">
+                <group name="[NAME]BotGroup" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.ValveBotGroup" linkToolTipText="true">
+                    <polygon name="[NAME]BotOuterPolygon" height="19" width="19" left="[LEFT+2]" top="[TOP+119]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.ValveBotOuterPolygon" linkToolTipText="true" backStyle="solid" backColor="#FFC0FF" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="46 129 46 130 37 147 55 147 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <polygon name="[NAME]BotInnerPolygon" height="16" width="15" left="[LEFT+4]" top="[TOP+121]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.ValveBotInnerPolygon" linkToolTipText="true" backStyle="solid" backColor="#FFC0FF" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="46 131 46 132 39 146 53 146 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <animations>
+                        <animateColor expression="if {#102.Sts_Closed} then 1&#xA;else if {#102.Sts_Closing}  then 2&#xA;else if {#102.Sts_Opening}  then 3&#xA;else if {#102.Sts_Opened}  then 4&#xA;else 0" blinkRate="2">
+                            <color value="0" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="1" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="gray" backColor2="gray" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="2" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="3" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="gray" backColor2="gray" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="4" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        </animateColor>
+                    </animations>
+                </group>
+                <group name="[NAME]TopGroup" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.ValveTopGroup" linkToolTipText="true">
+                    <polygon name="[NAME]TopOuterPolygon" height="19" width="19" left="[LEFT+2]" top="[TOP+103]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.ValveTopOuterPolygon" linkToolTipText="true" backStyle="solid" backColor="#FFC0FF" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="46 131 46 130 37 113 55 113 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <polygon name="[NAME]TopInnerPolygon" height="16" width="15" left="[LEFT+4]" top="[TOP+104]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.ValveTopInnerPolygon" linkToolTipText="true" backStyle="solid" backColor="#FFC0FF" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="46 129 46 128 39 114 53 114 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <animations>
+                        <animateColor expression="if {#102.Sts_Closed} then 1&#xA;else if {#102.Sts_Closing}  then 2&#xA;else if {#102.Sts_Opening}  then 3&#xA;else if {#102.Sts_Opened}  then 4&#xA;else 0" blinkRate="2">
+                            <color value="0" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="magenta" backColor2="magenta" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="1" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="gray" backColor2="gray" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="2" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="gray" backColor2="gray" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="3" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                            <color value="4" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        </animateColor>
+                    </animations>
+                </group>
+            </group>
+            <group name="[NAME]_Actuator2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.GO_P_ValveSO2_Actuator2" linkToolTipText="true">
+                <group name="[NAME]grp6" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.Group6" linkToolTipText="true">
+                    <rectangle name="[NAME]Polygon403" height="19" width="19" left="[LEFT+21]" top="[TOP+111]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.Polygon403" linkToolTipText="true" backStyle="solid" backColor="white" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <text name="[NAME]txt14" height="16" width="10" left="[LEFT+26]" top="[TOP+112]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.Text14" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="S"/>
+                </group>
+                <line name="[NAME]ln82" height="1" width="10" left="[LEFT+12]" top="[TOP+120]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.Line82" linkToolTipText="true" line="47 130 56 130 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="white" foreColor="black"/>
+                <animations>
+                    <animateColor expression="if (not {#102.Inp_Sim}) then {#102.out}&#xA;else if {#102.Cfg_FailOpen} and ({#102.Sts_Closed} or {#102.Sts_Closing})  then 1&#xA;else if (not {#102.Cfg_FailOpen}) and ({#102.Sts_Opening} or {#102.Sts_Opened})  then 1&#xA;else 0" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="gray" backColor2="gray" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="#606060" foreColor2="#606060" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </group>
+            <text name="[NAME]txtFailOpen2" height="14" width="15" left="[LEFT+-6]" top="[TOP+113]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.TextFailOpen2" linkToolTipText="true" backStyle="transparent" backColor="#E0E0E0" foreColor="#606060" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="FO">
+                <animations>
+                    <animateVisibility expression="{#102.Cfg_FailOpen}" expressionTrueState="visible"/>
+                </animations>
+            </text>
+        </group>
+        <group name="[NAME]grp_Status24" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.group_Status24" linkToolTipText="true">
+            <multistateIndicator name="[NAME]msi_MaintBypass24" height="18" width="34" left="[LEFT+11]" top="[TOP+94]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.msi_MaintBypass24" linkToolTipText="true" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="Error" alignment="middleLeft" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="Breadcrumb_MaintBypass" alignment="middleRight" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="Breadcrumb_MaintBypass" alignment="middleLeft" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <animations>
+                    <animateVisibility expression="{#102.Sts_MaintByp}" expressionTrueState="visible"/>
+                </animations>
+                <connections>
+                    <connection name="Indicator" expression="{#102.Sts_NotRdy}"/>
+                </connections>
+            </multistateIndicator>
+            <image name="[NAME]img_NotReady24" height="18" width="18" left="[LEFT+29]" top="[TOP+94]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.Image_NotReady24" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_NotReady">
+                <animations>
+                    <animateVisibility expression="{#102.Sts_NotRdy}" expressionTrueState="visible"/>
+                </animations>
+            </image>
+        </group>
+        <multistateIndicator name="[NAME]msi_ModeWthDisabled22" height="18" width="18" left="[LEFT+23]" top="[TOP+130]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="JRSCustomizableObjects2.msi_ModeWthDisabled22" linkToolTipText="true" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="6" captionOnBorder="false" setLastStateId="11">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Error" alignment="middleLeft" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_NoMode" alignment="middleCenter" backStyle="transparent" color="white" backColor="black" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_Hand" alignment="middleCenter" backStyle="transparent" color="white" backColor="black" scaled="false" blink="false"/>
+                </state>
+                <state stateId="2" value="2" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_Maintenance" alignment="middleCenter" backStyle="transparent" color="white" backColor="black" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_Override" alignment="middleCenter" backStyle="transparent" color="white" backColor="black" scaled="false" blink="false"/>
+                </state>
+                <state stateId="4" value="4" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_ProgramLocked" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="5" value="5" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_OperatorLocked" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="6" value="6" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_Program" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="7" value="7" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_Operator" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="8" value="8" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_ProgramDefault" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="9" value="9" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Mode_OperatorDefault" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="10" value="10" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Status_Disabled" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="If (({#102.Val_Mode} &gt; 1) and {#102.Sts_Disabled}) then &#xA;   10&#xA;else &#xA;   {#102.Val_Mode}"/>
+            </connections>
+        </multistateIndicator>
+        <parameters>
+            <parameter name="#102" description="[NAME] Tag (P_ValveSO)" value="{[MOS_PCK_CLX][NAME]}"/>
+            <parameter name="#103" description="Path (include program scope if tag is a program scope tag)" value=""/>
+            <parameter name="#120" description="Additional display parameter (e.g. /X100 or /CC) (optional)" value=""/>
+            <parameter name="#121" description="Additional display parameter (e.g. /Y100) (optional)" value=""/>
+            <parameter name="#122" description="0 = Always show Faceplate;  1= Show Quick Display for users without Maintenance Access (Code C); 2 = Always Show Quick Display" value=""/>
+        </parameters>
+    </group>
+    

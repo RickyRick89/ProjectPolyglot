@@ -1,0 +1,1 @@
+            <command pressAction="" repeatAction="" releaseAction="Display &quot;(ra-bas) p_{Type}-faceplate&quot; /T{&quot;/FTDATA03::[{PLC}]&quot;},{&quot;{Name}&quot;}" repeatRate="0.25"/>

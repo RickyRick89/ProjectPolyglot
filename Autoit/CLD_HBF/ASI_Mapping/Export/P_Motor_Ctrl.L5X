@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="31.02" TargetName="P_Motor_Ctrl" TargetType="DataType" ContainsContext="true" Owner="Triplex" ExportDate="Wed Sep 14 08:26:34 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="CA_PROC_5A">
+<DataTypes Use="Context">
+<DataType Use="Target" Name="P_Motor_Ctrl" Family="NoFamily" Class="User">
+<Members>
+<Member Name="ZZZZZZZZZZP_Motor_Ct0" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="PCmd_Start" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="PCmd_Fwd" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="PCmd_Rev" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="PCmd_Stop" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Stopped" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Starting" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Running" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Stopping" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct0" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="ZZZZZZZZZZP_Motor_Ct9" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="Sts_ActualDir" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="Sts_AtSpeed" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Available" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="Sts_BypActive" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Err" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Prog" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Oper" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="Sts_Ready" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct9" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="ZZZZZZZZZZP_Motor_Ct18" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="Intlk00" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="Intlk01" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="Intlk02" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="Intlk03" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="Intlk04" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="Intlk05" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="Intlk06" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="Intlk07" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct18" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="ZZZZZZZZZZP_Motor_Ct27" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="Inp_RunFdbk" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct27" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="Out_Run" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct27" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="IOFault" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct27" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="Inhibited" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct27" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="CommOK" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct27" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="PCmd_Ena" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZP_Motor_Ct27" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="PSet_SpeedRef" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="Start_Delay" DataType="TIMER" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="Running_Tmr" DataType="TIMER" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="Stopped_Tmr" DataType="TIMER" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write"/>
+</Members>
+</DataType>
+</DataTypes>
+</Controller>
+</RSLogix5000Content>

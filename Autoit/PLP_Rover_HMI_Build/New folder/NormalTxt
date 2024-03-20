@@ -1,0 +1,178 @@
+                <![CDATA[Dim vYCord As Integer
+Dim vXCord As Integer
+Dim vZCord As Integer
+
+Private Sub ClearData()
+    txtCmd.Caption = "-"
+    txtRoverId.Caption = "0"
+    txtPLC.Caption = "-"
+End Sub
+
+Private Sub RoverSelected(vParameters As String)
+    Dim vPLC As String
+    Dim vZoneIndex As String
+    Dim vMainTag As String
+    Dim vTagToWrite As String
+    Dim vDisplayName As String
+    Dim vRoverId As String
+    Dim vLocation As String
+    Dim vStart As Integer
+    Dim vEnd As Integer
+    Dim vLen As Integer
+    Dim vParameter As String
+    Dim sCmd As String
+    Dim Answer As Integer
+  
+    vLen = Len(vParameters)
+    vStart = 1
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vRoverId = vParameter
+    End If
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vPLC = vParameter
+    End If
+    
+    Set MyTagGroup = Application.CreateTagGroup(Me.AreaName)
+    'Add tags to tag group
+    'vMainTag = "[" & vPLC & "]Zones[" & vZoneIndex & "]"
+    vDisplayName = Me.Name
+    
+    If txtCmd.Caption = "-" Then 'Open pop-Up display
+        sCmd = "Display pop_Rover /T {" & vRoverId & "},{" & vPLC & "},{" & vDisplayName & "}"
+        Me.Application.ExecuteCommand sCmd
+        txtMessage.Caption = vRoverId
+    End If
+    
+    Set MyTagGroup = Nothing
+
+End Sub
+
+Private Sub ZoneSelected(vParameters As String)
+    Dim vPLC As String
+    Dim vZoneIndex As String
+    Dim vMainTag As String
+    Dim vTagToWrite As String
+    Dim vDisplayName As String
+    Dim vRoverId As String
+    Dim vLocation As String
+    Dim vStart As Integer
+    Dim vEnd As Integer
+    Dim vLen As Integer
+    Dim vParameter As String
+    Dim sCmd As String
+    Dim Answer As Integer
+  
+    vLen = Len(vParameters)
+    vStart = 1
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vZoneIndex = vParameter
+    End If
+    
+    If vLen > vStart Then
+        vEnd = InStr(vStart, vParameters, ",")
+        If vEnd > 0 Then
+            vParameter = Mid(vParameters, vStart, vEnd - 1)
+            vStart = vEnd + 1
+        Else
+            vParameter = Mid(vParameters, vStart, vLen)
+            vStart = vLen
+        End If
+        vPLC = vParameter
+    End If
+    
+    Set MyTagGroup = Application.CreateTagGroup(Me.AreaName)
+    'Add tags to tag group
+    vMainTag = "[" & vPLC & "]Zones[" & vZoneIndex & "]"
+    vDisplayName = Me.Name
+    
+    If txtCmd.Caption = "-" Then 'Open pop-Up displays
+        MyTagGroup.Add "{" & vMainTag & ".Sts_Occ}"
+        MyTagGroup.Add "{" & vMainTag & ".Owner}"
+        If MyTagGroup.Item("{" & vMainTag & ".Sts_Occ}").Value = 0 Then
+            sCmd = "Display pop_RoverZone /T {" & vZoneIndex & "},{" & vPLC & "},{" & vDisplayName & "}"
+            Me.Application.ExecuteCommand sCmd
+        Else
+            vRoverId = MyTagGroup.Item("{" & vMainTag & ".Owner}").Value
+            If Len(vRoverId) = 1 Then
+                vRoverId = "0" & vRoverId
+            End If
+            sCmd = "Display pop_Rover /T {" & vRoverId & "},{" & vPLC & "},{" & vDisplayName & "}"
+            Me.Application.ExecuteCommand sCmd
+        End If
+        txtMessage.Caption = vRoverId
+    End If
+    
+    Set MyTagGroup = Nothing
+End Sub
+
+Private Sub MapSelected(vDisplayName As String)
+
+    sCmd = "Display " & vDisplayName & ""
+    Me.Application.ExecuteCommand sCmd
+
+End Sub
+
+
+
+Private Sub Display_AnimationStart()
+    Dim vDisplayName As String
+    Dim vDisplayNameRef As String
+    
+    vDisplayName = Me.Name
+    vDisplayNameRef = bttMapSel1.ToolTipText
+    
+    
+    If vDisplayName = bttMapSel1.ToolTipText Then
+        plgMapSel1.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel2.ToolTipText Then
+        plgMapSel2.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel3.ToolTipText Then
+        plgMapSel3.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel4.ToolTipText Then
+        plgMapSel4.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel5.ToolTipText Then
+        plgMapSel5.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel6.ToolTipText Then
+        plgMapSel6.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel7.ToolTipText Then
+        plgMapSel7.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel8.ToolTipText Then
+        plgMapSel8.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel9.ToolTipText Then
+        plgMapSel9.BackColor = RGB(192, 192, 192)
+    ElseIf vDisplayName = bttMapSel10.ToolTipText Then
+        plgMapSel10.BackColor = RGB(192, 192, 192)
+    End If
+    
+    
+    txtCmd.Caption = "-"
+    txtRoverId.Caption = "0"
+    txtPLC.Caption = "-"
+End Sub

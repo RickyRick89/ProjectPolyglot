@@ -1,0 +1,248 @@
+
+	<group name="grpRoverZone141" visible="true" wallpaper="false" toolTipText="/*LS:0 {[#102]Zones[#101]}*/" exposeToVba="vbaControl" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.grpRoverZone1" linkToolTipText="true">
+        <button name="bttRoverZone141" height="45" width="44" left="45" top="720" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.bttRoverZone1" linkToolTipText="true" style="noborder" captureCursor="false" highlightOnFocus="true" tabIndex="1">
+            <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="transparent" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#101}*/,/*LS:0 {#102}*/"/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </button>
+        <text name="txtParZoneIndex141" height="16" width="26" left="56" top="735" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtParZoneIndex1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#101}*/"/>
+        <text name="txtParPLC141" height="16" width="39" left="51" top="750" visible="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtParPLC3" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#102}*/"/>
+        <multistateIndicator name="msiRoverZone141" height="45" width="44" left="45" top="720" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.msiRoverZone1" linkToolTipText="true" backStyle="solid" borderStyle="line" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="3" captionOnBorder="false" setLastStateId="40">
+            <states>
+                <state stateId="Error" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="2" value="2" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="4" value="4" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="5" value="5" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="6" value="6" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="7" value="7" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="8" value="8" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="9" value="9" backColor="#F1D18F" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="10" value="10" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="11" value="11" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="12" value="12" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="13" value="13" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="14" value="14" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="15" value="15" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="16" value="16" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="17" value="17" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="18" value="18" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="19" value="19" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="20" value="20" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="21" value="21" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="22" value="22" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="23" value="23" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="24" value="24" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="25" value="25" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="26" value="26" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="27" value="27" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="28" value="28" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="29" value="29" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="30" value="30" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="31" value="31" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="32" value="32" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="33" value="33" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="34" value="34" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="35" value="35" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="36" value="36" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="37" value="37" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="38" value="38" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="39" value="39" backColor="silver" borderColor="black" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="26" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="#F00000" backColor="navy" backStyle="transparent" alignment="topCenter" wordWrap="false" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[#102]Zones[#101].Type}"/>
+            </connections>
+        </multistateIndicator>
+        <image name="imgPalletBck141" height="45" width="44" left="45" top="720" visible="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.imgPalletBck5" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="img_pallet_bck1">
+            <animations>
+                <animateVisibility expression="{[#102]Zones[#101].Sts_Pallet}" expressionTrueState="visible"/>
+            </animations>
+        </image>
+        <group name="grpMaint141" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.grpMaint1" linkToolTipText="true">
+            <line name="linMaint141" height="35" width="34" left="51" top="725" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.linMaint3" linkToolTipText="true" line="143 97 172 127 " backStyle="solid" lineStyle="solid" lineWidth="5" backColor="teal" foreColor="blue"/>
+            <line name="linMaint141_1" height="35" width="34" left="51" top="725" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.linMaint4" linkToolTipText="true" line="172 97 143 127 " backStyle="solid" lineStyle="solid" lineWidth="5" backColor="teal" foreColor="blue"/>
+            <animations>
+                <animateVisibility expression="{[#102]Zones[#101].Sts_Maint}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="grpEna141" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.grpEna1" linkToolTipText="true">
+            <line name="linEna141" height="35" width="34" left="51" top="725" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.linEna1" linkToolTipText="true" line="143 97 172 127 " backStyle="solid" lineStyle="solid" lineWidth="5" backColor="teal" foreColor="#F00000"/>
+            <line name="linEna141_1" height="35" width="34" left="51" top="725" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.linEna2" linkToolTipText="true" line="172 97 143 127 " backStyle="solid" lineStyle="solid" lineWidth="5" backColor="teal" foreColor="#F00000"/>
+            <animations>
+                <animateVisibility expression="{[#102]Zones[#101].Sts_Ena}" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+        <group name="Group141" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.Group1" linkToolTipText="true">
+            <rectangle name="Polygon141" height="15" width="45" left="45" top="720" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.Polygon1" linkToolTipText="true" backStyle="solid" backColor="white" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="txtOwner141" height="15" width="45" left="45" top="720" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtOwner2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="gray" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="/*N:2 [#102]Zones[#101].Owner NOFILL DP:0*/">
+                <animations>
+                    <animateVisibility expression="({[#102]Zones[#101].Owner} &gt; 0)" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <animations>
+                <animateVisibility expression="({[#102]Zones[#101].Owner} &gt; 0)" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="grpRover141" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.grpRover1" linkToolTipText="true">
+            <image name="imgPalletBck141_1" height="45" width="44" left="45" top="720" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.imgPalletBck3" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="img_pallet_bck2">
+                <animations>
+                    <animateVisibility expression="{[#102]Zones[#101].RovStatus.6}" expressionTrueState="visible"/>
+                </animations>
+            </image>
+            <text name="txtRoverId141" height="15" width="44" left="45" top="720" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtRoverId3" linkToolTipText="true" backStyle="solid" backColor="#C000C0" foreColor="white" wordWrap="false" sizeToFit="false" alignment="bottomCenter" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="     /*N:2 [#102]Zones[#101].Owner NOFILL DP:0*/     ">
+                <animations>
+                    <animateColor expression="If {[#102]Zones[#101].RovStatus.1} Then 3&#xA;else if {[#102]Zones[#101].RovStatus.2} Then 2&#xA;else if {[#102]Zones[#101].RovStatus.3} Then 1&#xA;else 0" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="#F0F000" backColor2="#F0F000" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="2" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="cyan" backColor2="cyan" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="3" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="#FF8080" backColor2="#FF8080" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </text>
+            <rectangle name="plgRover141" height="46" width="46" left="45" top="720" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.plgRover1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#0088C8" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <animations>
+                <animateVisibility expression="({[#102]Zones[#101].Sts_Occ})  AND ({[#102]Zones[#101].Owner} &gt; 0)" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <parameters>
+            <parameter name="#101" description="Zone #" value="141"/>
+            <parameter name="#102" description="PLC" value="RoverSysPLC"/>
+        </parameters>
+    </group>
+    

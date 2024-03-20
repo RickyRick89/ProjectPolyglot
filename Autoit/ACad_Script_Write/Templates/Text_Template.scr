@@ -1,0 +1,7 @@
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY [JUSTIFICATION]
+[LEFT],[TOP]
+[SIZE]
+[ROTATION]
+[TEXT]

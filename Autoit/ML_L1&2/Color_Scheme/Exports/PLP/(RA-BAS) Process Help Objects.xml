@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE13.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="0" positionY="0" securityCode="*" backColor="white" titleBar="true" titleBarText="" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="false" size="specifySizeInPixels" width="1200" height="997" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="true" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="true" TrackName="" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="black" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="black" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="GlobalObjectAnnotationGroup" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="GlobalObjectAnnotationText3" height="56" width="144" left="160" top="907" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="GO_StatusHelpBasic used by&#xA;     P_HiLoSel&#xA;     P_Fanout&#xA;     P_Logic"/>
+        <text name="GlobalObjectAnnotationText2" height="28" width="164" left="160" top="865" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="topLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="GO_StatusHelpBasicPlus used by&#xA;"/>
+        <text name="GlobalObjectAnnotationText1" height="210" width="156" left="160" top="620" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#FFC0FF" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="GO_StatusHelpMonitor Used by:&#xA;     P_AIChan&#xA;     P_AIn&#xA;     P_AInAdv&#xA;     P_AInDual&#xA;     P_AInMulti&#xA;     P_AIn56H&#xA;     P_AIn94H&#xA;     P_AInEIP&#xA;     P_AInFFR&#xA;     P_AInPAR&#xA;     P_DIn&#xA;     P_E1PlusE&#xA;     P_E3Ovld&#xA;     P_E300Ovld"/>
+        <text name="GlobalObjectAnnotationText" height="322" width="121" left="5" top="620" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#FFC0FF" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="topLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="GO_StatusHelp Used by:&#xA;     P_AOut&#xA;     P_D4SD&#xA;     P_DoseFM&#xA;     P_DoseWS&#xA;     P_DOut&#xA;     P_Motor&#xA;     P_Motor2Spd&#xA;     P_MotorHO&#xA;     P_MotorRev&#xA;     P_nPos&#xA;     P_PIDE&#xA;     P_SMC50&#xA;     P_SMCFlex&#xA;     P_ValveC&#xA;     P_ValveHO&#xA;     P_ValveMO&#xA;     P_ValveMP&#xA;     P_ValveSO&#xA;     P_VSD&#xA;     P_PF52x&#xA;     P_PF755&#xA;     P_PF753"/>
+    </group>
+    <group name="GO_Status_Lower" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_LowerPV" height="14" width="230" left="305" top="596" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Lower PV Output Energized"/>
+        <image name="Image_Lower" height="16" width="16" left="282" top="595" visible="true" toolTipText="Lower PV Output Energized" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Lower"/>
+    </group>
+    <group name="GO_Status_RaisePV" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_RaisePV" height="14" width="230" left="40" top="596" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Raise PV Output Energized"/>
+        <image name="Image_Raise" height="16" width="16" left="17" top="595" visible="true" toolTipText="Raise PV Output Energized" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Raise"/>
+    </group>
+    <group name="GO_Status_NoFlow" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_NoFlow" height="14" width="230" left="40" top="268" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="No flow detected"/>
+        <image name="Image_NoFlow" height="16" width="16" left="17" top="267" visible="true" toolTipText="No flow detected" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_NoFlow"/>
+    </group>
+    <group name="GO_BumplessTransition" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpText_BumplessTransition" height="56" width="520" left="615" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="topLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="When checked, Substitute PV and Threshold Limits will track their corresponding program values in Program Mode.  Also, Program Threshold Limits will track Operator entered values in Operator or Maintenance Mode.  When not checked, program and operator values can be changed independently."/>
+        <line name="HelpSeparatorLine3" height="1" width="540" left="605" top="165" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="605 165 1144 165 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue"/>
+        <text name="HelpTitleText_BumplessTransition" height="16" width="252" left="605" top="157" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="white" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Bumpless Program/Operator Transition "/>
+    </group>
+    <group name="GO_LevelIndicatorsAdvanced" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="LevelIndicatorsAdv" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group_HRoCIncDec" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <group name="Group_HRoCDec" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_ThresholdHighRateOfChangeDec" height="14" width="230" left="905" top="112" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High Rate of Change (Decrease) Exceeded"/>
+                    <image name="Image_ThresholdHighRoCDec" height="16" width="16" left="882" top="111" visible="true" toolTipText="PV Rate of Change (Decrease) Exceeded High Threshold" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighRoCDec"/>
+                </group>
+                <group name="Group_HRoCInc" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_ThresholdHighRateOfChangeInc" height="14" width="230" left="640" top="112" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High Rate of Change (Increase) Exceeded"/>
+                    <image name="Image_ThresholdHighRoCInc" height="16" width="16" left="617" top="111" visible="true" toolTipText="PV Rate of Change (Increase) Exceeded High Threshold" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighRoCInc"/>
+                </group>
+                <animations>
+                    <animateVisibility expression="0" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <group name="Group_HRoC" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdHighRateOfChange" height="14" width="230" left="640" top="112" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High Rate of Change Exceeded"/>
+                <image name="Image_ThresholdHighRoC" height="16" width="16" left="617" top="111" visible="true" toolTipText="PV Rate of Change Exceeded High Threshold" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighRoC"/>
+                <animations>
+                    <animateVisibility expression="1" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <group name="Group_LDev" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdLowDeviation1" height="14" width="230" left="905" top="92" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Low Deviation Exceeded"/>
+                <image name="Image_ThresholdLowDeviation" height="16" width="16" left="882" top="91" visible="true" toolTipText="PV Outside of Low Deviation from Target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_LowDeviation"/>
+            </group>
+            <group name="Group_HDev" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdHighDeviation1" height="14" width="230" left="640" top="92" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High Deviation Exceeded"/>
+                <image name="Image_ThresholdHighDeviation" height="16" width="16" left="617" top="91" visible="true" toolTipText="PV Outside of High Deviation from Target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighDeviation"/>
+            </group>
+            <animations>
+                <animateVisibility expression="0" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="GO_LevelIndicators" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group_LI_Indicators" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <group name="Group_L" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_ThresholdLow" height="14" width="230" left="905" top="72" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Low Level Exceeded"/>
+                    <image name="Image_ThresholdLow" height="16" width="16" left="882" top="71" visible="true" toolTipText="PV Below Low Threshold" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_Low"/>
+                </group>
+                <group name="Group_H" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_ThresholdHigh" height="14" width="230" left="640" top="72" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High Level Exceeded"/>
+                    <image name="Image_ThresholdHigh" height="16" width="16" left="617" top="71" visible="true" toolTipText="PV Above High Threshold" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_High"/>
+                </group>
+                <group name="Group_LL" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_ThresholdLowLow" height="14" width="230" left="905" top="52" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Low-Low Level Exceeded"/>
+                    <image name="Image_ThresholdLowLow" height="16" width="16" left="882" top="51" visible="true" toolTipText="PV Below Low-Low Threshold" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_LowLow"/>
+                </group>
+                <group name="Group_HH" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_ThresholdHighHigh" height="14" width="230" left="640" top="52" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High-High Level Exceeded"/>
+                    <image name="Image_ThresholdHighHigh" height="16" width="16" left="617" top="51" visible="true" toolTipText="PV Above High-High Threshold" exposeToVba="typeInfoExtension" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighHigh"/>
+                </group>
+            </group>
+            <line name="HelpSeparatorLine2" height="1" width="540" left="605" top="38" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="605 38 1144 38 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue"/>
+            <text name="HelpTitleText_LevelIndicators" height="16" width="106" left="605" top="30" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="white" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Level Indicators "/>
+        </group>
+    </group>
+    <group name="GO_StatusHelp" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group_Disabled" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Disabled" height="14" width="230" left="305" top="228" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Device Disabled"/>
+            <image name="Image_DisabledIcon" height="18" width="18" left="282" top="226" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Status_Disabled"/>
+        </group>
+        <group name="GO_StatusNotReady" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_NotReady" height="14" width="230" left="40" top="228" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Device Not Ready To Operate"/>
+            <image name="Image_NotReady" height="18" width="18" left="16" top="226" visible="true" toolTipText="The device is not ready" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Status_NotReady"/>
+        </group>
+        <group name="GO_StatusHelpMonitor" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="GO_Status_Simulated" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_Simulated" height="14" width="230" left="305" top="208" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Device in Simulation or Test"/>
+                <image name="Image_Simulated" height="18" width="18" left="282" top="206" visible="true" toolTipText="Device in Simulation or Test" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Status_Simulated"/>
+            </group>
+            <group name="GO_Status_CommUncertain" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_CommUncertain" height="14" width="230" left="40" top="208" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Data Quality Degraded / Uncertain"/>
+                <image name="Image_CommUncertain" height="18" width="18" left="16" top="206" visible="true" toolTipText="Communication Uncertain" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Status_CommUncertain"/>
+            </group>
+            <group name="GO_MaintBypass" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_MaintBypass" height="14" width="230" left="305" top="188" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="gray" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Maintenance Bypass Active"/>
+                <image name="Image_MaintBypass" height="18" width="18" left="282" top="186" visible="true" toolTipText="A Maintenance Override is Active" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Breadcrumb_MaintBypass"/>
+            </group>
+            <group name="GO_CommFailure" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_CommFailure" height="14" width="230" left="40" top="188" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Data Quality Bad / Failure"/>
+                <image name="Image_CommBad" height="18" width="18" left="16" top="186" visible="true" toolTipText="Communication Failure (Bad)" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Status_CommBad"/>
+            </group>
+            <group name="GO_StatusHelpBasicPlus" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <group name="Group_AlarmInhibit" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_AlarmInhibit" height="14" width="230" left="305" top="168" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Alarm Inhibit (Suppressed or Disabled)"/>
+                    <image name="Image_AlarmInhibit" height="18" width="18" left="282" top="166" visible="true" toolTipText="Alarm Inhibit" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Alarm_Inhibit"/>
+                </group>
+                <group name="GO_StatusHelpBasic" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <group name="Group_BadCfg" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                        <text name="HelpCaption_BadCfg" height="14" width="230" left="40" top="168" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Invalid Configuration"/>
+                        <image name="Image_BadConfig" height="18" width="18" left="16" top="166" visible="true" toolTipText="Configuration Error" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Breadcrumb_BadConfig"/>
+                    </group>
+                    <line name="HelpSeparatorLine1" height="1" width="540" left="5" top="154" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="5 154 544 154 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue"/>
+                    <text name="HelpTitleText_StatusIndicators" height="16" width="110" left="5" top="146" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="white" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Status Indicators "/>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group name="GO_ModeHelp_HMOPO" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="GO_MS_Hand" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Hand" height="14" width="230" left="305" top="122" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Hand (Local)"/>
+            <image name="Image_Hand" height="16" width="16" left="282" top="121" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Mode_Hand"/>
+            <animations>
+                <animateVisibility expression="1" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="GO_MS_Override" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Override" height="14" width="230" left="40" top="122" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Override"/>
+            <image name="Image_Override" height="16" width="16" left="17" top="121" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Mode_Override"/>
+            <animations>
+                <animateVisibility expression="1" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="GO_ModeHelp_MPO" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="GroupModeIndicators" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <group name="Group_MS_NoMode" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_NoMode" height="14" width="230" left="305" top="102" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="No Mode (Out of Service)"/>
+                    <image name="Image_NoMode" height="16" width="16" left="282" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Mode_NoMode"/>
+                </group>
+                <group name="Group_MS_Maintenance" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_Maintenance" height="14" width="230" left="40" top="102" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Device in Maintenance Mode"/>
+                    <image name="Image_Maintenance" height="16" width="16" left="17" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Mode_Maintenance"/>
+                </group>
+                <group name="Group_MS_Operator" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_Operator" height="14" width="230" left="305" top="82" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Device in Operator Mode"/>
+                    <image name="Image_Operator" height="16" width="16" left="282" top="81" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Mode_Operator"/>
+                </group>
+                <group name="Group_MS_Program" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <text name="HelpCaption_Program" height="14" width="230" left="40" top="82" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Device in Program Mode"/>
+                    <image name="Image_Program" height="16" width="16" left="17" top="81" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Mode_Program"/>
+                </group>
+            </group>
+            <line name="HelpSeparatorLine" height="1" width="540" left="5" top="68" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="5 68 544 68 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue"/>
+            <text name="HelpTitleText_ModeIndicators" height="16" width="106" left="5" top="60" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="white" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Mode Indicators "/>
+            <group name="ButtonHelpMode" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <button name="ButtonHelp" height="35" width="35" left="510" top="60" visible="true" toolTipText="Help" exposeToVba="notExposed" isReferenceObject="false" style="3d" captureCursor="false" highlightOnFocus="true" tabIndex="1">
+                    <command pressAction="" repeatAction="" releaseAction="Display (RA-BAS) P_Mode-Help /T#1.Mode,#2,#3,{x} #2 #3" repeatRate="0.25"/>
+                    <up patternColor="black" patternStyle="none" backColor="#E0E0E0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                        <imageSettings imageReference="useImageReference" imageName="NavIcon_Help" scaled="false"/>
+                    </up>
+                    <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#ECE9D8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                        <imageSettings imageReference="noImage"/>
+                    </down>
+                    <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                    <eSignature requireElectronicSignature="false" allowBlankComment="false" requireReAuthentication="false" requireCounterSignature="false" authorizedGroup=""/>
+                    <useVariable requireUseVariable="false" tagName="" confirmationValue="1" eSigValue1="2" eSigValue2="3">
+                        <confirm buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                            <imageSettings imageReference="noImage"/>
+                        </confirm>
+                        <eSignature_1 allowBlankComment="false" requireReAuthentication="false"/>
+                        <eSignature_2 allowBlankComment="false" authorizedGroup="Administrators"/>
+                    </useVariable>
+                </button>
+            </group>
+        </group>
+    </group>
+    <group name="GO_DeviationIndicators" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="LevelIndicatorsAdv1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group_LLDev" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdLowLowDeviation" height="14" width="147" left="905" top="284" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Low-Low Deviation Exceeded"/>
+                <image name="Image_ThresholdLowLowDeviation" height="16" width="16" left="882" top="283" visible="true" toolTipText="PV Outside of Low-Low Deviation from Target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_LowLowDeviation"/>
+            </group>
+            <group name="Group_HHDev" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdHighHighDeviation" height="14" width="145" left="640" top="284" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High-High Deviation Exceeded"/>
+                <image name="Image_ThresholdHighHighDeviation" height="16" width="16" left="617" top="283" visible="true" toolTipText="PV Outside of High-High Deviation from Target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighHighDeviation"/>
+            </group>
+            <group name="Group_LDev1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdLowDeviation" height="14" width="121" left="905" top="264" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Low Deviation Exceeded"/>
+                <image name="Image_ThresholdLowDeviation1" height="16" width="16" left="882" top="263" visible="true" toolTipText="PV Outside of Low Deviation from Target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_LowDeviation"/>
+            </group>
+            <group name="Group_HDev1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <text name="HelpCaption_ThresholdHighDeviation" height="14" width="120" left="640" top="264" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="High Deviation Exceeded"/>
+                <image name="Image_ThresholdHighDeviation1" height="16" width="16" left="617" top="263" visible="true" toolTipText="PV Outside of High Deviation from Target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="white" imageColor="white" imageBlink="false" description="" imageName="Threshold_HighDeviation"/>
+            </group>
+        </group>
+        <line name="HelpSeparatorLine4" height="1" width="540" left="605" top="251" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="605 251 1144 251 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue"/>
+        <text name="HelpTitleText_DeviatIndicators" height="16" width="131" left="605" top="243" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="white" foreColor="blue" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Deviation Indicators "/>
+    </group>
+    <group name="GO_Status_TgtDisagree" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_TgtDisagree" height="14" width="230" left="40" top="455" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Input does not match Target"/>
+        <image name="Image_TgtDisagree" height="20" width="20" left="15" top="453" visible="true" toolTipText="Target Disagree - Input does not match target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_TargetDisagree"/>
+    </group>
+    <group name="GO_Status_TgtAgree" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_TgtAgree" height="14" width="230" left="305" top="429" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Input matches Target"/>
+        <image name="Image_TgtAgree" height="20" width="20" left="280" top="426" visible="true" toolTipText="Target Agree - Input matches target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_TargetAgree"/>
+    </group>
+    <group name="GO_Status_LoopModes" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group_MS_LoopAuto" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_MS_LoopAuto1" height="14" width="230" left="40" top="483" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Auto Loop Mode"/>
+            <image name="Image_AutoIcon" height="16" width="16" left="17" top="482" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="LoopMode_Auto"/>
+        </group>
+        <group name="Group_MS_LoopCascade" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_MS_LoopCascade" height="14" width="230" left="305" top="503" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Cascade Loop Mode"/>
+            <image name="Image_CascadeIcon" height="16" width="16" left="282" top="502" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="LoopMode_Cascade"/>
+        </group>
+        <group name="Group_MS_LoopManual" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_MS_LoopManual" height="14" width="230" left="305" top="483" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Manual Loop Mode"/>
+            <image name="Image_ManualIcon" height="16" width="16" left="282" top="482" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="LoopMode_Manual"/>
+        </group>
+        <group name="Group_MS_LoopAutoCascade" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_MS_LoopAuto" height="14" width="230" left="40" top="503" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Auto Loop Mode (cascade enabled)"/>
+            <image name="Image_AutoCascadeIcon" height="16" width="16" left="17" top="502" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="LoopMode_AutoCascade"/>
+        </group>
+    </group>
+    <group name="GO_Status_PVInControl" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_TgtAgreeLabel" height="28" width="230" left="305" top="449" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="PV Within SP Deadband (no control action occurs)"/>
+        <image name="Image_TgtAgree1" height="20" width="20" left="280" top="453" visible="true" toolTipText="Target Agree - Input matches target" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_TargetAgree"/>
+    </group>
+    <group name="GO_Status_WindupIndicators" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group_LoopWindupHigh" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_LoopWindupHigh" height="28" width="230" left="40" top="523" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="The CV has reached a high limit and cannot control the loop"/>
+            <image name="Image_LoopWindupHigh" height="18" width="18" left="16" top="528" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="LoopWindupHigh"/>
+        </group>
+        <group name="Group_LoopWindupLow" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_LoopWindupLow" height="28" width="230" left="305" top="523" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="The CV has reached a low limit and cannot control the loop"/>
+            <image name="Image_LoopWindupLow" height="18" width="18" left="281" top="528" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="LoopWindupLow"/>
+        </group>
+    </group>
+    <group name="GO_Status_InputDisabled" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_InputDisabled" height="14" width="230" left="40" top="288" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Input has been Disabled"/>
+        <image name="Image_InputDisabled" height="18" width="18" left="16" top="286" visible="true" toolTipText="Input signal disabled" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Disabled"/>
+    </group>
+    <group name="GO_Status_SpeedLimited" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_SpeedLimited" height="14" width="230" left="40" top="328" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Speed ref limited to the min/max"/>
+        <image name="Image_Limited" height="16" width="16" left="17" top="327" visible="true" toolTipText="Speed Reference Exceeds Configured Min/Max Limit" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Limited"/>
+    </group>
+    <group name="GO_Status_OutputClamped" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_OutputCVClamped" height="14" width="230" left="40" top="308" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Output CV Clamped to min/max"/>
+        <image name="Image_Clamped2" height="16" width="16" left="17" top="307" visible="true" toolTipText="Clamped at configured Max/Min" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_ClampedInfo"/>
+    </group>
+    <group name="GO_Status_AtSpeed" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_AtSpeed" height="14" width="230" left="40" top="348" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="At target Speed"/>
+        <image name="Image_AtSpeed" height="16" width="16" left="17" top="347" visible="true" toolTipText="At target speed" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_AtSpeed"/>
+    </group>
+    <group name="GO_Status_Clamped" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_Clamped" height="14" width="230" left="40" top="368" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Value Clamped to min/max"/>
+        <image name="Image_Clamped3" height="16" width="16" left="17" top="367" visible="true" toolTipText="Clamped at configured Max/Min" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Clamped"/>
+    </group>
+    <group name="GO_Status_InfNaN" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_InfNaN" height="14" width="230" left="40" top="388" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Value Infinite or Not a Number"/>
+        <image name="Image_InfNan" height="16" width="16" left="17" top="387" visible="true" toolTipText="Value Infinite or Not a Number" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_NotANumber"/>
+    </group>
+    <group name="GO_Status_Held" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_Held" height="14" width="230" left="40" top="408" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Value is being Held at last good value"/>
+        <image name="Image_Held" height="18" width="18" left="16" top="406" visible="true" toolTipText="Value is being Held at last good value" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Held"/>
+    </group>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="GO_Status_InputReject" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Reject" height="14" width="230" left="305" top="268" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Input Has Been Rejected"/>
+            <image name="Image_InputRejected" height="16" width="16" left="282" top="267" visible="true" toolTipText="Input signal has been rejected" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Rejected"/>
+        </group>
+        <group name="GO_Status_InputClamped" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_InputCVClamped" height="14" width="230" left="305" top="288" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Input CV Clamped to min/max"/>
+            <image name="Image_Clamped" height="16" width="16" left="282" top="287" visible="true" toolTipText="Clamped at configured Max/Min" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Clamped"/>
+        </group>
+        <group name="GO_Status_OutputClamped1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_OutputCVClamped1" height="14" width="230" left="305" top="308" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Output CV Clamped to min/max"/>
+            <image name="Image_Clamped1" height="16" width="16" left="282" top="307" visible="true" toolTipText="Clamped at configured Max/Min" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Clamped"/>
+        </group>
+        <group name="GO_Status_Accel" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Accel" height="14" width="230" left="305" top="328" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Accelerating"/>
+            <image name="Image_Accel" height="16" width="16" left="282" top="327" visible="true" toolTipText="Accelerating" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Accel"/>
+        </group>
+        <group name="GO_Status_Decel" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Decel" height="14" width="230" left="305" top="348" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Decelerating"/>
+            <image name="Image_Decel" height="16" width="16" left="282" top="347" visible="true" toolTipText="Decelerating" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Decel"/>
+        </group>
+        <group name="GO_Status_Stuck" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_StuckLabel" height="14" width="230" left="305" top="388" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Value has not changed (Stuck)"/>
+            <image name="Image_Stuck" height="16" width="16" left="282" top="387" visible="true" toolTipText="Value has not changed (Stuck)" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Stuck"/>
+        </group>
+        <group name="GO_Status_Replaced" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Replaced" height="14" width="230" left="305" top="408" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Value is being replaced"/>
+            <image name="Image_Replaced" height="18" width="18" left="281" top="406" visible="true" toolTipText="Value is being replaced" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Replaced"/>
+        </group>
+        <group name="GO_Status_Initializing" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="HelpCaption_Initializing" height="14" width="230" left="305" top="368" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Value is being Initialized"/>
+            <image name="Image_Initializing" height="16" width="16" left="282" top="367" visible="true" toolTipText="Value is being Initialized" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Status_Initializing"/>
+        </group>
+    </group>
+    <group name="GO_Status_Running" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_Running" height="14" width="230" left="40" top="556" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Motor Running"/>
+        <image name="Image_Running" height="16" width="16" left="17" top="555" visible="true" toolTipText="Motor Running" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Sequence_Running"/>
+    </group>
+    <group name="GO_Status_Idle" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_Idle" height="14" width="230" left="40" top="576" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Motor Idle"/>
+        <image name="Image_Idle" height="16" width="16" left="17" top="575" visible="true" toolTipText="Motor Idle" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="Sequence_Idle"/>
+    </group>
+    <group name="GO_Status_NotAvailable" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="HelpCaption_NotAvailable" height="14" width="230" left="305" top="556" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Motor Not Controllable"/>
+        <ellipse name="BackerEllipse_NotAvailable" height="17" width="17" left="281" top="554" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#E0E0E0" foreColor="#E0E0E0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="#8C8C00" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <image name="Image_NotAvailable" height="16" width="16" left="282" top="555" visible="true" toolTipText="Motor Not Available" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="transparent" imageBackColor="silver" imageColor="white" imageBlink="false" description="" imageName="Status_NotAvailable"/>
+    </group>
+    <text name="TextCopyright" height="16" width="346" left="540" top="5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Copyright © Rockwell Automation, Inc.  All Rights Reserved"/>
+    <group name="GO_VersionId_ProcessHelpObjects" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <panel name="Panel_VersionId" height="48" width="530" left="0" top="0" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <group name="Group_VersionDescription" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel_VersionDescription" height="22" width="526" left="2" top="24" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#FFE0C0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text_VersionDescription" height="16" width="189" left="7" top="27" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Process Faceplate Help Objects"/>
+        </group>
+        <group name="Group_VersionNumber" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel_VersionNumber" height="22" width="206" left="322" top="2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#FFE0C0" patternColor="#E0E0E0" blink="false" description="" borderColor="#FFE0C0" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text_VersionNumber" height="16" width="201" left="327" top="5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Version 3.5-01 Release"/>
+        </group>
+        <group name="Group_VersionFilename" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel_VersionFilename" height="22" width="320" left="2" top="2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#FFE0C0" patternColor="#E0E0E0" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text_VersionFilename" height="16" width="227" left="7" top="5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="(RA-BAS) Process Help Objects.ggfx"/>
+        </group>
+    </group>
+    <vbaProject>
+        <vbaReferencesLink>
+            <!--All checked references on the references dialog box!-->
+            <vbaRefLink hash="ad542389a48a5aae612a313b3334f89f" TypeLib_Name="VBA" Description="Visual Basic For Applications">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBWAEIAQQAsACAARABlAHMAYwByAGkAcAB0AGkAbwBu
+AD0AVgBpAHMAdQBhAGwAIABCAGEAcwBpAGMAIABGAG8AcgAgAEEAcABwAGwAaQBjAGEAdABpAG8A
+bgBzACwAIABHAFUASQBEAD0AewAwADAAMAAyADAANABFAEYALQAwADAAMAAwAC0AMAAwADAAMAAt
+AEMAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADQANgB9ACwAIABNAGEAagBvAHIAVgBlAHIA
+cwBpAG8AbgA9ADQALAAgAE0AaQBuAG8AcgBWAGUAcgBzAGkAbwBuAD0AMAAsACAA
+]]>
+            </vbaRefLink>
+            <vbaRefLink hash="9bf92fbe175229b5f0601c4bf4381b5f" TypeLib_Name="DisplayClient" Description="RSView Display Client Object Model">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBEAGkAcwBwAGwAYQB5AEMAbABpAGUAbgB0ACwAIABE
+AGUAcwBjAHIAaQBwAHQAaQBvAG4APQBSAFMAVgBpAGUAdwAgAEQAaQBzAHAAbABhAHkAIABDAGwA
+aQBlAG4AdAAgAE8AYgBqAGUAYwB0ACAATQBvAGQAZQBsACwAIABHAFUASQBEAD0AewA4ADUANAA2
+ADkAMwA0ADAALQBGADEAOAA5AC0AMQAxAEQAMQAtADkAQwAxADcALQAwADAANgAwADkANwA3AEMA
+QQBBAEYAMQB9ACwAIABNAGEAagBvAHIAVgBlAHIAcwBpAG8AbgA9ADEALAAgAE0AaQBuAG8AcgBW
+AGUAcgBzAGkAbwBuAD0AMAAsACAA
+]]>
+            </vbaRefLink>
+            <vbaRefLink hash="b0d387d1804d29964988314e5c534502" TypeLib_Name="stdole" Description="OLE Automation">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBzAHQAZABvAGwAZQAsACAARABlAHMAYwByAGkAcAB0
+AGkAbwBuAD0ATwBMAEUAIABBAHUAdABvAG0AYQB0AGkAbwBuACwAIABHAFUASQBEAD0AewAwADAA
+MAAyADAANAAzADAALQAwADAAMAAwAC0AMAAwADAAMAAtAEMAMAAwADAALQAwADAAMAAwADAAMAAw
+ADAAMAAwADQANgB9ACwAIABNAGEAagBvAHIAVgBlAHIAcwBpAG8AbgA9ADIALAAgAE0AaQBuAG8A
+cgBWAGUAcgBzAGkAbwBuAD0AMAAsACAA
+]]>
+            </vbaRefLink>
+            <vbaRefLink hash="4d04292f7c12576e749760ecf5ac2ea8" TypeLib_Name="DisplayClientEx" Description="RSView Display Client Object Model">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[VAB5AHAAZQBMAGkAYgBfAE4AYQBtAGUAPQBEAGkAcwBwAGwAYQB5AEMAbABpAGUAbgB0AEUAeAAs
+ACAARABlAHMAYwByAGkAcAB0AGkAbwBuAD0AUgBTAFYAaQBlAHcAIABEAGkAcwBwAGwAYQB5ACAA
+QwBsAGkAZQBuAHQAIABPAGIAagBlAGMAdAAgAE0AbwBkAGUAbAAsACAARwBVAEkARAA9AHsAOQBG
+ADcAMgA2ADcAQwAxAC0ANQA2ADcAQgAtADEAMQBEADMALQBBAEMAMwBCAC0AMAAwADYAMAA5ADcA
+RAA4AEMANwBFAEIAfQAsACAATQBhAGoAbwByAFYAZQByAHMAaQBvAG4APQAxACwAIABNAGkAbgBv
+AHIAVgBlAHIAcwBpAG8AbgA9ADAALAAgAA==]]>
+            </vbaRefLink>
+        </vbaReferencesLink>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

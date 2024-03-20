@@ -1,0 +1,559 @@
+Permissive,Description,Logic
+M0165C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU0165_Sts) OTE(M0165C_FwdPerm.Inp_Perm00) 
+M0165C_FwdPerm.Inp_Perm01,,
+M0165C_FwdPerm.Inp_Perm02,,
+M0165C_FwdPerm.Inp_Perm03,,
+M0165C_FwdPerm.Inp_Perm04,,
+M0165C_FwdPerm.Inp_Perm05,,
+M0165C_FwdPerm.Inp_Perm06,,
+M0165C_FwdPerm.Inp_Perm07,,
+M0165C_FwdPerm.Inp_Perm08,,
+M0165C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD0165_Sts) OTE(M0165C_RevPerm.Inp_Perm00) 
+M0165C_RevPerm.Inp_Perm01,,
+M0165C_RevPerm.Inp_Perm02,,
+M0165C_RevPerm.Inp_Perm03,,
+M0165C_RevPerm.Inp_Perm04,,
+M0165C_RevPerm.Inp_Perm05,,
+M0165C_RevPerm.Inp_Perm06,,
+M0165C_RevPerm.Inp_Perm07,,
+M0165C_RevPerm.Inp_Perm08,,
+M0312_FwdPerm.Inp_Perm00,Lift - Up Position,
+M0312_FwdPerm.Inp_Perm01,,
+M0312_FwdPerm.Inp_Perm02,,
+M0312_FwdPerm.Inp_Perm03,,
+M0312_FwdPerm.Inp_Perm04,,
+M0312_FwdPerm.Inp_Perm05,,
+M0312_FwdPerm.Inp_Perm06,,
+M0312_FwdPerm.Inp_Perm07,,
+M0312_FwdPerm.Inp_Perm08,,
+M0312_RevPerm.Inp_Perm00,Lift - Down Position,
+M0312_RevPerm.Inp_Perm01,,
+M0312_RevPerm.Inp_Perm02,,
+M0312_RevPerm.Inp_Perm03,,
+M0312_RevPerm.Inp_Perm04,,
+M0312_RevPerm.Inp_Perm05,,
+M0312_RevPerm.Inp_Perm06,,
+M0312_RevPerm.Inp_Perm07,,
+M0312_RevPerm.Inp_Perm08,,
+M7019_FwdPerm.Inp_Perm00,Lift - Up Position,
+M7019_FwdPerm.Inp_Perm01,,
+M7019_FwdPerm.Inp_Perm02,,
+M7019_FwdPerm.Inp_Perm03,,
+M7019_FwdPerm.Inp_Perm04,,
+M7019_FwdPerm.Inp_Perm05,,
+M7019_FwdPerm.Inp_Perm06,,
+M7019_FwdPerm.Inp_Perm07,,
+M7019_FwdPerm.Inp_Perm08,,
+M7019_RevPerm.Inp_Perm00,Lift - Down Position,
+M7019_RevPerm.Inp_Perm01,,
+M7019_RevPerm.Inp_Perm02,,
+M7019_RevPerm.Inp_Perm03,,
+M7019_RevPerm.Inp_Perm04,,
+M7019_RevPerm.Inp_Perm05,,
+M7019_RevPerm.Inp_Perm06,,
+M7019_RevPerm.Inp_Perm07,,
+M7019_RevPerm.Inp_Perm08,,
+M7023_FwdPerm.Inp_Perm00,Lift - Up Position,
+M7023_FwdPerm.Inp_Perm01,,
+M7023_FwdPerm.Inp_Perm02,,
+M7023_FwdPerm.Inp_Perm03,,
+M7023_FwdPerm.Inp_Perm04,,
+M7023_FwdPerm.Inp_Perm05,,
+M7023_FwdPerm.Inp_Perm06,,
+M7023_FwdPerm.Inp_Perm07,,
+M7023_FwdPerm.Inp_Perm08,,
+M7023_RevPerm.Inp_Perm00,Lift - Down Position,
+M7023_RevPerm.Inp_Perm01,,
+M7023_RevPerm.Inp_Perm02,,
+M7023_RevPerm.Inp_Perm03,,
+M7023_RevPerm.Inp_Perm04,,
+M7023_RevPerm.Inp_Perm05,,
+M7023_RevPerm.Inp_Perm06,,
+M7023_RevPerm.Inp_Perm07,,
+M7023_RevPerm.Inp_Perm08,,
+M7031B_FwdPerm.Inp_Perm00,Position 2 Limit,XIO(ZS7031D_Sts) OTE(M7031B_FwdPerm.Inp_Perm00) 
+M7031B_FwdPerm.Inp_Perm01,,
+M7031B_FwdPerm.Inp_Perm02,,
+M7031B_FwdPerm.Inp_Perm03,,
+M7031B_FwdPerm.Inp_Perm04,,
+M7031B_FwdPerm.Inp_Perm05,,
+M7031B_FwdPerm.Inp_Perm06,,
+M7031B_FwdPerm.Inp_Perm07,,
+M7031B_FwdPerm.Inp_Perm08,,
+M7031B_RevPerm.Inp_Perm00,Position 1 Limit,XIO(ZS7031A_Sts) OTE(M7031B_RevPerm.Inp_Perm00) 
+M7031B_RevPerm.Inp_Perm01,,
+M7031B_RevPerm.Inp_Perm02,,
+M7031B_RevPerm.Inp_Perm03,,
+M7031B_RevPerm.Inp_Perm04,,
+M7031B_RevPerm.Inp_Perm05,,
+M7031B_RevPerm.Inp_Perm06,,
+M7031B_RevPerm.Inp_Perm07,,
+M7031B_RevPerm.Inp_Perm08,,
+M7034C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7034_Sts) OTE(M7034C_FwdPerm.Inp_Perm00) 
+M7034C_FwdPerm.Inp_Perm01,,
+M7034C_FwdPerm.Inp_Perm02,,
+M7034C_FwdPerm.Inp_Perm03,,
+M7034C_FwdPerm.Inp_Perm04,,
+M7034C_FwdPerm.Inp_Perm05,,
+M7034C_FwdPerm.Inp_Perm06,,
+M7034C_FwdPerm.Inp_Perm07,,
+M7034C_FwdPerm.Inp_Perm08,,
+M7034C_FwdPerm1.Inp_Perm00,,
+M7034C_FwdPerm1.Inp_Perm01,,
+M7034C_FwdPerm1.Inp_Perm02,,
+M7034C_FwdPerm1.Inp_Perm03,,
+M7034C_FwdPerm1.Inp_Perm04,,
+M7034C_FwdPerm1.Inp_Perm05,,
+M7034C_FwdPerm1.Inp_Perm06,,
+M7034C_FwdPerm1.Inp_Perm07,,
+M7034C_FwdPerm1.Inp_Perm08,,
+M7034C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7034_Sts) OTE(M7034C_RevPerm.Inp_Perm00) 
+M7034C_RevPerm.Inp_Perm01,,
+M7034C_RevPerm.Inp_Perm02,,
+M7034C_RevPerm.Inp_Perm03,,
+M7034C_RevPerm.Inp_Perm04,,
+M7034C_RevPerm.Inp_Perm05,,
+M7034C_RevPerm.Inp_Perm06,,
+M7034C_RevPerm.Inp_Perm07,,
+M7034C_RevPerm.Inp_Perm08,,
+M7034C_RevPerm1.Inp_Perm00,,
+M7034C_RevPerm1.Inp_Perm01,,
+M7034C_RevPerm1.Inp_Perm02,,
+M7034C_RevPerm1.Inp_Perm03,,
+M7034C_RevPerm1.Inp_Perm04,,
+M7034C_RevPerm1.Inp_Perm05,,
+M7034C_RevPerm1.Inp_Perm06,,
+M7034C_RevPerm1.Inp_Perm07,,
+M7034C_RevPerm1.Inp_Perm08,,
+M7039C_FwdPerm.Inp_Perm00,,
+M7039C_FwdPerm.Inp_Perm01,,
+M7039C_FwdPerm.Inp_Perm02,,
+M7039C_FwdPerm.Inp_Perm03,,
+M7039C_FwdPerm.Inp_Perm04,,
+M7039C_FwdPerm.Inp_Perm05,,
+M7039C_FwdPerm.Inp_Perm06,,
+M7039C_FwdPerm.Inp_Perm07,,
+M7039C_FwdPerm.Inp_Perm08,,
+M7039C_RevPerm.Inp_Perm00,,
+M7039C_RevPerm.Inp_Perm01,,
+M7039C_RevPerm.Inp_Perm02,,
+M7039C_RevPerm.Inp_Perm03,,
+M7039C_RevPerm.Inp_Perm04,,
+M7039C_RevPerm.Inp_Perm05,,
+M7039C_RevPerm.Inp_Perm06,,
+M7039C_RevPerm.Inp_Perm07,,
+M7039C_RevPerm.Inp_Perm08,,
+M7042C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7042_Sts) OTE(M7042C_FwdPerm.Inp_Perm00) 
+M7042C_FwdPerm.Inp_Perm01,,
+M7042C_FwdPerm.Inp_Perm02,,
+M7042C_FwdPerm.Inp_Perm03,,
+M7042C_FwdPerm.Inp_Perm04,,
+M7042C_FwdPerm.Inp_Perm05,,
+M7042C_FwdPerm.Inp_Perm06,,
+M7042C_FwdPerm.Inp_Perm07,,
+M7042C_FwdPerm.Inp_Perm08,,
+M7042C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7042_Sts) OTE(M7042C_RevPerm.Inp_Perm00) 
+M7042C_RevPerm.Inp_Perm01,,
+M7042C_RevPerm.Inp_Perm02,,
+M7042C_RevPerm.Inp_Perm03,,
+M7042C_RevPerm.Inp_Perm04,,
+M7042C_RevPerm.Inp_Perm05,,
+M7042C_RevPerm.Inp_Perm06,,
+M7042C_RevPerm.Inp_Perm07,,
+M7042C_RevPerm.Inp_Perm08,,
+M7043C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7043_Sts) OTE(M7043C_FwdPerm.Inp_Perm00) 
+M7043C_FwdPerm.Inp_Perm01,,
+M7043C_FwdPerm.Inp_Perm02,,
+M7043C_FwdPerm.Inp_Perm03,,
+M7043C_FwdPerm.Inp_Perm04,,
+M7043C_FwdPerm.Inp_Perm05,,
+M7043C_FwdPerm.Inp_Perm06,,
+M7043C_FwdPerm.Inp_Perm07,,
+M7043C_FwdPerm.Inp_Perm08,,
+M7043C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7043_Sts) OTE(M7043C_RevPerm.Inp_Perm00) 
+M7043C_RevPerm.Inp_Perm01,,
+M7043C_RevPerm.Inp_Perm02,,
+M7043C_RevPerm.Inp_Perm03,,
+M7043C_RevPerm.Inp_Perm04,,
+M7043C_RevPerm.Inp_Perm05,,
+M7043C_RevPerm.Inp_Perm06,,
+M7043C_RevPerm.Inp_Perm07,,
+M7043C_RevPerm.Inp_Perm08,,
+M7051C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7051_Sts) OTE(M7051C_FwdPerm.Inp_Perm00) 
+M7051C_FwdPerm.Inp_Perm01,,
+M7051C_FwdPerm.Inp_Perm02,,
+M7051C_FwdPerm.Inp_Perm03,,
+M7051C_FwdPerm.Inp_Perm04,,
+M7051C_FwdPerm.Inp_Perm05,,
+M7051C_FwdPerm.Inp_Perm06,,
+M7051C_FwdPerm.Inp_Perm07,,
+M7051C_FwdPerm.Inp_Perm08,,
+M7051C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7051_Sts) OTE(M7051C_RevPerm.Inp_Perm00) 
+M7051C_RevPerm.Inp_Perm01,,
+M7051C_RevPerm.Inp_Perm02,,
+M7051C_RevPerm.Inp_Perm03,,
+M7051C_RevPerm.Inp_Perm04,,
+M7051C_RevPerm.Inp_Perm05,,
+M7051C_RevPerm.Inp_Perm06,,
+M7051C_RevPerm.Inp_Perm07,,
+M7051C_RevPerm.Inp_Perm08,,
+M7053A_FwdPerm.Inp_Perm00,Lift Position,"[XIC(ZS02_7053) ,XIC(ZS05_7053) ] OTE(M7053A_FwdPerm.Inp_Perm00) "
+M7053A_FwdPerm.Inp_Perm01,,
+M7053A_FwdPerm.Inp_Perm02,,
+M7053A_FwdPerm.Inp_Perm03,,
+M7053A_FwdPerm.Inp_Perm04,,
+M7053A_FwdPerm.Inp_Perm05,,
+M7053A_FwdPerm.Inp_Perm06,,
+M7053A_FwdPerm.Inp_Perm07,,
+M7053A_FwdPerm.Inp_Perm08,,
+M7053A_RevPerm.Inp_Perm00,Lift Position,XIC(ZS02_7053) OTE(M7053A_RevPerm.Inp_Perm00) 
+M7053A_RevPerm.Inp_Perm01,,
+M7053A_RevPerm.Inp_Perm02,,
+M7053A_RevPerm.Inp_Perm03,,
+M7053A_RevPerm.Inp_Perm04,,
+M7053A_RevPerm.Inp_Perm05,,
+M7053A_RevPerm.Inp_Perm06,,
+M7053A_RevPerm.Inp_Perm07,,
+M7053A_RevPerm.Inp_Perm08,,
+M7053BC_FwdPerm.Inp_Perm00,ZS05 Up Position,<![CDATA[[XIO(ZS05_7053) OTE(M7053BC_FwdPerm.Inp_Perm00) 
+M7053BC_FwdPerm.Inp_Perm01,ZS06 Over Travel,XIC(ZS06_7053) OTE(M7053BC_FwdPerm.Inp_Perm01) 
+M7053BC_FwdPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS11_7053) OTE(M7053BC_FwdPerm.Inp_Perm02) 
+M7053BC_FwdPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS12_7053) OTE(M7053BC_FwdPerm.Inp_Perm03) 
+M7053BC_FwdPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS13_7053) OTE(M7053BC_FwdPerm.Inp_Perm04) 
+M7053BC_FwdPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS14_7053) OTE(M7053BC_FwdPerm.Inp_Perm05) 
+M7053BC_FwdPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIO(ZS05_7053) OTE(M7053BC_FwdPerm.Inp_Perm00) ,XIC(ZS06_7053) OTE(M7053BC_FwdPerm.Inp_Perm01) ,XIC(ZS11_7053) OTE(M7053BC_FwdPerm.Inp_Perm02) ,XIC(ZS12_7053) OTE(M7053BC_FwdPerm.Inp_Perm03) ,XIC(ZS13_7053) OTE(M7053BC_FwdPerm.Inp_Perm04) ,XIC(ZS14_7053) OTE(M7053BC_FwdPerm.Inp_Perm05) ,XIC(ZSB7053_Sts) XIC(ZSF7053_Sts) OTE(M7053BC_FwdPerm.Inp_Perm06) ];]]>"
+M7053BC_FwdPerm.Inp_Perm07,,
+M7053BC_FwdPerm.Inp_Perm08,,
+M7053BC_RevPerm.Inp_Perm00,ZS01 Over Travel,<![CDATA[[XIC(ZS01_7053) OTE(M7053BC_RevPerm.Inp_Perm00) 
+M7053BC_RevPerm.Inp_Perm01,ZS02 Down Position,XIO(ZS02_7053) OTE(M7053BC_RevPerm.Inp_Perm01) 
+M7053BC_RevPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS11_7053) OTE(M7053BC_RevPerm.Inp_Perm02) 
+M7053BC_RevPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS12_7053) OTE(M7053BC_RevPerm.Inp_Perm03) 
+M7053BC_RevPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS13_7053) OTE(M7053BC_RevPerm.Inp_Perm04) 
+M7053BC_RevPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS14_7053) OTE(M7053BC_RevPerm.Inp_Perm05) 
+M7053BC_RevPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIC(ZS01_7053) OTE(M7053BC_RevPerm.Inp_Perm00) ,XIO(ZS02_7053) OTE(M7053BC_RevPerm.Inp_Perm01) ,XIC(ZS11_7053) OTE(M7053BC_RevPerm.Inp_Perm02) ,XIC(ZS12_7053) OTE(M7053BC_RevPerm.Inp_Perm03) ,XIC(ZS13_7053) OTE(M7053BC_RevPerm.Inp_Perm04) ,XIC(ZS14_7053) OTE(M7053BC_RevPerm.Inp_Perm05) ,XIC(ZSB7053_Sts) XIC(ZSF7053_Sts) OTE(M7053BC_RevPerm.Inp_Perm06) ];]]>"
+M7053BC_RevPerm.Inp_Perm07,,
+M7053BC_RevPerm.Inp_Perm08,,
+M7054C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7054_Sts) OTE(M7054C_FwdPerm.Inp_Perm00) 
+M7054C_FwdPerm.Inp_Perm01,,
+M7054C_FwdPerm.Inp_Perm02,,
+M7054C_FwdPerm.Inp_Perm03,,
+M7054C_FwdPerm.Inp_Perm04,,
+M7054C_FwdPerm.Inp_Perm05,,
+M7054C_FwdPerm.Inp_Perm06,,
+M7054C_FwdPerm.Inp_Perm07,,
+M7054C_FwdPerm.Inp_Perm08,,
+M7054C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7054_Sts) OTE(M7054C_RevPerm.Inp_Perm00) 
+M7054C_RevPerm.Inp_Perm01,,
+M7054C_RevPerm.Inp_Perm02,,
+M7054C_RevPerm.Inp_Perm03,,
+M7054C_RevPerm.Inp_Perm04,,
+M7054C_RevPerm.Inp_Perm05,,
+M7054C_RevPerm.Inp_Perm06,,
+M7054C_RevPerm.Inp_Perm07,,
+M7054C_RevPerm.Inp_Perm08,,
+M7056A_FwdPerm.Inp_Perm00,Lift Position,"[XIC(ZS02_7056) ,XIC(ZS05_7056) ] OTE(M7056A_FwdPerm.Inp_Perm00) "
+M7056A_FwdPerm.Inp_Perm01,,
+M7056A_FwdPerm.Inp_Perm02,,
+M7056A_FwdPerm.Inp_Perm03,,
+M7056A_FwdPerm.Inp_Perm04,,
+M7056A_FwdPerm.Inp_Perm05,,
+M7056A_FwdPerm.Inp_Perm06,,
+M7056A_FwdPerm.Inp_Perm07,,
+M7056A_FwdPerm.Inp_Perm08,,
+M7056A_RevPerm.Inp_Perm00,Lift Position,XIC(ZS02_7056) OTE(M7056A_RevPerm.Inp_Perm00) 
+M7056A_RevPerm.Inp_Perm01,,
+M7056A_RevPerm.Inp_Perm02,,
+M7056A_RevPerm.Inp_Perm03,,
+M7056A_RevPerm.Inp_Perm04,,
+M7056A_RevPerm.Inp_Perm05,,
+M7056A_RevPerm.Inp_Perm06,,
+M7056A_RevPerm.Inp_Perm07,,
+M7056A_RevPerm.Inp_Perm08,,
+M7056BC_FwdPerm.Inp_Perm00,ZS05 Up Position,<![CDATA[[XIO(ZS05_7056) OTE(M7056BC_FwdPerm.Inp_Perm00) 
+M7056BC_FwdPerm.Inp_Perm01,ZS06 Over Travel,XIC(ZS06_7056) OTE(M7056BC_FwdPerm.Inp_Perm01) 
+M7056BC_FwdPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS11_7056) OTE(M7056BC_FwdPerm.Inp_Perm02) 
+M7056BC_FwdPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS12_7056) OTE(M7056BC_FwdPerm.Inp_Perm03) 
+M7056BC_FwdPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS13_7056) OTE(M7056BC_FwdPerm.Inp_Perm04) 
+M7056BC_FwdPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS14_7056) OTE(M7056BC_FwdPerm.Inp_Perm05) 
+M7056BC_FwdPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIO(ZS05_7056) OTE(M7056BC_FwdPerm.Inp_Perm00) ,XIC(ZS06_7056) OTE(M7056BC_FwdPerm.Inp_Perm01) ,XIC(ZS11_7056) OTE(M7056BC_FwdPerm.Inp_Perm02) ,XIC(ZS12_7056) OTE(M7056BC_FwdPerm.Inp_Perm03) ,XIC(ZS13_7056) OTE(M7056BC_FwdPerm.Inp_Perm04) ,XIC(ZS14_7056) OTE(M7056BC_FwdPerm.Inp_Perm05) ,XIC(ZSB7056_Sts) XIC(ZSF7056_Sts) OTE(M7056BC_FwdPerm.Inp_Perm06) ];]]>"
+M7056BC_FwdPerm.Inp_Perm07,,
+M7056BC_FwdPerm.Inp_Perm08,,
+M7056BC_RevPerm.Inp_Perm00,ZS01 Over Travel,<![CDATA[[XIC(ZS01_7056) OTE(M7056BC_RevPerm.Inp_Perm00) 
+M7056BC_RevPerm.Inp_Perm01,ZS02 Down Position,XIO(ZS02_7056) OTE(M7056BC_RevPerm.Inp_Perm01) 
+M7056BC_RevPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS11_7056) OTE(M7056BC_RevPerm.Inp_Perm02) 
+M7056BC_RevPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS12_7056) OTE(M7056BC_RevPerm.Inp_Perm03) 
+M7056BC_RevPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS13_7056) OTE(M7056BC_RevPerm.Inp_Perm04) 
+M7056BC_RevPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS14_7056) OTE(M7056BC_RevPerm.Inp_Perm05) 
+M7056BC_RevPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIC(ZS01_7056) OTE(M7056BC_RevPerm.Inp_Perm00) ,XIO(ZS02_7056) OTE(M7056BC_RevPerm.Inp_Perm01) ,XIC(ZS11_7056) OTE(M7056BC_RevPerm.Inp_Perm02) ,XIC(ZS12_7056) OTE(M7056BC_RevPerm.Inp_Perm03) ,XIC(ZS13_7056) OTE(M7056BC_RevPerm.Inp_Perm04) ,XIC(ZS14_7056) OTE(M7056BC_RevPerm.Inp_Perm05) ,XIC(ZSB7056_Sts) XIC(ZSF7056_Sts) OTE(M7056BC_RevPerm.Inp_Perm06) ];]]>"
+M7056BC_RevPerm.Inp_Perm07,,
+M7056BC_RevPerm.Inp_Perm08,,
+M7057C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7057_Sts) OTE(M7057C_FwdPerm.Inp_Perm00) 
+M7057C_FwdPerm.Inp_Perm01,,
+M7057C_FwdPerm.Inp_Perm02,,
+M7057C_FwdPerm.Inp_Perm03,,
+M7057C_FwdPerm.Inp_Perm04,,
+M7057C_FwdPerm.Inp_Perm05,,
+M7057C_FwdPerm.Inp_Perm06,,
+M7057C_FwdPerm.Inp_Perm07,,
+M7057C_FwdPerm.Inp_Perm08,,
+M7057C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7057_Sts) OTE(M7057C_RevPerm.Inp_Perm00) 
+M7057C_RevPerm.Inp_Perm01,,
+M7057C_RevPerm.Inp_Perm02,,
+M7057C_RevPerm.Inp_Perm03,,
+M7057C_RevPerm.Inp_Perm04,,
+M7057C_RevPerm.Inp_Perm05,,
+M7057C_RevPerm.Inp_Perm06,,
+M7057C_RevPerm.Inp_Perm07,,
+M7057C_RevPerm.Inp_Perm08,,
+M7059A_FwdPerm.Inp_Perm00,Lift Position,"[XIC(ZS02_7059) ,XIC(ZS05_7059) ] OTE(M7059A_FwdPerm.Inp_Perm00) "
+M7059A_FwdPerm.Inp_Perm01,,
+M7059A_FwdPerm.Inp_Perm02,,
+M7059A_FwdPerm.Inp_Perm03,,
+M7059A_FwdPerm.Inp_Perm04,,
+M7059A_FwdPerm.Inp_Perm05,,
+M7059A_FwdPerm.Inp_Perm06,,
+M7059A_FwdPerm.Inp_Perm07,,
+M7059A_FwdPerm.Inp_Perm08,,
+M7059A_RevPerm.Inp_Perm00,Lift Position,XIC(ZS02_7059) OTE(M7059A_RevPerm.Inp_Perm00) 
+M7059A_RevPerm.Inp_Perm01,,
+M7059A_RevPerm.Inp_Perm02,,
+M7059A_RevPerm.Inp_Perm03,,
+M7059A_RevPerm.Inp_Perm04,,
+M7059A_RevPerm.Inp_Perm05,,
+M7059A_RevPerm.Inp_Perm06,,
+M7059A_RevPerm.Inp_Perm07,,
+M7059A_RevPerm.Inp_Perm08,,
+M7059BC_FwdPerm.Inp_Perm00,ZS05 Up Position,<![CDATA[[XIO(ZS05_7059) OTE(M7059BC_FwdPerm.Inp_Perm00) 
+M7059BC_FwdPerm.Inp_Perm01,ZS06 Over Travel,XIC(ZS06_7059) OTE(M7059BC_FwdPerm.Inp_Perm01) 
+M7059BC_FwdPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS11_7059) OTE(M7059BC_FwdPerm.Inp_Perm02) 
+M7059BC_FwdPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS12_7059) OTE(M7059BC_FwdPerm.Inp_Perm03) 
+M7059BC_FwdPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS13_7059) OTE(M7059BC_FwdPerm.Inp_Perm04) 
+M7059BC_FwdPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS14_7059) OTE(M7059BC_FwdPerm.Inp_Perm05) 
+M7059BC_FwdPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIO(ZS05_7059) OTE(M7059BC_FwdPerm.Inp_Perm00) ,XIC(ZS06_7059) OTE(M7059BC_FwdPerm.Inp_Perm01) ,XIC(ZS11_7059) OTE(M7059BC_FwdPerm.Inp_Perm02) ,XIC(ZS12_7059) OTE(M7059BC_FwdPerm.Inp_Perm03) ,XIC(ZS13_7059) OTE(M7059BC_FwdPerm.Inp_Perm04) ,XIC(ZS14_7059) OTE(M7059BC_FwdPerm.Inp_Perm05) ,XIC(ZSB7059_Sts) XIC(ZSF7059_Sts) OTE(M7059BC_FwdPerm.Inp_Perm06) ];]]>"
+M7059BC_FwdPerm.Inp_Perm07,,
+M7059BC_FwdPerm.Inp_Perm08,,
+M7059BC_RevPerm.Inp_Perm00,ZS01 Over Travel,<![CDATA[[XIC(ZS01_7059) OTE(M7059BC_RevPerm.Inp_Perm00) 
+M7059BC_RevPerm.Inp_Perm01,ZS02 Down Position,XIO(ZS02_7059) OTE(M7059BC_RevPerm.Inp_Perm01) 
+M7059BC_RevPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS11_7059) OTE(M7059BC_RevPerm.Inp_Perm02) 
+M7059BC_RevPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS12_7059) OTE(M7059BC_RevPerm.Inp_Perm03) 
+M7059BC_RevPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS13_7059) OTE(M7059BC_RevPerm.Inp_Perm04) 
+M7059BC_RevPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS14_7059) OTE(M7059BC_RevPerm.Inp_Perm05) 
+M7059BC_RevPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIC(ZS01_7059) OTE(M7059BC_RevPerm.Inp_Perm00) ,XIO(ZS02_7059) OTE(M7059BC_RevPerm.Inp_Perm01) ,XIC(ZS11_7059) OTE(M7059BC_RevPerm.Inp_Perm02) ,XIC(ZS12_7059) OTE(M7059BC_RevPerm.Inp_Perm03) ,XIC(ZS13_7059) OTE(M7059BC_RevPerm.Inp_Perm04) ,XIC(ZS14_7059) OTE(M7059BC_RevPerm.Inp_Perm05) ,XIC(ZSB7059_Sts) XIC(ZSF7059_Sts) OTE(M7059BC_RevPerm.Inp_Perm06) ];]]>"
+M7059BC_RevPerm.Inp_Perm07,,
+M7059BC_RevPerm.Inp_Perm08,,
+M7061C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7061_Sts) OTE(M7061C_FwdPerm.Inp_Perm00) 
+M7061C_FwdPerm.Inp_Perm01,,
+M7061C_FwdPerm.Inp_Perm02,,
+M7061C_FwdPerm.Inp_Perm03,,
+M7061C_FwdPerm.Inp_Perm04,,
+M7061C_FwdPerm.Inp_Perm05,,
+M7061C_FwdPerm.Inp_Perm06,,
+M7061C_FwdPerm.Inp_Perm07,,
+M7061C_FwdPerm.Inp_Perm08,,
+M7061C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7061_Sts) OTE(M7061C_RevPerm.Inp_Perm00) 
+M7061C_RevPerm.Inp_Perm01,,
+M7061C_RevPerm.Inp_Perm02,,
+M7061C_RevPerm.Inp_Perm03,,
+M7061C_RevPerm.Inp_Perm04,,
+M7061C_RevPerm.Inp_Perm05,,
+M7061C_RevPerm.Inp_Perm06,,
+M7061C_RevPerm.Inp_Perm07,,
+M7061C_RevPerm.Inp_Perm08,,
+M7063C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7063_Sts) OTE(M7063C_FwdPerm.Inp_Perm00) 
+M7063C_FwdPerm.Inp_Perm01,,
+M7063C_FwdPerm.Inp_Perm02,,
+M7063C_FwdPerm.Inp_Perm03,,
+M7063C_FwdPerm.Inp_Perm04,,
+M7063C_FwdPerm.Inp_Perm05,,
+M7063C_FwdPerm.Inp_Perm06,,
+M7063C_FwdPerm.Inp_Perm07,,
+M7063C_FwdPerm.Inp_Perm08,,
+M7063C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7063_Sts) OTE(M7063C_RevPerm.Inp_Perm00) 
+M7063C_RevPerm.Inp_Perm01,,
+M7063C_RevPerm.Inp_Perm02,,
+M7063C_RevPerm.Inp_Perm03,,
+M7063C_RevPerm.Inp_Perm04,,
+M7063C_RevPerm.Inp_Perm05,,
+M7063C_RevPerm.Inp_Perm06,,
+M7063C_RevPerm.Inp_Perm07,,
+M7063C_RevPerm.Inp_Perm08,,
+M7065C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7065_Sts) OTE(M7065C_FwdPerm.Inp_Perm00) 
+M7065C_FwdPerm.Inp_Perm01,,
+M7065C_FwdPerm.Inp_Perm02,,
+M7065C_FwdPerm.Inp_Perm03,,
+M7065C_FwdPerm.Inp_Perm04,,
+M7065C_FwdPerm.Inp_Perm05,,
+M7065C_FwdPerm.Inp_Perm06,,
+M7065C_FwdPerm.Inp_Perm07,,
+M7065C_FwdPerm.Inp_Perm08,,
+M7065C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7065_Sts) OTE(M7065C_RevPerm.Inp_Perm00) 
+M7065C_RevPerm.Inp_Perm01,,
+M7065C_RevPerm.Inp_Perm02,,
+M7065C_RevPerm.Inp_Perm03,,
+M7065C_RevPerm.Inp_Perm04,,
+M7065C_RevPerm.Inp_Perm05,,
+M7065C_RevPerm.Inp_Perm06,,
+M7065C_RevPerm.Inp_Perm07,,
+M7065C_RevPerm.Inp_Perm08,,
+M7071B_FwdPerm.Inp_Perm00,Position 2 Limit,XIO(ZS7071D_Sts) OTE(M7071B_FwdPerm.Inp_Perm00) 
+M7071B_FwdPerm.Inp_Perm01,,
+M7071B_FwdPerm.Inp_Perm02,,
+M7071B_FwdPerm.Inp_Perm03,,
+M7071B_FwdPerm.Inp_Perm04,,
+M7071B_FwdPerm.Inp_Perm05,,
+M7071B_FwdPerm.Inp_Perm06,,
+M7071B_FwdPerm.Inp_Perm07,,
+M7071B_FwdPerm.Inp_Perm08,,
+M7071B_RevPerm.Inp_Perm00,Position 1 Limit,XIO(ZS7071A_Sts) OTE(M7071B_RevPerm.Inp_Perm00) 
+M7071B_RevPerm.Inp_Perm01,,
+M7071B_RevPerm.Inp_Perm02,,
+M7071B_RevPerm.Inp_Perm03,,
+M7071B_RevPerm.Inp_Perm04,,
+M7071B_RevPerm.Inp_Perm05,,
+M7071B_RevPerm.Inp_Perm06,,
+M7071B_RevPerm.Inp_Perm07,,
+M7071B_RevPerm.Inp_Perm08,,
+M7072BC_FwdPerm.Inp_Perm00,ZS05 Up Position,<![CDATA[[XIO(ZS09_7072) OTE(M7072BC_FwdPerm.Inp_Perm00) 
+M7072BC_FwdPerm.Inp_Perm01,ZS06 Over Travel,XIC(ZS13_7072) OTE(M7072BC_FwdPerm.Inp_Perm01) 
+M7072BC_FwdPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS01_7072) OTE(M7072BC_FwdPerm.Inp_Perm02) 
+M7072BC_FwdPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS03_7072) OTE(M7072BC_FwdPerm.Inp_Perm03) 
+M7072BC_FwdPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS06_7072) OTE(M7072BC_FwdPerm.Inp_Perm04) 
+M7072BC_FwdPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS07_7072) OTE(M7072BC_FwdPerm.Inp_Perm05) 
+M7072BC_FwdPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIO(ZS09_7072) OTE(M7072BC_FwdPerm.Inp_Perm00) ,XIC(ZS13_7072) OTE(M7072BC_FwdPerm.Inp_Perm01) ,XIC(ZS01_7072) OTE(M7072BC_FwdPerm.Inp_Perm02) ,XIC(ZS03_7072) OTE(M7072BC_FwdPerm.Inp_Perm03) ,XIC(ZS06_7072) OTE(M7072BC_FwdPerm.Inp_Perm04) ,XIC(ZS07_7072) OTE(M7072BC_FwdPerm.Inp_Perm05) ,XIC(ZSB7072_Sts) XIC(ZSF7072_Sts) OTE(M7072BC_FwdPerm.Inp_Perm06) ];]]>"
+M7072BC_FwdPerm.Inp_Perm07,,
+M7072BC_FwdPerm.Inp_Perm08,,
+M7072BC_RevPerm.Inp_Perm00,ZS01 Over Travel,<![CDATA[[XIC(ZS14_7072) OTE(M7072BC_RevPerm.Inp_Perm00) 
+M7072BC_RevPerm.Inp_Perm01,ZS02 Down Position,XIO(ZS11_7072) OTE(M7072BC_RevPerm.Inp_Perm01) 
+M7072BC_RevPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS01_7072) OTE(M7072BC_RevPerm.Inp_Perm02) 
+M7072BC_RevPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS03_7072) OTE(M7072BC_RevPerm.Inp_Perm03) 
+M7072BC_RevPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS06_7072) OTE(M7072BC_RevPerm.Inp_Perm04) 
+M7072BC_RevPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS07_7072) OTE(M7072BC_RevPerm.Inp_Perm05) 
+M7072BC_RevPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIC(ZS14_7072) OTE(M7072BC_RevPerm.Inp_Perm00) ,XIO(ZS11_7072) OTE(M7072BC_RevPerm.Inp_Perm01) ,XIC(ZS01_7072) OTE(M7072BC_RevPerm.Inp_Perm02) ,XIC(ZS03_7072) OTE(M7072BC_RevPerm.Inp_Perm03) ,XIC(ZS06_7072) OTE(M7072BC_RevPerm.Inp_Perm04) ,XIC(ZS07_7072) OTE(M7072BC_RevPerm.Inp_Perm05) ,XIC(ZSB7072_Sts) XIC(ZSF7072_Sts) OTE(M7072BC_RevPerm.Inp_Perm06) ];]]>"
+M7072BC_RevPerm.Inp_Perm07,,
+M7072BC_RevPerm.Inp_Perm08,,
+M7073C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7073_Sts) OTE(M7073C_FwdPerm.Inp_Perm00) 
+M7073C_FwdPerm.Inp_Perm01,,
+M7073C_FwdPerm.Inp_Perm02,,
+M7073C_FwdPerm.Inp_Perm03,,
+M7073C_FwdPerm.Inp_Perm04,,
+M7073C_FwdPerm.Inp_Perm05,,
+M7073C_FwdPerm.Inp_Perm06,,
+M7073C_FwdPerm.Inp_Perm07,,
+M7073C_FwdPerm.Inp_Perm08,,
+M7073C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7073_Sts) OTE(M7073C_RevPerm.Inp_Perm00) 
+M7073C_RevPerm.Inp_Perm01,,
+M7073C_RevPerm.Inp_Perm02,,
+M7073C_RevPerm.Inp_Perm03,,
+M7073C_RevPerm.Inp_Perm04,,
+M7073C_RevPerm.Inp_Perm05,,
+M7073C_RevPerm.Inp_Perm06,,
+M7073C_RevPerm.Inp_Perm07,,
+M7073C_RevPerm.Inp_Perm08,,
+M7075B_FwdPerm.Inp_Perm00,Position 2 Limit,XIO(ZS7075D_Sts) OTE(M7075B_FwdPerm.Inp_Perm00) 
+M7075B_FwdPerm.Inp_Perm01,,
+M7075B_FwdPerm.Inp_Perm02,,
+M7075B_FwdPerm.Inp_Perm03,,
+M7075B_FwdPerm.Inp_Perm04,,
+M7075B_FwdPerm.Inp_Perm05,,
+M7075B_FwdPerm.Inp_Perm06,,
+M7075B_FwdPerm.Inp_Perm07,,
+M7075B_FwdPerm.Inp_Perm08,,
+M7075B_RevPerm.Inp_Perm00,Position 1 Limit,XIO(ZS7075A_Sts) OTE(M7075B_RevPerm.Inp_Perm00) 
+M7075B_RevPerm.Inp_Perm01,,
+M7075B_RevPerm.Inp_Perm02,,
+M7075B_RevPerm.Inp_Perm03,,
+M7075B_RevPerm.Inp_Perm04,,
+M7075B_RevPerm.Inp_Perm05,,
+M7075B_RevPerm.Inp_Perm06,,
+M7075B_RevPerm.Inp_Perm07,,
+M7075B_RevPerm.Inp_Perm08,,
+M7076BC_FwdPerm.Inp_Perm00,ZS05 Up Position,<![CDATA[[XIO(ZS09_7076) OTE(M7076BC_FwdPerm.Inp_Perm00) 
+M7076BC_FwdPerm.Inp_Perm01,ZS06 Over Travel,XIC(ZS13_7076) OTE(M7076BC_FwdPerm.Inp_Perm01) 
+M7076BC_FwdPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS01_7076) OTE(M7076BC_FwdPerm.Inp_Perm02) 
+M7076BC_FwdPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS03_7076) OTE(M7076BC_FwdPerm.Inp_Perm03) 
+M7076BC_FwdPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS06_7076) OTE(M7076BC_FwdPerm.Inp_Perm04) 
+M7076BC_FwdPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS07_7076) OTE(M7076BC_FwdPerm.Inp_Perm05) 
+M7076BC_FwdPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIO(ZS09_7076) OTE(M7076BC_FwdPerm.Inp_Perm00) ,XIC(ZS13_7076) OTE(M7076BC_FwdPerm.Inp_Perm01) ,XIC(ZS01_7076) OTE(M7076BC_FwdPerm.Inp_Perm02) ,XIC(ZS03_7076) OTE(M7076BC_FwdPerm.Inp_Perm03) ,XIC(ZS06_7076) OTE(M7076BC_FwdPerm.Inp_Perm04) ,XIC(ZS07_7076) OTE(M7076BC_FwdPerm.Inp_Perm05) ,XIC(ZSB7076_Sts) XIC(ZSF7076_Sts) OTE(M7076BC_FwdPerm.Inp_Perm06) ];]]>"
+M7076BC_FwdPerm.Inp_Perm07,,
+M7076BC_FwdPerm.Inp_Perm08,,
+M7076BC_RevPerm.Inp_Perm00,ZS01 Over Travel,<![CDATA[[XIC(ZS14_7076) OTE(M7076BC_RevPerm.Inp_Perm00) 
+M7076BC_RevPerm.Inp_Perm01,ZS02 Down Position,XIO(ZS11_7076) OTE(M7076BC_RevPerm.Inp_Perm01) 
+M7076BC_RevPerm.Inp_Perm02,ZS11 Lock Pin,XIC(ZS01_7076) OTE(M7076BC_RevPerm.Inp_Perm02) 
+M7076BC_RevPerm.Inp_Perm03,ZS12 Lock Pin,XIC(ZS03_7076) OTE(M7076BC_RevPerm.Inp_Perm03) 
+M7076BC_RevPerm.Inp_Perm04,ZS13 Lock Pin,XIC(ZS06_7076) OTE(M7076BC_RevPerm.Inp_Perm04) 
+M7076BC_RevPerm.Inp_Perm05,ZS14 Lock Pin,XIC(ZS07_7076) OTE(M7076BC_RevPerm.Inp_Perm05) 
+M7076BC_RevPerm.Inp_Perm06,Pallet Position,"<![CDATA[[XIC(ZS14_7076) OTE(M7076BC_RevPerm.Inp_Perm00) ,XIO(ZS11_7076) OTE(M7076BC_RevPerm.Inp_Perm01) ,XIC(ZS01_7076) OTE(M7076BC_RevPerm.Inp_Perm02) ,XIC(ZS03_7076) OTE(M7076BC_RevPerm.Inp_Perm03) ,XIC(ZS06_7076) OTE(M7076BC_RevPerm.Inp_Perm04) ,XIC(ZS07_7076) OTE(M7076BC_RevPerm.Inp_Perm05) ,XIC(ZSB7076_Sts) XIC(ZSF7076_Sts) OTE(M7076BC_RevPerm.Inp_Perm06) ];]]>"
+M7076BC_RevPerm.Inp_Perm07,,
+M7076BC_RevPerm.Inp_Perm08,,
+M7077C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7077_Sts) OTE(M7077C_FwdPerm.Inp_Perm00) 
+M7077C_FwdPerm.Inp_Perm01,,
+M7077C_FwdPerm.Inp_Perm02,,
+M7077C_FwdPerm.Inp_Perm03,,
+M7077C_FwdPerm.Inp_Perm04,,
+M7077C_FwdPerm.Inp_Perm05,,
+M7077C_FwdPerm.Inp_Perm06,,
+M7077C_FwdPerm.Inp_Perm07,,
+M7077C_FwdPerm.Inp_Perm08,,
+M7077C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7077_Sts) OTE(M7077C_RevPerm.Inp_Perm00) 
+M7077C_RevPerm.Inp_Perm01,,
+M7077C_RevPerm.Inp_Perm02,,
+M7077C_RevPerm.Inp_Perm03,,
+M7077C_RevPerm.Inp_Perm04,,
+M7077C_RevPerm.Inp_Perm05,,
+M7077C_RevPerm.Inp_Perm06,,
+M7077C_RevPerm.Inp_Perm07,,
+M7077C_RevPerm.Inp_Perm08,,
+M7078C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7078_Sts) OTE(M7078C_FwdPerm.Inp_Perm00) 
+M7078C_FwdPerm.Inp_Perm01,,
+M7078C_FwdPerm.Inp_Perm02,,
+M7078C_FwdPerm.Inp_Perm03,,
+M7078C_FwdPerm.Inp_Perm04,,
+M7078C_FwdPerm.Inp_Perm05,,
+M7078C_FwdPerm.Inp_Perm06,,
+M7078C_FwdPerm.Inp_Perm07,,
+M7078C_FwdPerm.Inp_Perm08,,
+M7078C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7078_Sts) OTE(M7078C_RevPerm.Inp_Perm00) 
+M7078C_RevPerm.Inp_Perm01,,
+M7078C_RevPerm.Inp_Perm02,,
+M7078C_RevPerm.Inp_Perm03,,
+M7078C_RevPerm.Inp_Perm04,,
+M7078C_RevPerm.Inp_Perm05,,
+M7078C_RevPerm.Inp_Perm06,,
+M7078C_RevPerm.Inp_Perm07,,
+M7078C_RevPerm.Inp_Perm08,,
+M7079C_FwdPerm.Inp_Perm00,Up Position,XIO(ZSU7079_Sts) OTE(M7079C_FwdPerm.Inp_Perm00) 
+M7079C_FwdPerm.Inp_Perm01,,
+M7079C_FwdPerm.Inp_Perm02,,
+M7079C_FwdPerm.Inp_Perm03,,
+M7079C_FwdPerm.Inp_Perm04,,
+M7079C_FwdPerm.Inp_Perm05,,
+M7079C_FwdPerm.Inp_Perm06,,
+M7079C_FwdPerm.Inp_Perm07,,
+M7079C_FwdPerm.Inp_Perm08,,
+M7079C_RevPerm.Inp_Perm00,Down Position,XIO(ZSD7079_Sts) OTE(M7079C_RevPerm.Inp_Perm00) 
+M7079C_RevPerm.Inp_Perm01,,
+M7079C_RevPerm.Inp_Perm02,,
+M7079C_RevPerm.Inp_Perm03,,
+M7079C_RevPerm.Inp_Perm04,,
+M7079C_RevPerm.Inp_Perm05,,
+M7079C_RevPerm.Inp_Perm06,,
+M7079C_RevPerm.Inp_Perm07,,
+M7079C_RevPerm.Inp_Perm08,,
+M7172BC_FwdPerm.Inp_Perm00,,
+M7172BC_FwdPerm.Inp_Perm01,,
+M7172BC_FwdPerm.Inp_Perm02,,
+M7172BC_FwdPerm.Inp_Perm03,,
+M7172BC_FwdPerm.Inp_Perm04,,
+M7172BC_FwdPerm.Inp_Perm05,,
+M7172BC_FwdPerm.Inp_Perm06,,
+M7172BC_FwdPerm.Inp_Perm07,,
+M7172BC_FwdPerm.Inp_Perm08,,
+M7172BC_RevPerm.Inp_Perm00,,
+M7172BC_RevPerm.Inp_Perm01,,
+M7172BC_RevPerm.Inp_Perm02,,
+M7172BC_RevPerm.Inp_Perm03,,
+M7172BC_RevPerm.Inp_Perm04,,
+M7172BC_RevPerm.Inp_Perm05,,
+M7172BC_RevPerm.Inp_Perm06,,
+M7172BC_RevPerm.Inp_Perm07,,
+M7172BC_RevPerm.Inp_Perm08,,

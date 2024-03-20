@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="31.02" TargetName="Main" TargetType="Routine" TargetSubType="RLL" ContainsContext="true" Owner="Triplex" ExportDate="Tue Sep 13 14:11:11 2022" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="CA_PROC_5A">
+<Programs Use="Context">
+<Program Use="Context" Name="ASM_Mapping">
+<Routines Use="Context">
+<Routine Use="Reference" Name="C06F1_ASM">
+</Routine>
+<Routine Use="Reference" Name="C06F1_ASM_Seg1A_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F1_ASM_Seg1B_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F1_ASM_Seg2A_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F1_ASM_Seg2B_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F2_ASM">
+</Routine>
+<Routine Use="Reference" Name="C06F2_ASM_Seg1A_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F2_ASM_Seg2B_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F3_ASM">
+</Routine>
+<Routine Use="Reference" Name="C06F3_ASM_Seg1A_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F3_ASM_Seg2B_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F4_ASM">
+</Routine>
+<Routine Use="Reference" Name="C06F4_ASM_Seg1A_Nodes">
+</Routine>
+<Routine Use="Reference" Name="C06F4_ASM_Seg2B_Nodes">
+</Routine>
+<Routine Use="Target" Name="Main" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+<Rung Number="1" Type="N">
+<Text>
+<![CDATA[[JSR(C06F1_ASM,0) ,JSR(C06F1_ASM_Seg1A_Nodes,0) ,JSR(C06F1_ASM_Seg1B_Nodes,0) ,JSR(C06F1_ASM_Seg2A_Nodes,0) ,JSR(C06F1_ASM_Seg2B_Nodes,0) ];]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
+<Text>
+<![CDATA[[JSR(C06F2_ASM,0) ,JSR(C06F2_ASM_Seg1A_Nodes,0) ,JSR(C06F2_ASM_Seg2B_Nodes,0) ];]]>
+</Text>
+</Rung>
+<Rung Number="3" Type="N">
+<Text>
+<![CDATA[[JSR(C06F3_ASM,0) ,JSR(C06F3_ASM_Seg1A_Nodes,0) ,JSR(C06F3_ASM_Seg2B_Nodes,0) ];]]>
+</Text>
+</Rung>
+<Rung Number="4" Type="N">
+<Text>
+<![CDATA[[JSR(C06F4_ASM,0) ,JSR(C06F4_ASM_Seg1A_Nodes,0) ,JSR(C06F4_ASM_Seg2B_Nodes,0) ];]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+</Program>
+</Programs>
+</Controller>
+</RSLogix5000Content>

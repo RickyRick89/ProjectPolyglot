@@ -1,0 +1,15 @@
+OPEN "C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\GFK_L4\Drawings\Sandbox\UseFiles\PLC_Panel.dwg"
+COPYBASE
+0,0,0
+all
+
+close y
+OPEN "C:\Users\rgrov\OneDrive - Bit-Wise Automation LLC\Richards_Docs\My_Scripts\GFK_L4\Drawings\Sandbox\New_File.dwg"
+
+_PASTE
+[X],0,0
+_SAVEAS
+
+
+y
+_closeall

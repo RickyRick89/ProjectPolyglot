@@ -1,0 +1,64 @@
+<group name="grpRoverBtt[Index]" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.grpRoverBtt1" linkToolTipText="true">
+        <button name="bttRover[Index]" height="60" width="150" left="[Left]" top="[Top]" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.bttRover1" linkToolTipText="true" style="3d" captureCursor="false" highlightOnFocus="true" tabIndex="1">
+            <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="transparent" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#101}*/,/*LS:0 {#102}*/"/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#F0F0F0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </button>
+        <rectangle name="plgRover[Index]" height="60" width="150" left="[Left]" top="[Top]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.plgRover3" linkToolTipText="true" backStyle="solid" backColor="#E0E0E0" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateColor expression="If ({[#102]RoverDta[#101].Sts_Mode}  ==  &quot;Automatic&quot;) Then 0 Else&#xA;If ({[#102]RoverDta[#101].Sts_Mode}  ==  &quot;Manual&quot;) Then 1 Else&#xA;If ({[#102]RoverDta[#101].Sts_Mode}  ==  &quot;Error&quot;) Then 2 Else&#xA;If ({[#102]RoverDta[#101].Sts_Mode}  ==  &quot;Maintenance&quot;) Then 4 Else&#xA;3" blinkRate="2">
+                    <color value="0" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="#00C000" backColor2="#00C000" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="#FFFF80" backColor2="#FFFF80" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="#FF8080" backColor2="#FF8080" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="3" foreBehavior="solid" foreColor1="blue" foreColor2="blue" backBehavior="solid" backColor1="blue" backColor2="blue" fillColorMode="1" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="4" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="cyan" backColor2="cyan" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <text name="TxtRoverId[Index]" height="30" width="65" left="[Left2]" top="[Top]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.TxtRoverId1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="R-/*LS:0 {#101}*/"/>
+        <text name="txtTaskInfo[Index]" height="30" width="75" left="[Left3]" top="[Top]" visible="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtTaskInfo2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*S:0 {[#102]RoverDta[#101].ActTaskType}*/ to&#xA;/*S:0 {[#102]RoverDta[#101].ActDestination}*/">
+            <animations>
+                <animateVisibility expression="{[#102]RoverDta[#101].ActTaskType} == &quot;Move&quot;" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="txtActStatus[Index]" height="35" width="140" left="[Left4]" top="[Top4]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtActStatus1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*S:0 {[#102]RoverDta[#101].Sts_Mode}*/&#xA;/*S:0 {[#102]RoverDta[#101].ActLocation}*/"/>
+        <text name="txtTaskInfo[Index]_1" height="30" width="75" left="[Left3]" top="[Top]" visible="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.txtTaskInfo3" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*S:0 {[#102]RoverDta[#101].ActTaskType}*/ @&#xA;/*S:0 {[#102]RoverDta[#101].ActDestination}*/">
+            <animations>
+                <animateVisibility expression="({[#102]RoverDta[#101].ActTaskType} &lt;&gt; &quot;Move&quot;)  AND &#xA;({[#102]RoverDta[#101].ActTaskType} &lt;&gt; &quot;&quot;)" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <rectangle name="plgBattery[Index]" height="60" width="15" left="[Left6]" top="[Top]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.plgBattery1" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="({[#102]All_FromDevice[#101].Bat_PLC} &lt; 50)" expressionTrueState="visible"/>
+                <animateFill expression="{[#102]All_FromDevice[#101].Bat_PLC}" fillMin="0" fillMax="100" fillDirection="up" insideOnly="false">
+                    <constantExpressionRange min="0" max="100"/>
+                </animateFill>
+                <animateColor expression="If ({[#102]All_FromDevice[#101].Bat_PLC} &gt; 50) Then 1&#xA;else  If ({[#102]All_FromDevice[#101].Bat_PLC} &lt; 30) Then 2&#xA;else 0" blinkRate="1">
+                    <color value="0" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="1" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    <color value="2" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="blink" backColor1="yellow" backColor2="red" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                </animateColor>
+            </animations>
+        </rectangle>
+        <polygon name="Polygon[Index]" height="25" width="10" left="[Left5]" top="[Top5]" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Rover_Library.Polygon3" linkToolTipText="true" backStyle="solid" backColor="black" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="1053 429 1047 444 1053 443 1051 453 1056 440 1053 439 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateVisibility expression="{[#102]R#101_FromDevice.Sensors1_PLC.7}" expressionTrueState="visible"/>
+            </animations>
+        </polygon>
+        <parameters>
+            <parameter name="#101" description="Rover Id #" value="[Label]"/>
+            <parameter name="#102" description="PLC Name" value="RoverSysPLC"/>
+        </parameters>
+    </group>
+    

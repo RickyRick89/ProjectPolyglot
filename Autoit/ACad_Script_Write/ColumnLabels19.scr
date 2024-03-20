@@ -1,0 +1,77 @@
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+1.8613,-0.2391
+0.18
+0
+A
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+5.6214,-0.2391
+0.18
+0
+B
+;~~~~~~~ Add Line
+LINE 3.74135,-129.75 3.74135,-130.25
+
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+9.3815,-0.2391
+0.18
+0
+C
+;~~~~~~~ Add Line
+LINE 7.50145,-129.75 7.50145,-130.25
+
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+13.1416,-0.2391
+0.18
+0
+D
+;~~~~~~~ Add Line
+LINE 11.26155,-129.75 11.26155,-130.25
+
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+16.9017,-0.2391
+0.18
+0
+E
+;~~~~~~~ Add Line
+LINE 15.02165,-129.75 15.02165,-130.25
+
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+20.6618,-0.2391
+0.18
+0
+F
+;~~~~~~~ Add Line
+LINE 18.78175,-129.75 18.78175,-130.25
+
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+24.4219,-0.2391
+0.18
+0
+G
+;~~~~~~~ Add Line
+LINE 22.54185,-129.75 22.54185,-130.25
+
+;~~~~~~~ Add Text
+-TEXT
+JUSTIFY CENTER
+28.182,-0.2391
+0.18
+0
+H
+;~~~~~~~ Add Line
+LINE 26.30195,-129.75 26.30195,-130.25
+
