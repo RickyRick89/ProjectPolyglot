@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Dec  2 13:34:16 2023
+# Process ID: 1672
+# Current directory: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_UART/Soda_Machine_UART.runs/impl_1
+# Command line: vivado.exe -log soda_machine_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source soda_machine_wrapper.tcl -notrace
+# Log file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_UART/Soda_Machine_UART.runs/impl_1/soda_machine_wrapper.vdi
+# Journal file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_UART/Soda_Machine_UART.runs/impl_1\vivado.jou
+# Running On: TXAVM001, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 6, Host memory: 21474 MB
+#-----------------------------------------------------------
+source soda_machine_wrapper.tcl -notrace

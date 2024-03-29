@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Sep  5 15:16:59 2023
+# Process ID: 2040
+# Current directory: Y:/School/ECE 530 - Digital Hardware Design/Activities/01/Comp_Mul_2bit/Comp_Mul_2bit.runs/impl_1
+# Command line: vivado.exe -log Comp_Mul_2bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Comp_Mul_2bit.tcl -notrace
+# Log file: Y:/School/ECE 530 - Digital Hardware Design/Activities/01/Comp_Mul_2bit/Comp_Mul_2bit.runs/impl_1/Comp_Mul_2bit.vdi
+# Journal file: Y:/School/ECE 530 - Digital Hardware Design/Activities/01/Comp_Mul_2bit/Comp_Mul_2bit.runs/impl_1\vivado.jou
+# Running On: TXAVM001, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 17179 MB
+#-----------------------------------------------------------
+source Comp_Mul_2bit.tcl -notrace

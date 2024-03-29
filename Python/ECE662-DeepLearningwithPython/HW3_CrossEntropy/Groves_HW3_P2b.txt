@@ -1,0 +1,11 @@
+
+
+net.cost = CrossEntropyCost
+
+accuracy on test data = 9773
+
+net.weights[0].shape =  (165, 784)
+net.biases[0].shape  =  (165, 1)
+
+net.weights[1].shape =  (10, 165)
+net.biases[1].shape  =  (10, 1)

@@ -1,0 +1,80 @@
+#Epochs=22
+#Nodes=160
+Epoch 0 training complete
+Cost on training data: 6.972364909129377
+Accuracy on evaluation data: 8944 / 10000
+Epoch 1 training complete
+Cost on training data: 6.194501888093578
+Accuracy on evaluation data: 9184 / 10000
+Epoch 2 training complete
+Cost on training data: 5.560657577993871
+Accuracy on evaluation data: 9320 / 10000
+Epoch 3 training complete
+Cost on training data: 5.004793269203604
+Accuracy on evaluation data: 9429 / 10000
+Epoch 4 training complete
+Cost on training data: 4.522484222212856
+Accuracy on evaluation data: 9472 / 10000
+Epoch 5 training complete
+Cost on training data: 4.113016997260299
+Accuracy on evaluation data: 9492 / 10000
+Epoch 6 training complete
+Cost on training data: 3.7079908486053927
+Accuracy on evaluation data: 9535 / 10000
+Epoch 7 training complete
+Cost on training data: 3.3649079466279495
+Accuracy on evaluation data: 9555 / 10000
+Epoch 8 training complete
+Cost on training data: 3.048400510126095
+Accuracy on evaluation data: 9598 / 10000
+Epoch 9 training complete
+Cost on training data: 2.783572421819722
+Accuracy on evaluation data: 9596 / 10000
+Epoch 10 training complete
+Cost on training data: 2.5261392540295633
+Accuracy on evaluation data: 9627 / 10000
+Epoch 11 training complete
+Cost on training data: 2.3011898631109857
+Accuracy on evaluation data: 9629 / 10000
+Epoch 12 training complete
+Cost on training data: 2.090330758893329
+Accuracy on evaluation data: 9647 / 10000
+Epoch 13 training complete
+Cost on training data: 1.9046854655369947
+Accuracy on evaluation data: 9652 / 10000
+Epoch 14 training complete
+Cost on training data: 1.7564653297753734
+Accuracy on evaluation data: 9658 / 10000
+Epoch 15 training complete
+Cost on training data: 1.5884077135133476
+Accuracy on evaluation data: 9693 / 10000
+Epoch 16 training complete
+Cost on training data: 1.457906271076782
+Accuracy on evaluation data: 9688 / 10000
+Epoch 17 training complete
+Cost on training data: 1.3325881034590785
+Accuracy on evaluation data: 9712 / 10000
+Epoch 18 training complete
+Cost on training data: 1.2315446845551714
+Accuracy on evaluation data: 9683 / 10000
+Epoch 19 training complete
+Cost on training data: 1.1301929042698726
+Accuracy on evaluation data: 9699 / 10000
+Epoch 20 training complete
+Cost on training data: 1.037301984956352
+Accuracy on evaluation data: 9720 / 10000
+Epoch 21 training complete
+Cost on training data: 0.9562531277062646
+Accuracy on evaluation data: 9711 / 10000
+
+net.weights[0].shape = (160, 784)
+net.weights[1].shape = (80, 160)
+net.weights[2].shape = (10, 80)
+net.biases[0].shape = (160, 1)
+net.biases[1].shape = (80, 1)
+net.biases[2].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9724
+

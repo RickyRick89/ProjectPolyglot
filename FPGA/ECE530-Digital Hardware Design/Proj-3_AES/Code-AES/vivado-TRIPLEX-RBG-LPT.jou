@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Dec 19 10:16:43 2023
+# Process ID: 7428
+# Current directory: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6864 Y:\School\ECE 530 - Digital Hardware Design\Projects\P3\AES\AES.xpr
+# Log file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/vivado.log
+# Journal file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES\vivado.jou
+# Running On: TXAVM001, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 17179 MB
+#-----------------------------------------------------------
+start_gui
+open_project {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.xpr}
+add_files -norecurse {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_common.svh}}
+export_ip_user_files -of_objects  [get_files {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_common.svh}}] -no_script -reset -force -quiet
+remove_files  {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_common.svh}}
+close_project
+create_project Caudes_AES {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caudes_AES} -part xc7s25csga225-1
+set_property board_part digilentinc.com:cmod-s7-25:part0:1.0 [current_project]
+import_files -fileset constrs_1 -force -norecurse {{Y:/School/ECE 530 - Digital Hardware Design/Activities/Master_Constraints/Cmod-S7-25-Master.xdc}}
+import_files -norecurse {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_common.svh}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_tb.sv}}
+import_files -norecurse {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_main.sv} {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_pkg.sv}}
+update_compile_order -fileset sources_1
+import_files -norecurse {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/Caude_AES/aes_pkg.sv}}
+launch_simulation
+source aes_tb.tcl
+close_sim

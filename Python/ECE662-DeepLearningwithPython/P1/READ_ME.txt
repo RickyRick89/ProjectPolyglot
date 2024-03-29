@@ -1,0 +1,1 @@
+The file "Groves_P1.py" will load the trained network from "Trained_Net.pth" if it is in the same directory. If "Trained_Net.pth" isn't found, the python file will go through the training/validation loop.

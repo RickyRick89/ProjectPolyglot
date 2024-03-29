@@ -1,0 +1,216 @@
+#Epochs=4
+#Nodes=160
+Epoch 0 training complete
+Cost on training data: 6.443047338255212
+Accuracy on evaluation data: 9056 / 10000
+Epoch 1 training complete
+Cost on training data: 5.688099453136433
+Accuracy on evaluation data: 9275 / 10000
+Epoch 2 training complete
+Cost on training data: 5.124823762541809
+Accuracy on evaluation data: 9359 / 10000
+Epoch 3 training complete
+Cost on training data: 4.612388763069914
+Accuracy on evaluation data: 9434 / 10000
+
+net.weights[0].shape = (160, 784)
+net.weights[1].shape = (10, 160)
+net.biases[0].shape = (160, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9414
+
+#Epochs=4
+#Nodes=165
+Epoch 0 training complete
+Cost on training data: 6.539311360519082
+Accuracy on evaluation data: 9155 / 10000
+Epoch 1 training complete
+Cost on training data: 5.834645528526678
+Accuracy on evaluation data: 9261 / 10000
+Epoch 2 training complete
+Cost on training data: 5.2452664141582686
+Accuracy on evaluation data: 9331 / 10000
+Epoch 3 training complete
+Cost on training data: 4.728684415456401
+Accuracy on evaluation data: 9435 / 10000
+
+net.weights[0].shape = (165, 784)
+net.weights[1].shape = (10, 165)
+net.biases[0].shape = (165, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9441
+
+#Epochs=4
+#Nodes=170
+Epoch 0 training complete
+Cost on training data: 6.754001354769013
+Accuracy on evaluation data: 9106 / 10000
+Epoch 1 training complete
+Cost on training data: 5.970941988036762
+Accuracy on evaluation data: 9355 / 10000
+Epoch 2 training complete
+Cost on training data: 5.388691001216646
+Accuracy on evaluation data: 9422 / 10000
+Epoch 3 training complete
+Cost on training data: 4.843815627208796
+Accuracy on evaluation data: 9483 / 10000
+
+net.weights[0].shape = (170, 784)
+net.weights[1].shape = (10, 170)
+net.biases[0].shape = (170, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9430
+
+#Epochs=4
+#Nodes=175
+Epoch 0 training complete
+Cost on training data: 6.928841357734756
+Accuracy on evaluation data: 9125 / 10000
+Epoch 1 training complete
+Cost on training data: 6.200575352795496
+Accuracy on evaluation data: 9250 / 10000
+Epoch 2 training complete
+Cost on training data: 5.54538192216234
+Accuracy on evaluation data: 9376 / 10000
+Epoch 3 training complete
+Cost on training data: 5.021227434531539
+Accuracy on evaluation data: 9450 / 10000
+
+net.weights[0].shape = (175, 784)
+net.weights[1].shape = (10, 175)
+net.biases[0].shape = (175, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9398
+
+#Epochs=4
+#Nodes=180
+Epoch 0 training complete
+Cost on training data: 7.14007647661258
+Accuracy on evaluation data: 9098 / 10000
+Epoch 1 training complete
+Cost on training data: 6.3269942782986455
+Accuracy on evaluation data: 9309 / 10000
+Epoch 2 training complete
+Cost on training data: 5.716502018980036
+Accuracy on evaluation data: 9375 / 10000
+Epoch 3 training complete
+Cost on training data: 5.156816443027486
+Accuracy on evaluation data: 9430 / 10000
+
+net.weights[0].shape = (180, 784)
+net.weights[1].shape = (10, 180)
+net.biases[0].shape = (180, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9426
+
+#Epochs=4
+#Nodes=185
+Epoch 0 training complete
+Cost on training data: 7.319054017448352
+Accuracy on evaluation data: 9118 / 10000
+Epoch 1 training complete
+Cost on training data: 6.515335134841987
+Accuracy on evaluation data: 9288 / 10000
+Epoch 2 training complete
+Cost on training data: 5.851056755405102
+Accuracy on evaluation data: 9402 / 10000
+Epoch 3 training complete
+Cost on training data: 5.276291969980642
+Accuracy on evaluation data: 9460 / 10000
+
+net.weights[0].shape = (185, 784)
+net.weights[1].shape = (10, 185)
+net.biases[0].shape = (185, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9408
+
+#Epochs=4
+#Nodes=190
+Epoch 0 training complete
+Cost on training data: 7.493459931038862
+Accuracy on evaluation data: 9066 / 10000
+Epoch 1 training complete
+Cost on training data: 6.616152696004424
+Accuracy on evaluation data: 9291 / 10000
+Epoch 2 training complete
+Cost on training data: 5.969732133796207
+Accuracy on evaluation data: 9385 / 10000
+Epoch 3 training complete
+Cost on training data: 5.374120133589996
+Accuracy on evaluation data: 9474 / 10000
+
+net.weights[0].shape = (190, 784)
+net.weights[1].shape = (10, 190)
+net.biases[0].shape = (190, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9451
+
+#Epochs=4
+#Nodes=195
+Epoch 0 training complete
+Cost on training data: 7.712317884355308
+Accuracy on evaluation data: 9016 / 10000
+Epoch 1 training complete
+Cost on training data: 6.819375268920497
+Accuracy on evaluation data: 9305 / 10000
+Epoch 2 training complete
+Cost on training data: 6.119027862648157
+Accuracy on evaluation data: 9425 / 10000
+Epoch 3 training complete
+Cost on training data: 5.543481590852874
+Accuracy on evaluation data: 9477 / 10000
+
+net.weights[0].shape = (195, 784)
+net.weights[1].shape = (10, 195)
+net.biases[0].shape = (195, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9387
+
+#Epochs=4
+#Nodes=200
+Epoch 0 training complete
+Cost on training data: 7.808386320355684
+Accuracy on evaluation data: 9181 / 10000
+Epoch 1 training complete
+Cost on training data: 6.9896247442529305
+Accuracy on evaluation data: 9270 / 10000
+Epoch 2 training complete
+Cost on training data: 6.258686177191078
+Accuracy on evaluation data: 9414 / 10000
+Epoch 3 training complete
+Cost on training data: 5.658630580913796
+Accuracy on evaluation data: 9455 / 10000
+
+net.weights[0].shape = (200, 784)
+net.weights[1].shape = (10, 200)
+net.biases[0].shape = (200, 1)
+net.biases[1].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9434
+

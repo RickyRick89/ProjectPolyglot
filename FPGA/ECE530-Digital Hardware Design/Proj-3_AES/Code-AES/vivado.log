@@ -1,0 +1,326 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Dec 12 16:08:24 2023
+# Process ID: 4088
+# Current directory: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5536 Y:\School\ECE 530 - Digital Hardware Design\Projects\P3\AES\AES.xpr
+# Log file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/vivado.log
+# Journal file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES\vivado.jou
+# Running On: TXAVM001, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 17179 MB
+#-----------------------------------------------------------
+start_gui
+open_project {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.xpr}
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:54 ; elapsed = 00:00:32 . Memory (MB): peak = 1513.660 ; gain = 438.129
+close [ open {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.v} w ]
+add_files {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.v}}
+export_ip_user_files -of_objects  [get_files {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.v}}] -no_script -reset -force -quiet
+remove_files  {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.v}}
+file delete -force {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.v}
+close [ open {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.sv} w ]
+add_files {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.sv}}
+create_ip -name axi_uartlite -vendor xilinx.com -library ip -version 2.0 -module_name axi_uartlite_0
+set_property -dict [list \
+  CONFIG.C_S_AXI_ACLK_FREQ_HZ_d {12} \
+  CONFIG.UARTLITE_BOARD_INTERFACE {usb_uart} \
+] [get_ips axi_uartlite_0]
+generate_target {instantiation_template} [get_files {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_uartlite_0'...
+generate_target all [get_files  {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_uartlite_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_uartlite_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'axi_uartlite_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_uartlite_0'...
+catch { config_ip_cache -export [get_ips -all axi_uartlite_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: axi_uartlite_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c59ba9488f3ff51b to dir: y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/ip/2023.1/c/5/c59ba9488f3ff51b/axi_uartlite_0.dcp to y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/ip/2023.1/c/5/c59ba9488f3ff51b/axi_uartlite_0_sim_netlist.v to y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/ip/2023.1/c/5/c59ba9488f3ff51b/axi_uartlite_0_sim_netlist.vhdl to y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/ip/2023.1/c/5/c59ba9488f3ff51b/axi_uartlite_0_stub.v to y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/ip/2023.1/c/5/c59ba9488f3ff51b/axi_uartlite_0_stub.vhdl to y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_uartlite_0, cache-ID = c59ba9488f3ff51b; cache size = 0.962 MB.
+export_ip_user_files -of_objects [get_files {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci'
+export_simulation -of_objects [get_files {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}] -directory {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.ip_user_files/sim_scripts} -ip_user_files_dir {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.ip_user_files} -ipstatic_source_dir {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.ip_user_files/ipstatic} -lib_map_path [list {modelsim=Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/compile_simlib/modelsim} {questa=Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/compile_simlib/questa} {riviera=Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/compile_simlib/riviera} {activehdl=Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}] -no_script -reset -force -quiet
+remove_files  {{y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xci}}
+file delete -force {y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/ip/axi_uartlite_0}
+file delete -force {y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.gen/sources_1/ip/axi_uartlite_0}
+export_ip_user_files -of_objects  [get_files {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.sv}}] -no_script -reset -force -quiet
+remove_files  {{Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.sv}}
+file delete -force {Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Wrapper.sv}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_AES_Cntr'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_AES_Cntr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_AES_Cntr_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Poly_Mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Poly_Mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/imports/new/n_bit_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mix_Column
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Functions.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/AES_Cntr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_Cntr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_AES_Cntr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_K_Exp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_K_Exp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_Shift_Row.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Shift_Row
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_Mix_Column.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Mix_Column
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AES_Cntr_behav xil_defaultlib.tb_AES_Cntr xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AES_Cntr_behav xil_defaultlib.tb_AES_Cntr xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:52]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'out' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Poly_Mult.v:46]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:53]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:55]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:56]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:58]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:59]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:61]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:62]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.n_bit_shift(WIDTH=4)
+Compiling module xil_defaultlib.n_bit_shift(WIDTH=8)
+Compiling module xil_defaultlib.Poly_Mult
+Compiling module xil_defaultlib.Mix_Column
+Compiling module xil_defaultlib.AES_Cntr
+Compiling module xil_defaultlib.tb_AES_Cntr
+WARNING: [XSIM 43-3373] "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" Line 73. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" Line 74. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" Line 75. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" Line 76. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_AES_Cntr_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_AES_Cntr_behav -key {Behavioral:sim_1:Functional:tb_AES_Cntr} -tclbatch {tb_AES_Cntr.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_AES_Cntr.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000000ns
+$finish called at time : 241 ns : File "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" Line 92
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_AES_Cntr_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000000ns
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/utils_1/imports/synth_1/uart_echo.dcp with file Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.runs/synth_1/AES_Cntr.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Dec 12 22:26:06 2023] Launched synth_1...
+Run output will be captured here: Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_AES_Cntr'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim/simulate.log"
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7s25csga225-1
+INFO: [Device 21-403] Loading part xc7s25csga225-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1950.430 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rst'. [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tx'. [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rx'. [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/constrs_1/imports/Master_Constraints/Cmod-S7-25-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2035.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_AES_Cntr'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_AES_Cntr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_AES_Cntr_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AES_Cntr_behav xil_defaultlib.tb_AES_Cntr xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AES_Cntr_behav xil_defaultlib.tb_AES_Cntr xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:52]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'out' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Poly_Mult.v:46]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:53]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:55]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:56]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:58]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:59]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:61]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'multr' [Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sources_1/new/Mix_Column.v:62]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_AES_Cntr_behav -key {Behavioral:sim_1:Functional:tb_AES_Cntr} -tclbatch {tb_AES_Cntr.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_AES_Cntr.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000000ns
+$finish called at time : 241 ns : File "Y:/School/ECE 530 - Digital Hardware Design/Projects/P3/AES/AES.srcs/sim_1/new/tb_AES_Cntr.sv" Line 92
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_AES_Cntr_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 12 23:21:34 2023...

@@ -1,0 +1,59 @@
+#Epochs=15
+#Nodes=160
+Epoch 0 training complete
+Cost on training data: 7.022320787618419
+Accuracy on evaluation data: 9006 / 10000
+Epoch 1 training complete
+Cost on training data: 6.226064377419791
+Accuracy on evaluation data: 9281 / 10000
+Epoch 2 training complete
+Cost on training data: 5.597100584138344
+Accuracy on evaluation data: 9369 / 10000
+Epoch 3 training complete
+Cost on training data: 5.050887834238882
+Accuracy on evaluation data: 9421 / 10000
+Epoch 4 training complete
+Cost on training data: 4.567574017515866
+Accuracy on evaluation data: 9457 / 10000
+Epoch 5 training complete
+Cost on training data: 4.136162899476984
+Accuracy on evaluation data: 9483 / 10000
+Epoch 6 training complete
+Cost on training data: 3.7441066687274747
+Accuracy on evaluation data: 9522 / 10000
+Epoch 7 training complete
+Cost on training data: 3.3952196059736894
+Accuracy on evaluation data: 9573 / 10000
+Epoch 8 training complete
+Cost on training data: 3.0850688472988295
+Accuracy on evaluation data: 9592 / 10000
+Epoch 9 training complete
+Cost on training data: 2.8058250856663007
+Accuracy on evaluation data: 9618 / 10000
+Epoch 10 training complete
+Cost on training data: 2.5428589823886556
+Accuracy on evaluation data: 9638 / 10000
+Epoch 11 training complete
+Cost on training data: 2.344943503382974
+Accuracy on evaluation data: 9616 / 10000
+Epoch 12 training complete
+Cost on training data: 2.121922647568957
+Accuracy on evaluation data: 9640 / 10000
+Epoch 13 training complete
+Cost on training data: 1.9308901667482616
+Accuracy on evaluation data: 9669 / 10000
+Epoch 14 training complete
+Cost on training data: 1.7561564644643655
+Accuracy on evaluation data: 9694 / 10000
+
+net.weights[0].shape = (160, 784)
+net.weights[1].shape = (80, 160)
+net.weights[2].shape = (10, 80)
+net.biases[0].shape = (160, 1)
+net.biases[1].shape = (80, 1)
+net.biases[2].shape = (10, 1)
+
+net.cost = <class 'network2.CrossEntropyCost'>
+
+Accuracy on Test Data =  9657
+

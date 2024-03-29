@@ -1,0 +1,392 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "50000191"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_0",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "23e7d65a79bc59f7bc47406c1714dfae",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 4,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "uart1/rcvr/data_stop_no",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "uart1/rcvr/data_stop_no[4]"
+                                            },
+                                            {
+                                                "name": "uart1/rcvr/data_stop_no[3]"
+                                            },
+                                            {
+                                                "name": "uart1/rcvr/data_stop_no[2]"
+                                            },
+                                            {
+                                                "name": "uart1/rcvr/data_stop_no[1]"
+                                            },
+                                            {
+                                                "name": "uart1/rcvr/data_stop_no[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 9,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "w_RxFIFO_Dout",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "w_RxFIFO_Dout[9]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[8]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[7]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[6]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[5]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[4]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[3]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[2]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[1]"
+                                            },
+                                            {
+                                                "name": "w_RxFIFO_Dout[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "line_num",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "line_num[3]"
+                                            },
+                                            {
+                                                "name": "line_num[2]"
+                                            },
+                                            {
+                                                "name": "line_num[1]"
+                                            },
+                                            {
+                                                "name": "line_num[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "state[3]",
+                                                "parentNetId": 19
+                                            },
+                                            {
+                                                "name": "state[2]",
+                                                "parentNetId": 20
+                                            },
+                                            {
+                                                "name": "state[1]",
+                                                "parentNetId": 21
+                                            },
+                                            {
+                                                "name": "state[0]",
+                                                "parentNetId": 22
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "next_state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "next_state[3]"
+                                            },
+                                            {
+                                                "name": "next_state[2]"
+                                            },
+                                            {
+                                                "name": "next_state[1]"
+                                            },
+                                            {
+                                                "name": "next_state[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "char_num",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "char_num[7]"
+                                            },
+                                            {
+                                                "name": "char_num[6]"
+                                            },
+                                            {
+                                                "name": "char_num[5]"
+                                            },
+                                            {
+                                                "name": "char_num[4]"
+                                            },
+                                            {
+                                                "name": "char_num[3]"
+                                            },
+                                            {
+                                                "name": "char_num[2]"
+                                            },
+                                            {
+                                                "name": "char_num[1]"
+                                            },
+                                            {
+                                                "name": "char_num[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "RxD_IBUF",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "uart1/w_sample_tick",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 19,
+                        "name": "state[3]",
+                        "state_reg": [
+                            {
+                                "name": "state_reg[3]",
+                                "states": [
+                                    {
+                                        "name": "st_init",
+                                        "val": "0001"
+                                    },
+                                    {
+                                        "name": "st_get_chars",
+                                        "val": "0010"
+                                    },
+                                    {
+                                        "name": "st_disp_chars",
+                                        "val": "0011"
+                                    },
+                                    {
+                                        "name": "st_wait",
+                                        "val": "0100"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 20,
+                        "name": "state[2]",
+                        "state_reg": [
+                            {
+                                "name": "state_reg[2]",
+                                "states": [
+                                    {
+                                        "name": "st_init",
+                                        "val": "0001"
+                                    },
+                                    {
+                                        "name": "st_get_chars",
+                                        "val": "0010"
+                                    },
+                                    {
+                                        "name": "st_disp_chars",
+                                        "val": "0011"
+                                    },
+                                    {
+                                        "name": "st_wait",
+                                        "val": "0100"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 21,
+                        "name": "state[1]",
+                        "state_reg": [
+                            {
+                                "name": "state_reg[1]",
+                                "states": [
+                                    {
+                                        "name": "st_init",
+                                        "val": "0001"
+                                    },
+                                    {
+                                        "name": "st_get_chars",
+                                        "val": "0010"
+                                    },
+                                    {
+                                        "name": "st_disp_chars",
+                                        "val": "0011"
+                                    },
+                                    {
+                                        "name": "st_wait",
+                                        "val": "0100"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 22,
+                        "name": "state[0]",
+                        "state_reg": [
+                            {
+                                "name": "state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "st_init",
+                                        "val": "0001"
+                                    },
+                                    {
+                                        "name": "st_get_chars",
+                                        "val": "0010"
+                                    },
+                                    {
+                                        "name": "st_disp_chars",
+                                        "val": "0011"
+                                    },
+                                    {
+                                        "name": "st_wait",
+                                        "val": "0100"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

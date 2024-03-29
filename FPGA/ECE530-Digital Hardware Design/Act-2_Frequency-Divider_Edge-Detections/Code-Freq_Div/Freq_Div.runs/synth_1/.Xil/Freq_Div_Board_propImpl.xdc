@@ -1,0 +1,9 @@
+set_property SRC_FILE_INFO {cfile:{Y:/School/ECE 530 - Digital Hardware Design/Activities/02/Freq_Div/Freq_Div.srcs/constrs_1/imports/Master_Constraints/zybo_z7_master.xdc} rfile:../../../Freq_Div.srcs/constrs_1/imports/Master_Constraints/zybo_z7_master.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN K17   IOSTANDARD LVCMOS33 } [get_ports { Clock_in }]; #IO_L12P_T1_MRCC_35 Sch=sysclk
+set_property src_info {type:XDC file:1 line:20 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN K18   IOSTANDARD LVCMOS33 } [get_ports { Reset }]; #IO_L12N_T1_MRCC_35 Sch=btn[0]
+set_property src_info {type:XDC file:1 line:29 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN G14   IOSTANDARD LVCMOS33 } [get_ports { Clock_5Hz }]; #IO_0_35 Sch=led[2]
+set_property src_info {type:XDC file:1 line:30 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D18   IOSTANDARD LVCMOS33 } [get_ports { Clock_1Hz }]; #IO_L3N_T0_DQS_AD1N_35 Sch=led[3]

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Mar  2 11:23:13 2024
+# Process ID: 8516
+# Current directory: Y:/School/Fall23/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9176 Y:\School\Fall23\ECE 530 - Digital Hardware Design\Projects\P2\Soda_Machine_OLED\Soda_Machine_OLED.xpr
+# Log file: Y:/School/Fall23/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/vivado.log
+# Journal file: Y:/School/Fall23/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED\vivado.jou
+# Running On: TXAVM001, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 17179 MB
+#-----------------------------------------------------------
+start_gui
+open_project {Y:/School/Fall23/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.xpr}
+update_compile_order -fileset sources_1

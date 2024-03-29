@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov 15 14:13:13 2023
+# Process ID: 1040
+# Current directory: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On: TXAVM001, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 17179 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 471.535 ; gain = 200.391
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: clk_wiz_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 9597f627ab04adad to dir: Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.cache/ip/2023.1/9/5/9597f627ab04adad/clk_wiz_0.dcp to Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.cache/ip/2023.1/9/5/9597f627ab04adad/clk_wiz_0_sim_netlist.v to Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1/clk_wiz_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.cache/ip/2023.1/9/5/9597f627ab04adad/clk_wiz_0_sim_netlist.vhdl to Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1/clk_wiz_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.cache/ip/2023.1/9/5/9597f627ab04adad/clk_wiz_0_stub.v to Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1/clk_wiz_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.cache/ip/2023.1/9/5/9597f627ab04adad/clk_wiz_0_stub.vhdl to Y:/School/ECE 530 - Digital Hardware Design/Projects/P2/Soda_Machine_OLED/Soda_Machine_OLED.runs/clk_wiz_0_synth_1/clk_wiz_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP clk_wiz_0, cache-ID = 9597f627ab04adad.
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 14:13:45 2023...

@@ -1,0 +1,379 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+0.7%
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to data\MNIST\raw\train-images-idx3-ubyte.gz
+100.0%
+Extracting data\MNIST\raw\train-images-idx3-ubyte.gz to data\MNIST\raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to data\MNIST\raw\train-labels-idx1-ubyte.gz
+100.0%
+Extracting data\MNIST\raw\train-labels-idx1-ubyte.gz to data\MNIST\raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to data\MNIST\raw\t10k-images-idx3-ubyte.gz
+100.0%
+Extracting data\MNIST\raw\t10k-images-idx3-ubyte.gz to data\MNIST\raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+100.0%
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to data\MNIST\raw\t10k-labels-idx1-ubyte.gz
+Extracting data\MNIST\raw\t10k-labels-idx1-ubyte.gz to data\MNIST\raw
+
+type(datasets) = <class 'module'>
+type(training_data) = <class 'torch.utils.data.dataset.Subset'>
+len(training_data) = 50000
+type(training_data[0]) = <class 'tuple'>
+type(training_data[1]) = <class 'tuple'>
+len(training_data[0]) = 2
+training_data[0][0].shape =  torch.Size([1, 28, 28])
+training_data[0][1] = 6
+img.shape = torch.Size([1, 28, 28])
+label = 6
+
+type(datasets) = <class 'module'>
+type(validation_data) = <class 'torch.utils.data.dataset.Subset'>
+len(validation_data) = 10000
+type(validation_data[0]) = <class 'tuple'>
+type(validation_data[1]) = <class 'tuple'>
+len(validation_data[0]) = 2
+validation_data[0][0].shape =  torch.Size([1, 28, 28])
+validation_data[0][1] = 4
+img.shape = torch.Size([1, 28, 28])
+label = 4
+
+type(datasets) = <class 'module'>
+type(validation_data) = <class 'torch.utils.data.dataset.Subset'>
+len(validation_data) = 10000
+type(validation_data[0]) = <class 'tuple'>
+type(validation_data[1]) = <class 'tuple'>
+len(validation_data[0]) = 2
+validation_data[0][0].shape =  torch.Size([1, 28, 28])
+validation_data[0][1] = 4
+img.shape = torch.Size([1, 28, 28])
+label = 4
+
+len(batch_example) = 2
+type(batch_example) = <class 'list'>
+
+len(batch_images) = 20
+type(batch_images) = <class 'torch.Tensor'>
+
+batch_labels = tensor([2, 4, 1, 6, 6, 9, 9, 3, 9, 4, 3, 6, 2, 8, 4, 8, 0, 4, 9, 9])
+type(batch_labels) = <class 'torch.Tensor'>
+
+Using cpu device 
+
+NeuralNetwork(
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (linear_sigmoid_stack): Sequential(
+    (0): Linear(in_features=784, out_features=100, bias=True)
+    (1): Sigmoid()
+    (2): Linear(in_features=100, out_features=10, bias=True)
+  )
+)
+
+Epoch 1)
+ --------------------------
+Validation Error: 
+ Accuracy 90.8%, Avg. loss: 0.016026 
+
+Epoch 2)
+ --------------------------
+Validation Error: 
+ Accuracy 92.3%, Avg. loss: 0.013333 
+
+Epoch 3)
+ --------------------------
+Validation Error: 
+ Accuracy 93.3%, Avg. loss: 0.011618 
+
+Epoch 4)
+ --------------------------
+Validation Error: 
+ Accuracy 93.8%, Avg. loss: 0.010637 
+
+Epoch 5)
+ --------------------------
+Validation Error: 
+ Accuracy 94.4%, Avg. loss: 0.009287 
+
+Epoch 6)
+ --------------------------
+Validation Error: 
+ Accuracy 95.0%, Avg. loss: 0.008445 
+
+Epoch 7)
+ --------------------------
+Validation Error: 
+ Accuracy 95.3%, Avg. loss: 0.007821 
+
+Epoch 8)
+ --------------------------
+Validation Error: 
+ Accuracy 95.5%, Avg. loss: 0.007441 
+
+Epoch 9)
+ --------------------------
+Validation Error: 
+ Accuracy 96.0%, Avg. loss: 0.006949 
+
+Epoch 10)
+ --------------------------
+Validation Error: 
+ Accuracy 95.8%, Avg. loss: 0.007007 
+
+Epoch 11)
+ --------------------------
+Validation Error: 
+ Accuracy 96.1%, Avg. loss: 0.006439 
+
+Epoch 12)
+ --------------------------
+Validation Error: 
+ Accuracy 96.4%, Avg. loss: 0.006129 
+
+Epoch 13)
+ --------------------------
+Validation Error: 
+ Accuracy 96.4%, Avg. loss: 0.005957 
+
+Epoch 14)
+ --------------------------
+Validation Error: 
+ Accuracy 96.7%, Avg. loss: 0.005701 
+
+Epoch 15)
+ --------------------------
+Validation Error: 
+ Accuracy 96.5%, Avg. loss: 0.005672 
+
+Epoch 16)
+ --------------------------
+Validation Error: 
+ Accuracy 96.8%, Avg. loss: 0.005399 
+
+Epoch 17)
+ --------------------------
+Validation Error: 
+ Accuracy 96.4%, Avg. loss: 0.005827 
+
+Epoch 18)
+ --------------------------
+Validation Error: 
+ Accuracy 96.8%, Avg. loss: 0.005359 
+
+Epoch 19)
+ --------------------------
+Validation Error: 
+ Accuracy 96.8%, Avg. loss: 0.005240 
+
+Epoch 20)
+ --------------------------
+Validation Error: 
+ Accuracy 97.0%, Avg. loss: 0.004974 
+
+Epoch 21)
+ --------------------------
+Validation Error: 
+ Accuracy 97.1%, Avg. loss: 0.004919 
+
+Epoch 22)
+ --------------------------
+Validation Error: 
+ Accuracy 97.0%, Avg. loss: 0.004908 
+
+Epoch 23)
+ --------------------------
+Validation Error: 
+ Accuracy 97.1%, Avg. loss: 0.004818 
+
+Epoch 24)
+ --------------------------
+Validation Error: 
+ Accuracy 97.1%, Avg. loss: 0.004696 
+
+Epoch 25)
+ --------------------------
+Validation Error: 
+ Accuracy 97.1%, Avg. loss: 0.004686 
+
+Epoch 26)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004657 
+
+Epoch 27)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004644 
+
+Epoch 28)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004668 
+
+Epoch 29)
+ --------------------------
+Validation Error: 
+ Accuracy 97.1%, Avg. loss: 0.004637 
+
+Epoch 30)
+ --------------------------
+Validation Error: 
+ Accuracy 97.1%, Avg. loss: 0.004572 
+
+Epoch 31)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004508 
+
+Epoch 32)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004548 
+
+Epoch 33)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004513 
+
+Epoch 34)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004457 
+
+Epoch 35)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004520 
+
+Epoch 36)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004506 
+
+Epoch 37)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004458 
+
+Epoch 38)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004437 
+
+Epoch 39)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004429 
+
+Epoch 40)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004427 
+
+Epoch 41)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004432 
+
+Epoch 42)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004446 
+
+Epoch 43)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004392 
+
+Epoch 44)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004372 
+
+Epoch 45)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004494 
+
+Epoch 46)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004398 
+
+Epoch 47)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004421 
+
+Epoch 48)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004397 
+
+Epoch 49)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004397 
+
+Epoch 50)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004390 
+
+Epoch 51)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004393 
+
+Epoch 52)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004400 
+
+Epoch 53)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004417 
+
+Epoch 54)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004448 
+
+Epoch 55)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004453 
+
+Epoch 56)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004478 
+
+Epoch 57)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004448 
+
+Epoch 58)
+ --------------------------
+Validation Error: 
+ Accuracy 97.2%, Avg. loss: 0.004480 
+
+Epoch 59)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004467 
+
+Epoch 60)
+ --------------------------
+Validation Error: 
+ Accuracy 97.3%, Avg. loss: 0.004427 
+
+Done Training
+
+Begin Test
+Test Error: 
+ Accuracy 97.9%, Avg. loss: 0.003585 
